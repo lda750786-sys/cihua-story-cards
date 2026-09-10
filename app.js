@@ -176,8 +176,11 @@ async function request(path, options = {}) {
       const query = new URLSearchParams(path.split("?")[1] || "");
       const bank = query.get("bank_code") || query.get("exam_code") || "cet4";
       const count = Number(query.get("count") || 5);
-      const bank_words = await fetchJsonFile(`${STATIC_DATA}/vocabulary/${encodeURIComponent(bank)}.json`);
-      return { bank_code: bank, exam_code: bank, count: Math.min(count, bank_words.length), words: shuffledCopy(bank_words).slice(0, count) };
+      const bank_payload = await fetchJsonFile(`${STATIC_DATA}/vocabulary/${encodeURIComponent(bank)}.json`);
+      // 词库文件是 {exam_code, label, ..., words: [...]}，词条在 words 里。
+      const bank_words = Array.isArray(bank_payload) ? bank_payload : (bank_payload.words || []);
+      const picked = shuffledCopy(bank_words).slice(0, count);
+      return { bank_code: bank, exam_code: bank, count: picked.length, words: picked };
     }
     throw new Error(STATIC_NOTICE);
   }
