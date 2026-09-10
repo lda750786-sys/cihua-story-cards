@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#173b78" />
+    <meta name="description" content="词话：故事背单词，场景化记忆。" />
+    <title>词话 · 故事背单词</title>
+    <link rel="stylesheet" href="/styles.css" />
+      <script>window.__CIHUA_STATIC__=true;</script>
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="collage-field" aria-hidden="true">
+      <i class="shape shape-coral"></i><i class="shape shape-blue"></i><i class="shape shape-yellow"></i><i class="shape shape-green"></i>
+    </div>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="#" data-view-link="create" aria-label="返回词话创作页">
+          <span>
+            <strong>词话</strong>
+            <small>STORIES MAKE WORDS STICK</small>
+          </span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="主要导航">
+          <button class="nav-item is-active" data-view-link="create">
+            <span class="nav-index">01</span><span>创作</span><small>Write a story</small>
+          </button>
+          <button class="nav-item" data-view-link="library">
+            <span class="nav-index">02</span><span>故事库</span><small>Your archive</small>
+          </button>
+          <button class="nav-item" data-view-link="review">
+            <span class="nav-index">03</span><span>闪卡</span><small>Recall the scene</small>
+          </button>
+        </nav>
+<!-- 公开部署的来源署名，由 build_public_site.py 注入 -->
+    <div class="public-attribution" role="note">
+      <span>本页为只读副本 · 故事与词汇由站点主人创作</span>
+      <span>
+        界面与数据格式来自
+        <a href="https://github.com/ericffu/cihua-story-cards" target="_blank" rel="noopener noreferrer">cihua-story-cards</a>
+        （词话 · 故事背单词）
+      </span>
+      <span>构建于 2026-09-10</span>
+    </div>
+
+        <div class="sidebar-note">
+          <span class="eyebrow">A POCKET-SIZED WORLD</span>
+          <p>把孤立的词，放回一个有起因、有变化、有结尾的场景。</p>
+        </div>
+        <div class="collab-mark">阿泽 × Codex<br />MVP · LOCAL FIRST</div>
+      </aside>
+
+      <main class="main-content">
+        <header class="mobile-header">
+          <a class="brand compact" href="#" data-view-link="create">
+            <span><strong>词话</strong><small>STORY CARDS</small></span>
+          </a>
+          <span class="status-dot">本地工作台</span>
+        </header>
+
+        <section id="view-create" class="view is-active" aria-labelledby="create-title">
+          <div class="view-heading create-heading">
+            <div>
+              <span class="eyebrow title-sticker">STORY-BASED VOCABULARY</span>
+              <h1 id="create-title">故事背单词<br /><em>场景化记忆</em></h1>
+            </div>
+            <p class="heading-copy">输入几个想记住的词。生成后，你会直接进入这张属于它们的故事卡。</p>
+          </div>
+
+          <div class="create-layout">
+            <form id="create-form" class="composer-panel">
+              <div class="panel-kicker"><span>MAKE A NEW STORY CARD</span><span id="word-count">0 / 10</span></div>
+              <div class="language-row">
+                <div id="primary-language" class="language-primary" aria-label="当前语言为英语">
+                  <span class="language-code">EN</span>
+                  <span><strong>学英语</strong><small>English story</small></span>
+                </div>
+                <div class="global-settings">
+                  <div id="vocabulary-settings-wrap" class="more-language-wrap">
+                    <button type="button" id="vocabulary-settings-button" class="text-button" aria-expanded="false">词库 CET-4 <span>⌄</span></button>
+                    <div id="vocabulary-settings-menu" class="vocabulary-settings-menu" hidden>
+                      <div class="settings-menu-heading"><span>VOCABULARY SOURCE</span><strong>随机词库设置</strong></div>
+                      <div class="settings-exams" aria-label="选择考试词库">
+                        <button type="button" class="settings-exam is-active" data-exam="cet4" data-bank-language="en">
+                          <span class="exam-code">CET-4</span><span><strong>大学英语四级</strong><small id="cet4-source-count">载入词库中</small></span>
+                        </button>
+                        <button type="button" class="settings-exam" data-exam="ielts" data-bank-language="en">
+                          <span class="exam-code">IELTS</span><span><strong>雅思词汇</strong><small id="ielts-source-count">载入词库中</small></span>
+                        </button>
+                        <button type="button" class="settings-exam" data-exam="spanish-basic" data-bank-language="es" hidden>
+                          <span class="exam-code">ES</span><span><strong>西语基础词汇</strong><small id="spanish-basic-source-count">载入词库中</small></span>
+                        </button>
+                      </div>
+                      <label class="settings-count" for="random-count"><span>每次随机数量</span>
+                        <select id="random-count" aria-label="随机单词数量">
+                          <option value="4">4 个词</option><option value="5" selected>5 个词</option><option value="6">6 个词</option><option value="8">8 个词</option><option value="10">10 个词</option>
+                        </select>
+                      </label>
+                      <p id="vocabulary-source-note">数据来源 ECDICT · MIT License</p>
+                    </div>
+                  </div>
+                  <div class="more-language-wrap">
+                    <button type="button" id="more-language-button" class="text-button" aria-expanded="false">更多语言 <span>＋</span></button>
+                    <div id="language-menu" class="language-menu" hidden>
+                      <button type="button" data-language="es"><span class="language-code">ES</span><span><strong>Español</strong><small>西班牙语</small></span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="input-title-row">
+                <label class="input-label" for="word-input">想记住哪些词？</label>
+                <button id="randomize-button" class="inline-random-button" type="button"><span aria-hidden="true">↻</span><span>随机 5 词</span></button>
+              </div>
+              <div class="word-input-shell">
+                <div id="word-chips" class="word-chips" aria-live="polite"></div>
+                <textarea id="word-input" rows="5" placeholder="fragile, harbor, rescue, glimmer" aria-describedby="input-hint"></textarea>
+              </div>
+              <div id="input-hint" class="input-hint">
+                <span>空格、逗号或换行分隔</span><span>2–10 个词 · 故事 80–250 词</span>
+              </div>
+
+              <label class="image-option">
+                <input id="image-requested" type="checkbox" disabled />
+                <span class="toggle" aria-hidden="true"></span>
+                <span><strong id="image-option-title">正在检测配图能力</strong><small id="image-option-note">不支持时会自动关闭</small></span>
+              </label>
+
+              <div id="generation-status" class="generation-status" role="status" hidden></div>
+              <button id="generate-button" class="primary-button" type="submit">
+                <span>把这些词写进故事</span><span class="arrow">↗</span>
+              </button>
+              <div id="generation-overlay" class="generation-overlay" role="status" aria-live="polite" hidden>
+                <div class="loading-orbit" aria-hidden="true"><i></i><i></i><i></i></div>
+                <span class="eyebrow">BUILDING A SCENE</span>
+                <strong id="loading-title">词话正在搭建故事</strong>
+                <p id="loading-detail">先为这些词找到同一个场景。</p>
+                <div id="loading-words" class="loading-words"></div>
+                <small id="loading-elapsed">已用时 0 秒 · 通常需要 20–60 秒</small>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section id="view-library" class="view" aria-labelledby="library-title">
+          <div class="library-heading">
+            <div><span id="library-eyebrow" class="eyebrow">ENGLISH STORY SPACE</span><h1 id="library-title">英语故事库</h1></div>
+            <div class="space-switcher" aria-label="学习空间">
+              <div id="library-space-primary" class="space-primary" aria-label="当前为空间英语">
+                <span class="language-code">EN</span><span><strong>英语空间</strong><small>English archive</small></span>
+              </div>
+              <button type="button" id="manage-library-button" class="manage-library-button">管理故事</button>
+              <div class="more-language-wrap">
+                <button type="button" id="library-more-language-button" class="text-button" aria-expanded="false">更多语言 <span>＋</span></button>
+                <div id="library-language-menu" class="language-menu" hidden>
+                  <button type="button" data-space-language="es"><span class="language-code">ES</span><span><strong>Español</strong><small>西班牙语空间</small></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="stats-strip" aria-label="当前学习空间统计">
+            <div><strong id="stat-cards">0</strong><span>故事卡</span></div>
+            <div><strong id="stat-words">0</strong><span>收录词汇</span></div>
+            <div><strong id="stat-unique">0</strong><span>不重复词</span></div>
+            <p id="stats-copy">让词先住进故事里，<br />再住进记忆里。</p>
+          </div>
+          <div id="library-grid" class="library-grid"></div>
+          <div id="library-empty" class="empty-state" hidden>
+            <span class="empty-number">00</span><h2>故事库还是空的</h2><p>先写一张故事卡，让第一个场景住进来。</p>
+            <button class="secondary-button" data-view-link="create">开始创作</button>
+          </div>
+        </section>
+
+        <dialog id="library-manager" class="library-manager" aria-labelledby="manager-title">
+          <div class="manager-head">
+            <div><span class="eyebrow">LOCAL STORY MANAGER</span><h2 id="manager-title">管理故事卡</h2></div>
+            <button type="button" id="close-library-manager" class="manager-close" aria-label="关闭故事管理">×</button>
+          </div>
+          <p id="manager-space-note" class="manager-space-note">只显示当前英语空间的故事。</p>
+          <div id="manager-list" class="manager-list"></div>
+          <div id="manager-empty" class="manager-empty" hidden>当前空间没有可管理的故事卡。</div>
+        </dialog>
+
+        <section id="view-review" class="view review-view" aria-labelledby="review-title">
+          <div class="review-heading">
+            <div><span class="eyebrow">FLASHCARD STUDIO</span><h1 id="review-title">从故事里<br />把词想起来</h1></div>
+            <div class="review-controls-top">
+              <div class="segmented" aria-label="闪卡模式">
+                <button class="is-active" data-flash-mode="story">故事卡</button>
+                <button data-flash-mode="word">单词卡</button>
+              </div>
+              <div id="review-space-note" class="review-space-note">英语学习空间</div>
+            </div>
+          </div>
+
+          <div class="flash-stage">
+            <div id="flash-progress" class="flash-progress"><span>01</span><i></i><span>01</span></div>
+            <div id="flash-card" class="flash-card" tabindex="0" role="button" aria-label="点击翻面"></div>
+            <div class="flash-actions">
+              <button id="prev-card" class="circle-button" aria-label="上一张">←</button>
+              <button id="flip-card" class="secondary-button">翻面看答案 <kbd>Space</kbd></button>
+              <button id="next-card" class="circle-button" aria-label="下一张">→</button>
+            </div>
+            <button id="shuffle-cards" class="shuffle-button">↝ 打乱这一组卡片</button>
+          </div>
+        </section>
+      </main>
+
+      <nav class="mobile-nav" aria-label="移动端导航">
+        <button class="is-active" data-view-link="create"><span>＋</span><small>创作</small></button>
+        <button data-view-link="library"><span>▦</span><small>故事库</small></button>
+        <button data-view-link="review"><span>◇</span><small>闪卡</small></button>
+      </nav>
+    </div>
+    <script src="/app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+[
+  {
+    "exam_code": "cet4",
+    "language_code": "en",
+    "label": "大学英语四级",
+    "short_label": "CET-4",
+    "total": 3846,
+    "source": "ECDICT",
+    "license": "MIT"
+  },
+  {
+    "exam_code": "ielts",
+    "language_code": "en",
+    "label": "IELTS 雅思",
+    "short_label": "IELTS",
+    "total": 5038,
+    "source": "ECDICT",
+    "license": "MIT"
+  },
+  {
+    "exam_code": "spanish-basic",
+    "language_code": "es",
+    "label": "西语基础词汇",
+    "short_label": "ES BASIC",
+    "total": 315,
+    "source": "spanish_data / FrequencyWords",
+    "license": "CC BY-SA 3.0"
+  }
+]

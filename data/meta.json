@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-09-10T14:58:21.888452+00:00",
+  "mode": "static-readonly",
+  "stats": {
+    "cards": 1,
+    "vocabulary": 5,
+    "unique_words": 5,
+    "by_language": {
+      "en": 1
+    }
+  },
+  "upstream": "https://github.com/ericffu/cihua-story-cards",
+  "note": "只读副本；界面与数据格式来自 cihua-story-cards"
+}
