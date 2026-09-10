@@ -344,24 +344,24 @@ kbd { margin-left: 5px; padding: 2px 4px; color: inherit; border: 1px solid curr
 }
 
 
-/* 公开部署的来源署名条（由 build_public_site.py 注入） */
+/* 来源署名（由 build_public_site.py 注入） */
 .public-attribution {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px 18px;
+  gap: 4px 16px;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 18px;
-  padding: 10px 18px;
-  max-width: 1080px;
+  margin: 0 auto 22px;
+  padding: 9px 18px;
+  max-width: 760px;
   border-radius: 999px;
   background: rgba(21, 61, 122, 0.06);
   color: #153d7a;
-  font-size: 12.5px;
-  letter-spacing: 0.01em;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
 }
-.public-attribution a { color: #153d7a; text-decoration: underline; }
+.public-attribution a { color: inherit; text-decoration: underline; }
 @media (prefers-color-scheme: dark) {
   .public-attribution { background: rgba(255, 255, 255, 0.08); color: #e8eefb; }
-  .public-attribution a { color: #e8eefb; }
 }
