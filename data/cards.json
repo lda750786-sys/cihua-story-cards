@@ -1,5 +1,415 @@
 [
   {
+    "id": "722a1cc2-c415-4c16-a6f1-24cb6c4273a8",
+    "language_code": "en",
+    "title": "A Surprise for Mum and Dad",
+    "title_zh": "给爸爸妈妈的惊喜",
+    "story_text": "Ben wanted to cook a special dinner for his parents. Every Saturday he was on duty in the kitchen, so he already knew the work. On the big day he got up at six a.m. and started. He put cheese and tomatoes into a big pot. When the food was cooking, he ate a small snack because he was hungry. At seven a.m. his parents came home. They saw the table, the food and the candles. It looked like a small carnival in the kitchen. His mother laughed and said, \"This is the best dinner of the year.\"",
+    "translation_zh": "本想为爸爸妈妈做一顿特别的晚餐。每个周六他都在厨房值班，所以他已经熟悉这份活儿了。大日子那天他早上六点就起床开始动手。他把奶酪和西红柿放进一口大锅。菜在煮的时候，他吃了一小份点心，因为他饿了。上午七点，他父母回到家。他们看到了餐桌、饭菜和蜡烛。厨房里看起来就像一个小小的狂欢节。他妈妈笑着说：「这是今年最好的一顿晚餐。」",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Cosy editorial illustration for a 4:3 card: a teenage boy cooking in a warm home kitchen before sunrise, a pot on the stove, candles and a set table behind him, his parents appearing at the door, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-09-11T12:18:59.687676+00:00",
+    "word_count": 100,
+    "vocabulary": [
+      {
+        "input_word": "a.m.",
+        "lemma": "a.m.",
+        "used_form": "a.m.",
+        "pronunciation": "/ˌeɪ ˈem/",
+        "part_of_speech": "abbr.",
+        "grammar_note": "上午的缩写，跟在具体钟点后面；不能单独当「早上」用。",
+        "meaning_zh": "上午；午前",
+        "translation_phrase_zh": "早上六点",
+        "story_sentence": "On the big day he got up at six a.m. and started."
+      },
+      {
+        "input_word": "on duty",
+        "lemma": "on duty",
+        "used_form": "on duty",
+        "pronunciation": "/ɒn ˈdjuːti/",
+        "part_of_speech": "phr.",
+        "grammar_note": "固定短语，作表语，表示正在值班、值勤。",
+        "meaning_zh": "值班；值勤",
+        "translation_phrase_zh": "在厨房值班",
+        "story_sentence": "Every Saturday he was on duty in the kitchen, so he already knew the work."
+      },
+      {
+        "input_word": "cheese",
+        "lemma": "cheese",
+        "used_form": "cheese",
+        "pronunciation": "/tʃiːz/",
+        "part_of_speech": "n.",
+        "grammar_note": "不可数名词，没有复数形式。",
+        "meaning_zh": "干酪；奶酪",
+        "translation_phrase_zh": "奶酪",
+        "story_sentence": "He put cheese and tomatoes into a big pot."
+      },
+      {
+        "input_word": "snack",
+        "lemma": "snack",
+        "used_form": "snack",
+        "pronunciation": "/snæk/",
+        "part_of_speech": "n.",
+        "grammar_note": "可数名词，指正餐之外的小吃、点心。",
+        "meaning_zh": "点心；小吃",
+        "translation_phrase_zh": "一小份点心",
+        "story_sentence": "When the food was cooking, he ate a small snack because he was hungry."
+      },
+      {
+        "input_word": "carnival",
+        "lemma": "carnival",
+        "used_form": "carnival",
+        "pronunciation": "/ˈkɑːnɪvl/",
+        "part_of_speech": "n.",
+        "grammar_note": "可数名词，指狂欢节、嘉年华；这里用作比喻。",
+        "meaning_zh": "狂欢节；嘉年华",
+        "translation_phrase_zh": "小小的狂欢节",
+        "story_sentence": "It looked like a small carnival in the kitchen."
+      }
+    ]
+  },
+  {
+    "id": "10528165-22b6-4da2-8376-63e561599553",
+    "language_code": "en",
+    "title": "Anna's Small Start",
+    "title_zh": "安娜的小小开始",
+    "story_text": "Anna was outgoing and friendly. She wanted to learn English well, so she bought a small notebook and wrote down one new word every night. Her teacher said, \"That is a worthwhile habit.\" Anna liked to quote her grandmother: \"A little every day is better than a lot once.\" With this measure, she made progress step by step. She also helped an ongoing class project about food in different countries. She learned to measure sugar for a simple cake. In the summer, she joined a carnival in her town and talked to foreign visitors. She was afraid, but she did not stop. Now she can speak to anyone.",
+    "translation_zh": "安娜性格外向又友好。她想把英语学好，于是买了一个小本子，每晚记下一个新词。她的老师说：「这是个值得做的习惯。」安娜喜欢引用她奶奶的话：「每天一点点，胜过一次做很多。」用这个方法，她一步步取得了进步。她还帮忙做一个持续进行的课堂项目，主题是不同国家的食物。她学会了为一块简单的蛋糕量取糖的用量。那年夏天，她参加了镇上的狂欢节，还和外国游客说话。她很害怕，但她没有停下。现在她能跟任何人交谈了。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Gentle editorial illustration for a 4:3 card: a teenage girl writing in a small notebook at a desk by a window at night, a town carnival with lights visible in the distance, warm hopeful mood, muted palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-09-11T12:18:59.509040+00:00",
+    "word_count": 108,
+    "vocabulary": [
+      {
+        "input_word": "outgoing",
+        "lemma": "outgoing",
+        "used_form": "outgoing",
+        "pronunciation": "/ˈaʊtɡəʊɪŋ/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容词，作表语，形容人爱交际、外向。",
+        "meaning_zh": "爱交际的；外向的",
+        "translation_phrase_zh": "性格外向",
+        "story_sentence": "Anna was outgoing and friendly."
+      },
+      {
+        "input_word": "ongoing",
+        "lemma": "ongoing",
+        "used_form": "ongoing",
+        "pronunciation": "/ˈɒnɡəʊɪŋ/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容词，作定语，表示仍在进行中的。",
+        "meaning_zh": "持续存在的；仍在进行的",
+        "translation_phrase_zh": "持续进行的",
+        "story_sentence": "She also helped an ongoing class project about food in different countries."
+      },
+      {
+        "input_word": "worthwhile",
+        "lemma": "worthwhile",
+        "used_form": "worthwhile",
+        "pronunciation": "/ˌwɜːθˈwaɪl/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容词，常作定语或表语，表示值得花时间的。",
+        "meaning_zh": "值得做的；值得花时间的",
+        "translation_phrase_zh": "值得做的",
+        "story_sentence": "Her teacher said, \"That is a worthwhile habit.\""
+      },
+      {
+        "input_word": "quote",
+        "lemma": "quote",
+        "used_form": "quote",
+        "pronunciation": "/kwəʊt/",
+        "part_of_speech": "vt.",
+        "grammar_note": "及物动词，常用 quote somebody 表示引用某人的话。",
+        "meaning_zh": "引用",
+        "translation_phrase_zh": "引用",
+        "story_sentence": "Anna liked to quote her grandmother: \"A little every day is better than a lot once.\""
+      },
+      {
+        "input_word": "measure",
+        "lemma": "measure",
+        "used_form": "measure",
+        "pronunciation": "/ˈmeʒə(r)/",
+        "part_of_speech": "vt.",
+        "grammar_note": "及物动词，表示测量、量取；作名词时意为措施、方法（文中 With this measure 即此义）。",
+        "meaning_zh": "测量；度量",
+        "translation_phrase_zh": "量取糖的用量",
+        "story_sentence": "She learned to measure sugar for a simple cake."
+      }
+    ]
+  },
+  {
+    "id": "ec61e670-8f66-4121-aa07-99c9326a145f",
+    "language_code": "en",
+    "title": "A New Start for Tom",
+    "title_zh": "汤姆的新开始",
+    "story_text": "Tom was not happy with his body, so he began to think about his fitness. He ate chips every day and never played sports, so he felt tired all the time. One Monday he decided to change. He started a simple diet: more vegetables and fruit, less sugar. For breakfast he ate bread with butter and honey. For dinner his mother cooked rice with mushrooms. Every evening he ran in the park for twenty minutes. After four months, Tom was slim and full of energy. His friends asked him for his secret. He smiled and said, \"Just start, and do not stop.\"",
+    "translation_zh": "汤姆对自己的身材不满意，于是开始关注自己的健康。他每天吃炸土豆条，从不做运动，所以总是觉得很累。某个周一，他决定改变。他开始了一种简单的规定饮食：多吃蔬菜和水果，少吃糖。早餐他吃涂了黄油和蜂蜜的面包。晚餐他妈妈做蘑菇米饭。每天傍晚他在公园跑二十分钟。四个月后，汤姆变得苗条又充满活力。朋友们问他秘诀。他笑着说：「只要开始，就别停下。」",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Bright editorial illustration for a 4:3 card: a teenage boy running in a green park at golden hour, a simple breakfast of bread with honey and butter on a table in the foreground, mushroom rice, healthy and hopeful mood, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-09-11T12:18:59.312780+00:00",
+    "word_count": 102,
+    "vocabulary": [
+      {
+        "input_word": "fitness",
+        "lemma": "fitness",
+        "used_form": "fitness",
+        "pronunciation": "/ˈfɪtnəs/",
+        "part_of_speech": "n.",
+        "grammar_note": "不可数名词，指身体健康、健壮。",
+        "meaning_zh": "健康；健壮",
+        "translation_phrase_zh": "关注自己的健康",
+        "story_sentence": "Tom was not happy with his body, so he began to think about his fitness."
+      },
+      {
+        "input_word": "slim",
+        "lemma": "slim",
+        "used_form": "slim",
+        "pronunciation": "/slɪm/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容词，作表语；比较级 slimmer。",
+        "meaning_zh": "苗条的；单薄的",
+        "translation_phrase_zh": "苗条",
+        "story_sentence": "After four months, Tom was slim and full of energy."
+      },
+      {
+        "input_word": "diet",
+        "lemma": "diet",
+        "used_form": "diet",
+        "pronunciation": "/ˈdaɪət/",
+        "part_of_speech": "n.",
+        "grammar_note": "可数名词，指日常饮食或规定的饮食；作动词时表示节食。",
+        "meaning_zh": "规定饮食；日常饮食",
+        "translation_phrase_zh": "规定饮食",
+        "story_sentence": "He started a simple diet: more vegetables and fruit, less sugar."
+      },
+      {
+        "input_word": "butter",
+        "lemma": "butter",
+        "used_form": "butter",
+        "pronunciation": "/ˈbʌtə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "不可数名词；也可作动词，表示涂黄油。",
+        "meaning_zh": "黄油；奶油",
+        "translation_phrase_zh": "黄油",
+        "story_sentence": "For breakfast he ate bread with butter and honey."
+      },
+      {
+        "input_word": "honey",
+        "lemma": "honey",
+        "used_form": "honey",
+        "pronunciation": "/ˈhʌni/",
+        "part_of_speech": "n.",
+        "grammar_note": "不可数名词，指蜂蜜。",
+        "meaning_zh": "蜂蜜",
+        "translation_phrase_zh": "蜂蜜",
+        "story_sentence": "For breakfast he ate bread with butter and honey."
+      },
+      {
+        "input_word": "mushroom",
+        "lemma": "mushroom",
+        "used_form": "mushrooms",
+        "pronunciation": "/ˈmʌʃrʊm/",
+        "part_of_speech": "n.",
+        "grammar_note": "可数名词，这里用复数泛指。",
+        "meaning_zh": "蘑菇",
+        "translation_phrase_zh": "蘑菇米饭",
+        "story_sentence": "For dinner his mother cooked rice with mushrooms."
+      }
+    ]
+  },
+  {
+    "id": "a7760a75-6b3c-41a1-bf35-e7371008e7c8",
+    "language_code": "en",
+    "title": "The Harvest Feast",
+    "title_zh": "丰收节的晚餐",
+    "story_text": "In October, Ben's village had a big carnival. There was music and dancing in the square. His uncle looked after the cattle on the farm, so there was fresh milk for everyone. Ben's family cooked for the harvest feast, and everyone helped. His mother made a roast turkey with cheese inside. His father cooked a pumpkin soup and a spicy pudding. On the table there was also bread, butter and a little wine for the grown-ups. Ben ate too much and could not move. Then his little sister said, \"Let's dance!\" So he danced. At the end of the night, everyone went home happy and full.",
+    "translation_zh": "十月里，本的村子举办了一场盛大的狂欢节。广场上有音乐和舞蹈。他叔叔在农场里照看牛，所以每个人都有新鲜的牛奶。本一家为丰收节的盛宴做饭，大家都来帮忙。他妈妈做了一只里面塞了奶酪的烤火鸡。他爸爸煮了南瓜汤和一份辛辣的布丁。桌上还有面包、黄油，以及给大人们准备的一点葡萄酒。本吃得太撑，动都动不了。这时他妹妹说：「我们去跳舞吧！」于是他就去跳了。那天夜里结束的时候，每个人都又开心又满足地回了家。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Festive editorial illustration for a 4:3 card: a family table at an autumn harvest feast with roast turkey, pumpkin and bread, warm lantern light, cattle and a farm visible through the window, village square with dancers, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-09-11T12:18:59.115779+00:00",
+    "word_count": 106,
+    "vocabulary": [
+      {
+        "input_word": "pudding",
+        "lemma": "pudding",
+        "used_form": "pudding",
+        "pronunciation": "/ˈpʊdɪŋ/",
+        "part_of_speech": "n.",
+        "grammar_note": "可数或不可数均可，指餐末的甜食。",
+        "meaning_zh": "布丁；(餐末的) 甜食",
+        "translation_phrase_zh": "布丁",
+        "story_sentence": "His father cooked a pumpkin soup and a spicy pudding."
+      },
+      {
+        "input_word": "pumpkin",
+        "lemma": "pumpkin",
+        "used_form": "pumpkin",
+        "pronunciation": "/ˈpʌmpkɪn/",
+        "part_of_speech": "n.",
+        "grammar_note": "可数名词，这里作定语修饰 soup。",
+        "meaning_zh": "南瓜",
+        "translation_phrase_zh": "南瓜汤",
+        "story_sentence": "His father cooked a pumpkin soup and a spicy pudding."
+      },
+      {
+        "input_word": "roast",
+        "lemma": "roast",
+        "used_form": "roast",
+        "pronunciation": "/rəʊst/",
+        "part_of_speech": "adj.",
+        "grammar_note": "作定语修饰 turkey；也可作动词，表示烘烤。",
+        "meaning_zh": "烤的；焙的",
+        "translation_phrase_zh": "烤火鸡",
+        "story_sentence": "His mother made a roast turkey with cheese inside."
+      },
+      {
+        "input_word": "turkey",
+        "lemma": "turkey",
+        "used_form": "turkey",
+        "pronunciation": "/ˈtɜːki/",
+        "part_of_speech": "n.",
+        "grammar_note": "可数名词，指火鸡；作食物时也可不可数。",
+        "meaning_zh": "火鸡；火鸡肉",
+        "translation_phrase_zh": "烤火鸡",
+        "story_sentence": "His mother made a roast turkey with cheese inside."
+      },
+      {
+        "input_word": "spicy",
+        "lemma": "spicy",
+        "used_form": "spicy",
+        "pronunciation": "/ˈspaɪsi/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容词，修饰 pudding；比较级 spicier。",
+        "meaning_zh": "加有香料的；辛辣的",
+        "translation_phrase_zh": "辛辣的",
+        "story_sentence": "His father cooked a pumpkin soup and a spicy pudding."
+      },
+      {
+        "input_word": "wine",
+        "lemma": "wine",
+        "used_form": "wine",
+        "pronunciation": "/waɪn/",
+        "part_of_speech": "n.",
+        "grammar_note": "不可数名词，指葡萄酒、果酒。",
+        "meaning_zh": "葡萄酒；果酒",
+        "translation_phrase_zh": "葡萄酒",
+        "story_sentence": "On the table there was also bread, butter and a little wine for the grown-ups."
+      },
+      {
+        "input_word": "feast",
+        "lemma": "feast",
+        "used_form": "feast",
+        "pronunciation": "/fiːst/",
+        "part_of_speech": "n.",
+        "grammar_note": "可数名词，指盛宴、节日的大餐。",
+        "meaning_zh": "盛宴；宴会；节日",
+        "translation_phrase_zh": "盛宴",
+        "story_sentence": "Ben's family cooked for the harvest feast, and everyone helped."
+      },
+      {
+        "input_word": "harvest",
+        "lemma": "harvest",
+        "used_form": "harvest",
+        "pronunciation": "/ˈhɑːvɪst/",
+        "part_of_speech": "n.",
+        "grammar_note": "作定语修饰 feast；也可作动词，表示收割。",
+        "meaning_zh": "收获季节；收成",
+        "translation_phrase_zh": "丰收节",
+        "story_sentence": "Ben's family cooked for the harvest feast, and everyone helped."
+      },
+      {
+        "input_word": "cattle",
+        "lemma": "cattle",
+        "used_form": "cattle",
+        "pronunciation": "/ˈkætl/",
+        "part_of_speech": "n.",
+        "grammar_note": "集体名词，本身即复数，表示牛群；不能说 a cattle。",
+        "meaning_zh": "牛",
+        "translation_phrase_zh": "照看牛",
+        "story_sentence": "His uncle looked after the cattle on the farm, so there was fresh milk for everyone."
+      }
+    ]
+  },
+  {
+    "id": "149ff12a-4496-4855-85eb-08785ad99e61",
+    "language_code": "en",
+    "title": "Breakfast at the Cafe",
+    "title_zh": "咖啡馆的早餐",
+    "story_text": "Last summer, Lily took a job in a small cafe. She worked from eight a.m. to two p.m. every day. She was a waitress, so she carried food to the tables. Her aunt said, \"Never be late for duty.\" One morning Lily got up late and ran all the way. She was angry with herself. She put the chips and a snack on the table, then smiled at every guest. Nobody knew she was tired. At two p.m. she went home and slept. Now she is never late for duty again.",
+    "translation_zh": "去年夏天，莉莉在一家小咖啡馆找了份工作。她每天从上午八点工作到下午两点。她是女服务员，所以要把食物端到桌上。她姑姑说：「值班绝不能迟到。」一天早上莉莉起晚了，一路跑着过去。她很生自己的气。她把炸土豆条和一份小吃放到桌上，然后对每位客人都微笑。没人知道她很累。下午两点她回家睡了觉。现在她值班再也不迟到了。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a young waitress in a small neighbourhood cafe carrying a plate to a table in soft morning light, wooden tables, plants by the window, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-09-11T12:18:58.833372+00:00",
+    "word_count": 94,
+    "vocabulary": [
+      {
+        "input_word": "p.m.",
+        "lemma": "p.m.",
+        "used_form": "p.m.",
+        "pronunciation": "/ˌpiː ˈem/",
+        "part_of_speech": "abbr.",
+        "grammar_note": "下午的缩写，跟在具体钟点后面；与 a.m.（上午）相对。",
+        "meaning_zh": "下午；午后",
+        "translation_phrase_zh": "下午两点",
+        "story_sentence": "She worked from eight a.m. to two p.m. every day."
+      },
+      {
+        "input_word": "duty",
+        "lemma": "duty",
+        "used_form": "duty",
+        "pronunciation": "/ˈdjuːti/",
+        "part_of_speech": "n.",
+        "grammar_note": "不可数名词，常见搭配 on duty（值班）、be late for duty（值班迟到）。",
+        "meaning_zh": "责任；义务；值班",
+        "translation_phrase_zh": "值班",
+        "story_sentence": "Her aunt said, \"Never be late for duty.\""
+      },
+      {
+        "input_word": "waitress",
+        "lemma": "waitress",
+        "used_form": "waitress",
+        "pronunciation": "/ˈweɪtrəs/",
+        "part_of_speech": "n.",
+        "grammar_note": "指女服务员；男服务员是 waiter。",
+        "meaning_zh": "(餐馆的) 女服务员；女侍者",
+        "translation_phrase_zh": "女服务员",
+        "story_sentence": "She was a waitress, so she carried food to the tables."
+      },
+      {
+        "input_word": "cafe",
+        "lemma": "cafe",
+        "used_form": "cafe",
+        "pronunciation": "/ˈkæfeɪ/",
+        "part_of_speech": "n.",
+        "grammar_note": "可数名词，指小餐馆、咖啡馆。",
+        "meaning_zh": "咖啡馆；小餐馆",
+        "translation_phrase_zh": "小咖啡馆",
+        "story_sentence": "Last summer, Lily took a job in a small cafe."
+      },
+      {
+        "input_word": "chip",
+        "lemma": "chip",
+        "used_form": "chips",
+        "pronunciation": "/tʃɪp/",
+        "part_of_speech": "n.",
+        "grammar_note": "常用复数 chips：英式指炸土豆条，美式指炸薯片。",
+        "meaning_zh": "(英) 炸土豆条；(美) 炸薯片",
+        "translation_phrase_zh": "炸土豆条",
+        "story_sentence": "She put the chips and a snack on the table, then smiled at every guest."
+      }
+    ]
+  },
+  {
     "id": "a761b891-2924-46f8-ba26-210301debae1",
     "language_code": "en",
     "title": "The Notebook the Sea Gave Back",
