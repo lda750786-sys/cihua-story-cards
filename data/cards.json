@@ -1,18 +1,18 @@
 [
   {
-    "id": "8e2305b3-1908-442f-8fa1-8d6b3f859e21",
+    "id": "13effac8-ea78-42fa-b539-f6079fbf8d8f",
     "language_code": "en",
     "title": "Her Own Voice",
     "title_zh": "她自己的声音",
-    "story_text": "Six weeks later, the garden changed. The town gave the plots to the gardeners themselves. From that spring the community garden was an autonomous project: the gardeners made the rules, kept the money, and chose what to grow. Each plot was independent, but the gardeners met every Saturday to share seeds and tools.\n\nMr. Bell put a small sign on his fence. It said: ASK ME BEFORE YOU PICK.\n\nMia's story came out in the school paper with her name under the title. On Monday three teachers stopped her in the hall to say they had read it.\n\nTo her surprise, she felt confident at her next interview. She asked better questions, and she listened longer. The confidence did not come from the praise. It came from the two days she spent reading old records until she understood what had happened.\n\nMr. Bell called her an intelligent young writer, which made her laugh, because she had begun with a rude question.\n\nHer belief in small, careful work had grown into something solid. She kept the four-line note in her notebook, and she kept looking for the next true story.",
-    "translation_zh": "六周后，花园变了。镇上把菜地交给了园丁们自己。从那年春天起，社区花园成了一个自治的项目：园丁们自己定规矩、管钱、决定种什么。每块地都是独立的，但园丁们每周六都会聚在一起交换种子和工具。\n\n贝尔先生在他那边的栅栏上挂了块小牌子，上面写着：摘之前先问我。\n\n米娅的报道登在了校报上，标题下面印着她的名字。周一有三个老师在走廊里叫住她，说他们读过了。\n\n让她意外的是，下一次采访时她感到很自信。她问的问题更好了，听的时间也更长了。这份信心并不来自夸奖，而来自她花两天读旧记录、直到弄明白发生了什么的那段日子。\n\n贝尔先生称她是个聪明的年轻作者，这让她笑了，因为她是从一个粗鲁的问题开始的。\n\n她对细小而认真的事情的信念，已经长成了某种结实的东西。她把那张四行笔记留在笔记本里，也继续寻找下一个真实的故事。",
+    "story_text": "Six weeks later, the students took care of the garden themselves. They made their own rules and chose their own plants. It was an autonomous garden, and every small piece was independent.\n\nMr. Bell put a sign on the wall: ASK FIRST.\n\nMia's story came out with her name under the title. Three teachers told her they had read it.\n\nWhen she talked to people again, she felt confident. Her confidence did not come from their words. It came from two days of reading and asking.\n\nMr. Bell called her an intelligent writer. She smiled: her first question had been so rude.\n\nHer belief in small, careful work grew stronger.",
+    "translation_zh": "六周后，学生们自己打理起了花园。他们自己定规矩，自己选种什么。这是一个自治的花园，每一小块地都是独立的。\n\n贝尔先生在墙上贴了一块牌子：先问再摘。\n\n米娅的报道登了出来，标题下面印着她的名字。有三个老师告诉她，他们读过了。\n\n再一次和别人交谈时，她感到很自信。这份信心并不来自他们的话，而来自那两天她不停地读、不停地问。\n\n贝尔先生称她是个聪明的作者。她笑了：她的第一个问题曾经那么粗鲁。\n\n她对细小而认真的事情的信念，变得更结实了。",
     "image_path": null,
     "image_url": null,
-    "image_prompt": "Warm editorial illustration for a 4:3 card: a proud teenage writer holding a school newspaper beside an old gardener fixing a small hand-painted sign onto a fence, community garden full of new green shoots, warm morning light, no text, no watermark.",
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a proud teenage girl holding a school newspaper beside an old gardener putting a small sign on a wall, a school garden full of young green plants, warm morning light, no text, no watermark.",
     "source": "dsh-agent",
-    "created_at": "2026-09-18T11:26:25.342634+00:00",
+    "created_at": "2026-09-18T11:46:43.098120+00:00",
     "list_id": "9e8a7bcb-7bb5-4ad5-8d24-380e04235fbe",
-    "word_count": 189,
+    "word_count": 110,
     "vocabulary": [
       {
         "input_word": "independent",
@@ -23,7 +23,7 @@
         "grammar_note": "指独立的、自立的；be independent of something 表示“不依赖某物”。",
         "meaning_zh": "独立的；自立的",
         "translation_phrase_zh": "独立的",
-        "story_sentence": "Each plot was independent, but the gardeners met every Saturday to share seeds and tools."
+        "story_sentence": "It was an autonomous garden, and every small piece was independent."
       },
       {
         "input_word": "autonomous",
@@ -31,10 +31,10 @@
         "used_form": "autonomous",
         "pronunciation": "/ɔːˈtɒnəməs/",
         "part_of_speech": "adj.",
-        "grammar_note": "指自治的、自主的；名词 autonomy 表示“自治权、自主权”。",
+        "grammar_note": "指自治的、自主的；名词是 autonomy（自治权）。",
         "meaning_zh": "自治的；有自治权的",
         "translation_phrase_zh": "自治",
-        "story_sentence": "From that spring the community garden was an autonomous project: the gardeners made the rules, kept the money, and chose what to grow."
+        "story_sentence": "It was an autonomous garden, and every small piece was independent."
       },
       {
         "input_word": "confident",
@@ -42,10 +42,10 @@
         "used_form": "confident",
         "pronunciation": "/ˈkɒnfɪdənt/",
         "part_of_speech": "adj.",
-        "grammar_note": "be confident of/about something 表示“对……有把握”；名词形式是 confidence。",
+        "grammar_note": "be confident of/about something 表示“对……有把握”。",
         "meaning_zh": "自信的；有把握的",
         "translation_phrase_zh": "自信",
-        "story_sentence": "To her surprise, she felt confident at her next interview."
+        "story_sentence": "When she talked to people again, she felt confident."
       },
       {
         "input_word": "confidence",
@@ -53,10 +53,10 @@
         "used_form": "confidence",
         "pronunciation": "/ˈkɒnfɪdəns/",
         "part_of_speech": "n.",
-        "grammar_note": "不可数名词；gain confidence 表示“获得信心”，lose confidence 表示“失去信心”。",
+        "grammar_note": "不可数名词；gain confidence 表示“获得信心”。",
         "meaning_zh": "信心；信任",
         "translation_phrase_zh": "信心",
-        "story_sentence": "The confidence did not come from the praise."
+        "story_sentence": "Her confidence did not come from their words."
       },
       {
         "input_word": "intelligent",
@@ -64,10 +64,10 @@
         "used_form": "intelligent",
         "pronunciation": "/ɪnˈtelɪdʒənt/",
         "part_of_speech": "adj.",
-        "grammar_note": "指聪明、有智力的；名词是 intelligence，注意与 intellectual（学术的）区分。",
+        "grammar_note": "指聪明、有智力的；名词是 intelligence。",
         "meaning_zh": "有智慧的；聪明的；有智力的",
         "translation_phrase_zh": "聪明的",
-        "story_sentence": "Mr. Bell called her an intelligent young writer, which made her laugh, because she had begun with a rude question."
+        "story_sentence": "Mr. Bell called her an intelligent writer."
       },
       {
         "input_word": "belief",
@@ -75,27 +75,27 @@
         "used_form": "belief",
         "pronunciation": "/bɪˈliːf/",
         "part_of_speech": "n.",
-        "grammar_note": "指信念、信仰；常用 belief in something（对……的信念），注意与动词 believe 区分。",
+        "grammar_note": "指信念、信仰；常用 belief in something（对……的信念）。",
         "meaning_zh": "信仰；信心；信任",
         "translation_phrase_zh": "信念",
-        "story_sentence": "Her belief in small, careful work had grown into something solid."
+        "story_sentence": "Her belief in small, careful work grew stronger."
       }
     ]
   },
   {
-    "id": "c449e8d6-29cd-453c-a25b-2bc2fab98085",
+    "id": "5abc4de3-5e06-47e7-a1f6-24541d2f5e09",
     "language_code": "en",
     "title": "Alarm, Then Relief",
     "title_zh": "先是恐慌，然后宽慰",
-    "story_text": "The news moved through the town in one afternoon. The school sent home a short, alarming letter. The shop owner put a note in his window, and by evening the whole street was talking about the poisonous plant.\n\nThe alarm was real, but it was also louder than the danger. Parents called the garden office all night. One man said he would pull out every plant in the garden himself.\n\nOn Wednesday the tests came back. Only one plant was poisonous, and only that one. The other twenty plots were safe.\n\nThe relief in the garden was easy to see. People laughed, then went quiet, then laughed again.\n\nBut Mia wanted to determine exactly how the plant had arrived. She read old garden records for two days. In the end she found the answer: a seed list from twelve years ago, with one strange name written in the margin.\n\nShe was determined to publish it, even if it was only a small fact. She still had faith in small facts. A short true story, she thought, can protect a whole street.",
-    "translation_zh": "这个消息一个下午就传遍了小镇。学校发下来一封简短的、令人惊恐的信。店主在橱窗上贴了张纸条，到了晚上，整条街都在谈论那株有毒的植物。\n\n恐慌是真实的，但也比危险本身更响。家长们整夜给花园办公室打电话。有个男人说他要亲自把花园里的植物全拔光。\n\n周三，检测结果出来了。只有一株植物有毒，也只有那一株。另外二十块地都是安全的。\n\n花园里的宽慰显而易见。人们先笑，然后安静下来，然后又笑起来。\n\n但米娅想查明这株植物究竟是怎么来的。她花了两天读花园的旧记录。最后她找到了答案：一份十二年前的种子清单，页边写着一个奇怪的名字。\n\n她决心把它发表出来，哪怕只是一个很小的事实。她依然信任小事实。一个简短的真相，她想，可以保护一整条街。",
+    "story_text": "The news went through the school fast. The school sent home a short, alarming letter. Every family talked about the poisonous plant.\n\nThe alarm was real. One man said he would pull out every plant.\n\nOn Wednesday, the test results came back. Only one plant was poisonous. The other plants were safe.\n\nThe relief was easy to see. Students laughed and ran to the garden.\n\nBut Mia wanted to determine how the plant had come. She read old garden books for two days. At last she found the answer: a seed list from twelve years ago.\n\nShe was determined to write it down. She still had faith in small facts.",
+    "translation_zh": "消息很快传遍了学校。学校给每个家庭发了一封简短的、令人惊恐的信。大家都在谈论那株有毒的植物。\n\n恐慌是真实的。有人说要把花园里的植物全部拔光。\n\n周三，检测结果出来了。只有一株植物有毒，其他的都是安全的。\n\n宽慰显而易见。学生们笑着跑向花园。\n\n但米娅想查明这株植物是怎么来的。她花了两天读花园的旧书。最后她找到了答案：一份十二年前的种子清单。\n\n她决心把它写下来。她依然信任小事实。",
     "image_path": null,
     "image_url": null,
-    "image_prompt": "Warm editorial illustration for a 4:3 card: a quiet community garden in the morning with neighbours reading a paper notice, one plant marked with a small wooden sign, soft hopeful light after days of worry, muted warm palette, no text, no watermark.",
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a school garden in the morning with students reading a notice on the wall, one plant marked with a small wooden sign, soft hopeful light, muted warm palette, no text, no watermark.",
     "source": "dsh-agent",
-    "created_at": "2026-09-18T11:26:25.164225+00:00",
+    "created_at": "2026-09-18T11:46:43.083301+00:00",
     "list_id": "9e8a7bcb-7bb5-4ad5-8d24-380e04235fbe",
-    "word_count": 181,
+    "word_count": 110,
     "vocabulary": [
       {
         "input_word": "alarm",
@@ -103,10 +103,10 @@
         "used_form": "alarm",
         "pronunciation": "/əˈlɑːm/",
         "part_of_speech": "n.",
-        "grammar_note": "名词指警报、恐慌；动词指“使惊恐”，常用 be alarmed by something。",
+        "grammar_note": "名词指警报、恐慌；动词指“使惊恐”。",
         "meaning_zh": "恐慌；警报；警报器",
         "translation_phrase_zh": "恐慌",
-        "story_sentence": "The alarm was real, but it was also louder than the danger."
+        "story_sentence": "The alarm was real."
       },
       {
         "input_word": "alarming",
@@ -114,7 +114,7 @@
         "used_form": "alarming",
         "pronunciation": "/əˈlɑːmɪŋ/",
         "part_of_speech": "adj.",
-        "grammar_note": "由 alarm + -ing 构成，修饰让人害怕的事物；人感到害怕用 alarmed。",
+        "grammar_note": "形容事物“让人惊恐”；人感到害怕要用 alarmed。",
         "meaning_zh": "惊人的；使人惊恐的",
         "translation_phrase_zh": "令人惊恐的",
         "story_sentence": "The school sent home a short, alarming letter."
@@ -125,10 +125,10 @@
         "used_form": "relief",
         "pronunciation": "/rɪˈliːf/",
         "part_of_speech": "n.",
-        "grammar_note": "不可数名词；常用 a sense of relief（松了一口气）、to my relief（让我宽慰的是）。",
+        "grammar_note": "不可数名词；常用 to my relief（让我宽慰的是）。",
         "meaning_zh": "(焦虑、痛苦的) 减轻或消除；宽慰、轻松",
         "translation_phrase_zh": "宽慰",
-        "story_sentence": "The relief in the garden was easy to see."
+        "story_sentence": "The relief was easy to see."
       },
       {
         "input_word": "determine",
@@ -136,10 +136,10 @@
         "used_form": "determine",
         "pronunciation": "/dɪˈtɜːmɪn/",
         "part_of_speech": "vt.",
-        "grammar_note": "表示“查明、确定、决定”，后接名词或从句，如 determine what happened。",
+        "grammar_note": "表示“查明、确定、决定”，后接名词或从句。",
         "meaning_zh": "查明；确定；决定",
         "translation_phrase_zh": "查明",
-        "story_sentence": "But Mia wanted to determine exactly how the plant had arrived."
+        "story_sentence": "But Mia wanted to determine how the plant had come."
       },
       {
         "input_word": "determined",
@@ -150,7 +150,7 @@
         "grammar_note": "be determined to do something 表示“决心做某事”。",
         "meaning_zh": "有决心的；意志坚定的",
         "translation_phrase_zh": "决心",
-        "story_sentence": "She was determined to publish it, even if it was only a small fact."
+        "story_sentence": "She was determined to write it down."
       },
       {
         "input_word": "faith",
@@ -158,7 +158,7 @@
         "used_form": "faith",
         "pronunciation": "/feɪθ/",
         "part_of_speech": "n.",
-        "grammar_note": "have faith in somebody/something 表示“信任、信赖”；也指宗教信仰。",
+        "grammar_note": "have faith in somebody/something 表示“信任、信赖”。",
         "meaning_zh": "宗教信仰；信任",
         "translation_phrase_zh": "信任",
         "story_sentence": "She still had faith in small facts."
@@ -166,19 +166,19 @@
     ]
   },
   {
-    "id": "9e94fdcc-e1eb-4ca8-9f3c-1520e2cba411",
+    "id": "37e958c1-43e8-480a-bc70-de3279240ca5",
     "language_code": "en",
     "title": "The Poisonous Berry",
     "title_zh": "有毒的浆果",
-    "story_text": "On Monday morning Mia went back to the community garden. Mr. Bell was not alone. A small crowd stood around his plot, and his dog, Rusty, lay on the grass and would not stand up.\n\n\"The berries,\" a neighbour said. \"He ate the berries.\"\n\nThe vet came quickly. She held up a small red berry and spoke slowly so everyone could hear. \"This plant is poisonous. Two more berries could have been fatal for a dog his size.\"\n\nMia's stomach turned. There was poison in the middle of the garden, and children played there every day.\n\n\"Where did it come from?\" she asked.\n\nMr. Bell pointed at the fence. \"The previous owner of this plot liked strange plants. The former gardener grew them for colour, not for food. When I took the plot, I never asked what they were.\"\n\nRusty was precious to him. His hands shook as he held the dog's head.\n\nMia wrote down every word, and this time she was not writing four lines.",
-    "translation_zh": "周一早上，米娅回到社区花园。贝尔先生不是一个人。一小群人围在他的菜地边，他的狗拉斯蒂躺在草地上，站不起来。\n\n「是那些浆果，」一个邻居说，「他吃了那些浆果。」\n\n兽医很快就来了。她举起一颗红色的小浆果，说得很慢，让每个人都能听见。「这种植物有毒。再多两颗，对他这个体型的狗来说就可能是致命的。」\n\n米娅的胃里一阵翻腾。花园正中央有毒药，而孩子们每天都在那里玩。\n\n「它是从哪来的？」她问。\n\n贝尔先生指了指栅栏。「这块地上一任主人喜欢奇怪的植物。以前那位园丁种它们是为了颜色，不是为了吃。我接手这块地时，从没问过它们是什么。」\n\n拉斯蒂对他来说是珍宝。他抱着狗的头，双手在发抖。\n\n米娅把每个字都记了下来，这一次她写的不是四行字。",
+    "story_text": "On Monday morning, Mia went back to the school garden. Mr. Bell's dog, Rusty, was lying on the grass and could not stand up.\n\n\"He ate the red berries,\" a student said.\n\nA doctor came. She held up a berry. \"This plant is poisonous,\" she said slowly. \"Two more berries could be fatal for a dog like Rusty.\"\n\nMia felt cold. There was poison in the school garden, and students played there every day.\n\n\"Where did it come from?\" she asked.\n\n\"The previous owner liked strange plants,\" Mr. Bell said. \"The former gardener grew them for colour, not for food.\"\n\nRusty was precious to him. Mia wrote down every word.",
+    "translation_zh": "周一早上，米娅回到学校花园。贝尔先生的狗拉斯蒂躺在草地上，站不起来。\n\n「他吃了那些红浆果，」一个学生说。\n\n医生来了。她拿起一颗浆果，慢慢地说：「这种植物有毒。再多两颗，对拉斯蒂这样的狗来说就可能是致命的。」\n\n米娅感到一阵发冷。学校花园里有毒药，而学生们每天都在那里玩。\n\n「它是从哪来的？」她问。\n\n「上一任主人喜欢奇怪的植物，」贝尔先生说，「以前那位园丁种它们是为了颜色，不是为了吃。」\n\n拉斯蒂对他来说是珍宝。米娅把每个字都记了下来。",
     "image_path": null,
     "image_url": null,
-    "image_prompt": "Warm editorial illustration for a 4:3 card: worried neighbours gathered around an old gardener who holds his sick dog on the grass, red berries on a leafy plant beside the fence, late afternoon light, muted warm palette, no text, no watermark.",
+    "image_prompt": "Warm editorial illustration for a 4:3 card: students standing around an old gardener who holds his dog on the grass, a plant with small red berries beside the fence, late afternoon light, muted warm palette, no text, no watermark.",
     "source": "dsh-agent",
-    "created_at": "2026-09-18T11:26:24.986610+00:00",
+    "created_at": "2026-09-18T11:46:43.069905+00:00",
     "list_id": "9e8a7bcb-7bb5-4ad5-8d24-380e04235fbe",
-    "word_count": 167,
+    "word_count": 110,
     "vocabulary": [
       {
         "input_word": "poison",
@@ -186,10 +186,10 @@
         "used_form": "poison",
         "pronunciation": "/ˈpɔɪzn/",
         "part_of_speech": "n.",
-        "grammar_note": "作名词指毒药、毒素；作动词指“毒死、毒害”，如 poison the water。",
+        "grammar_note": "作名词指毒药；作动词指“毒死、毒害”。",
         "meaning_zh": "毒物；毒药；毒素",
         "translation_phrase_zh": "毒药",
-        "story_sentence": "There was poison in the middle of the garden, and children played there every day."
+        "story_sentence": "There was poison in the school garden, and students played there every day."
       },
       {
         "input_word": "poisonous",
@@ -197,7 +197,7 @@
         "used_form": "poisonous",
         "pronunciation": "/ˈpɔɪzənəs/",
         "part_of_speech": "adj.",
-        "grammar_note": "由 poison + -ous 构成；poisonous 是“本身有毒”，poisoned 是“被下了毒的”。",
+        "grammar_note": "poisonous 是“本身有毒”，poisoned 是“被下了毒的”。",
         "meaning_zh": "引起中毒的；有毒的；分泌毒素的",
         "translation_phrase_zh": "有毒",
         "story_sentence": "This plant is poisonous."
@@ -208,10 +208,10 @@
         "used_form": "fatal",
         "pronunciation": "/ˈfeɪtl/",
         "part_of_speech": "adj.",
-        "grammar_note": "指造成死亡的；a fatal mistake 也可指“致命的错误”。",
+        "grammar_note": "指造成死亡的；a fatal mistake 指“致命的错误”。",
         "meaning_zh": "致命的；灾难性的",
         "translation_phrase_zh": "致命的",
-        "story_sentence": "Two more berries could have been fatal for a dog his size."
+        "story_sentence": "Two more berries could be fatal for a dog like Rusty."
       },
       {
         "input_word": "precious",
@@ -230,10 +230,10 @@
         "used_form": "previous",
         "pronunciation": "/ˈpriːviəs/",
         "part_of_speech": "adj.",
-        "grammar_note": "指时间或顺序上的“上一个”，如 the previous week；与 next 相对。",
+        "grammar_note": "指时间或顺序上的“上一个”，如 the previous week。",
         "meaning_zh": "先前的；以往的",
         "translation_phrase_zh": "上一任主人",
-        "story_sentence": "The previous owner of this plot liked strange plants."
+        "story_sentence": "The previous owner liked strange plants."
       },
       {
         "input_word": "former",
@@ -241,7 +241,7 @@
         "used_form": "former",
         "pronunciation": "/ˈfɔːmə(r)/",
         "part_of_speech": "adj.",
-        "grammar_note": "指“以前的、前任的”，只放在名词前；the former 与 the latter 相对。",
+        "grammar_note": "指“以前的、前任的”，放在名词前；the former 与 the latter 相对。",
         "meaning_zh": "以前的；(两者中) 前者的",
         "translation_phrase_zh": "以前那位园丁",
         "story_sentence": "The former gardener grew them for colour, not for food."
@@ -249,19 +249,19 @@
     ]
   },
   {
-    "id": "9d01176f-0d74-4eaa-9ede-d9e3199424a3",
+    "id": "c1e67544-e6a5-423d-bfe7-b4c1cad60c49",
     "language_code": "en",
     "title": "Under Pressure",
     "title_zh": "在压力之下",
-    "story_text": "By Friday, Mia was under pressure. The paper went to print on Monday, and she still had no story.\n\nHer editor, Dan, pressed her every morning. \"Four lines about a garden is not a story,\" he said.\n\nThe stress made her sleep badly. She drank too much coffee and forgot to eat lunch. The office was small, and the tension between them was easy to feel. Every time Dan looked at her desk, she stared at her screen and typed nothing.\n\nThe deadline was tough, but the truth was simple: she did not want to write a safe story about flowers. She wanted to know why Mr. Bell had pulled out every plant in his plot.\n\nOn Sunday evening she opened her notebook again. The pressure was still there, but it had changed shape. It no longer felt like a wall in front of her. It felt like a question she had to answer.\n\nShe picked up her pen and wrote the first honest line of her story.",
-    "translation_zh": "到了周五，米娅感到压力很大。报纸周一就要付印，她还没有故事可写。\n\n她的编辑丹每天早上都催她。「关于花园的四行字不算故事，」他说。\n\n这种压力让她睡不好觉。她喝了太多咖啡，忘了吃午饭。办公室很小，两人之间的紧张关系很容易察觉。每次丹看向她的桌子，她就盯着屏幕，一个字也打不出来。\n\n截稿期限很艰难，但事实很简单：她不想写一篇关于花朵的安全稿子。她想知道贝尔先生为什么把菜地里的植物全拔了。\n\n周日傍晚，她又打开了笔记本。压力还在，但形状变了。它不再像面前的一堵墙，而像一个她必须回答的问题。\n\n她拿起笔，写下了这个故事第一句诚实的话。",
+    "story_text": "On Friday, Mia was under pressure. The newspaper had to come out on Monday, and she had no story.\n\nHer teacher, Miss Lin, pressed her every day. \"Four lines about a garden is not a story,\" she said.\n\nThe stress made Mia tired. She could not sleep well. The office was small, and the tension in it was easy to feel.\n\nThe job was tough, but Mia knew what she wanted. She wanted to find out why Mr. Bell had pulled out all his plants.\n\nOn Sunday evening, she opened her book and read her note again. The pressure was still there, but she was ready to write.",
+    "translation_zh": "到了周五，米娅感到压力很大。校报周一就要出，她却还没有故事可写。\n\n她的老师林老师每天都催她。「关于花园的四行字不算故事，」她说。\n\n这种压力让米娅很累，睡不好觉。办公室很小，里面的紧张关系很容易感觉到。\n\n这项工作很艰难，但米娅清楚自己想要什么。她想弄清楚贝尔先生为什么把植物都拔了。\n\n周日傍晚，她打开书，又读了一遍笔记。压力还在，但她已经准备好动笔了。",
     "image_path": null,
     "image_url": null,
-    "image_prompt": "Warm editorial illustration for a 4:3 card: a young reporter alone at a small newspaper desk late at night, cold coffee cups, open notebook and a glowing screen, an editor's shadow behind glass, muted blue and warm palette, no text, no watermark.",
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage girl sitting alone at a small desk late in the evening with an open notebook and a pen, a clock on the wall, muted blue and warm palette, no text, no watermark.",
     "source": "dsh-agent",
-    "created_at": "2026-09-18T11:26:24.798917+00:00",
+    "created_at": "2026-09-18T11:46:43.056447+00:00",
     "list_id": "9e8a7bcb-7bb5-4ad5-8d24-380e04235fbe",
-    "word_count": 168,
+    "word_count": 108,
     "vocabulary": [
       {
         "input_word": "under pressure",
@@ -269,10 +269,10 @@
         "used_form": "under pressure",
         "pronunciation": "/ˌʌndə ˈpreʃə(r)/",
         "part_of_speech": "phrase",
-        "grammar_note": "介词短语，常与 be、feel、work 连用，如 work under pressure（在压力下工作）。",
+        "grammar_note": "常和 be、feel、work 连用，如 work under pressure（在压力下工作）。",
         "meaning_zh": "在压力下；承受压力",
         "translation_phrase_zh": "压力很大",
-        "story_sentence": "By Friday, Mia was under pressure."
+        "story_sentence": "On Friday, Mia was under pressure."
       },
       {
         "input_word": "stress",
@@ -280,10 +280,10 @@
         "used_form": "stress",
         "pronunciation": "/stres/",
         "part_of_speech": "n.",
-        "grammar_note": "不可数名词，指精神或身体上的压力；动词 stress 表示“强调”。",
+        "grammar_note": "指精神上的压力；作动词时表示“强调”。",
         "meaning_zh": "压力；紧张；重音",
         "translation_phrase_zh": "这种压力",
-        "story_sentence": "The stress made her sleep badly."
+        "story_sentence": "The stress made Mia tired."
       },
       {
         "input_word": "press",
@@ -291,10 +291,10 @@
         "used_form": "pressed",
         "pronunciation": "/pres/",
         "part_of_speech": "v.",
-        "grammar_note": "本义是“按、压”，也指“催促、敦促”；名词 the press 指新闻界。",
+        "grammar_note": "本义是“按、压”，也指“催促”。",
         "meaning_zh": "按，压；催促",
         "translation_phrase_zh": "催",
-        "story_sentence": "Her editor, Dan, pressed her every morning."
+        "story_sentence": "Her teacher, Miss Lin, pressed her every day."
       },
       {
         "input_word": "pressure",
@@ -302,10 +302,10 @@
         "used_form": "pressure",
         "pronunciation": "/ˈpreʃə(r)/",
         "part_of_speech": "n.",
-        "grammar_note": "不可数名词；put pressure on somebody 表示“对某人施压”。",
+        "grammar_note": "常用 put pressure on somebody（对某人施压）。",
         "meaning_zh": "压力；强迫",
         "translation_phrase_zh": "压力还在",
-        "story_sentence": "The pressure was still there, but it had changed shape."
+        "story_sentence": "The pressure was still there, but she was ready to write."
       },
       {
         "input_word": "tough",
@@ -313,10 +313,10 @@
         "used_form": "tough",
         "pronunciation": "/tʌf/",
         "part_of_speech": "adj.",
-        "grammar_note": "口语常用，指“艰难的、棘手的”；形容人时表示“强硬、不好惹”。",
+        "grammar_note": "口语常用，指“艰难的、棘手的”。",
         "meaning_zh": "艰难的；严厉的",
         "translation_phrase_zh": "艰难",
-        "story_sentence": "The deadline was tough, but the truth was simple: she did not want to write a safe story about flowers."
+        "story_sentence": "The job was tough, but Mia knew what she wanted."
       },
       {
         "input_word": "tension",
@@ -324,27 +324,27 @@
         "used_form": "tension",
         "pronunciation": "/ˈtenʃn/",
         "part_of_speech": "n.",
-        "grammar_note": "指关系或气氛上的紧张，常用 tension between A and B。",
+        "grammar_note": "指气氛或关系上的紧张，常用 tension between A and B。",
         "meaning_zh": "紧张关系；紧张；焦虑",
         "translation_phrase_zh": "紧张关系",
-        "story_sentence": "The office was small, and the tension between them was easy to feel."
+        "story_sentence": "The office was small, and the tension in it was easy to feel."
       }
     ]
   },
   {
-    "id": "ce39d793-2a7f-46e1-8736-69f519a1d507",
+    "id": "b4d28e1c-c02e-4a35-8848-abb0023c9bfc",
     "language_code": "en",
     "title": "The Awkward Question",
     "title_zh": "那个尴尬的问题",
-    "story_text": "Mia was the newest writer on the school paper, and her first assignment made her anxious. She had to interview Mr. Bell, the old gardener at the community garden. Her hands shook as she opened her notebook.\n\n\"Why does your plot look dead?\" she asked.\n\nThe question was rude, and she knew it at once. Mr. Bell went quiet. The silence between them was awkward, and her face turned red. It was the most embarrassing minute of her week.\n\nBut Mr. Bell only smiled. \"Because I pulled everything out,\" he said. \"I am curious about what will grow next.\"\n\nMia wrote a brief note, thanked him, and walked home through the cold evening. She read the note again at her desk. It was only four lines long, but it had a real person in it, and a real answer.\n\nHer mother asked how the interview went. \"Awkward,\" Mia said. \"But not bad.\"\n\nShe did not know it yet, but that short visit would change her whole year.",
-    "translation_zh": "米娅是校报最新来的小记者，第一项任务就让她焦虑。她要去采访社区花园里的老园丁贝尔先生。打开笔记本时，她的手在发抖。\n\n「你的菜地怎么是死的？」她问。\n\n这个问题很粗鲁，她一问出口就明白了。贝尔先生沉默了。两人之间的沉默很尴尬，她的脸红了。那是她这一周最难堪的一分钟。\n\n但贝尔先生只是笑了笑。「因为我把所有东西都拔掉了，」他说，「我很好奇接下来会长出什么。」\n\n米娅写了一条简短的笔记，道了谢，穿过寒冷的傍晚走回家。她在书桌前又读了一遍。那条笔记只有四行，但里面有真实的人，也有真实的回答。\n\n妈妈问她采访怎么样。「挺尴尬的，」米娅说，「但不算糟。」\n\n她还不知道，这次短短的拜访会改变她的整个一年。",
+    "story_text": "Mia was new on the school newspaper. Her first job was to talk to Mr. Bell, an old man who worked in the school garden. Before she started, she felt anxious.\n\n\"Why is your garden dead?\" she asked.\n\nThe question was rude. Mr. Bell said nothing. The silence was awkward, and Mia's face turned red. It was an embarrassing minute for her.\n\nBut Mr. Bell only smiled. \"I pulled out all my plants,\" he said. \"I am curious about what will come up next.\"\n\nMia wrote a brief note and went home. She put the note in her book.",
+    "translation_zh": "米娅是校报的新成员。她的第一项任务是去采访在学校花园里干活的贝尔老先生。开始之前，她感到很焦虑。\n\n「你的花园怎么都死了？」她问。\n\n这个问题很粗鲁。贝尔先生什么也没说。沉默很尴尬，米娅的脸红了。对她来说，这是很难堪的一分钟。\n\n但贝尔先生只是笑了笑。「我把植物都拔掉了，」他说，「我很好奇接下来会长出什么。」\n\n米娅写了一条简短的笔记就回家了。她把那张笔记夹在书里。",
     "image_path": null,
     "image_url": null,
-    "image_prompt": "Warm editorial illustration for a 4:3 card: a shy teenage reporter holding an open notebook facing an old gardener in a small community garden at dusk, empty brown soil beds behind them, muted warm palette, no text, no watermark.",
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a shy teenage girl holding a notebook talking to an old gardener in a small school garden, empty soil beds, soft evening light, muted warm palette, no text, no watermark.",
     "source": "dsh-agent",
-    "created_at": "2026-09-18T11:26:24.581670+00:00",
+    "created_at": "2026-09-18T11:46:43.043543+00:00",
     "list_id": "9e8a7bcb-7bb5-4ad5-8d24-380e04235fbe",
-    "word_count": 167,
+    "word_count": 99,
     "vocabulary": [
       {
         "input_word": "awkward",
@@ -352,10 +352,10 @@
         "used_form": "awkward",
         "pronunciation": "/ˈɔːkwəd/",
         "part_of_speech": "adj.",
-        "grammar_note": "常见搭配 an awkward silence（尴尬的沉默）、feel awkward（觉得不自在）。",
+        "grammar_note": "常和 silence、moment 连用，如 an awkward silence（尴尬的沉默）。",
         "meaning_zh": "令人尴尬的；难对付的",
         "translation_phrase_zh": "尴尬",
-        "story_sentence": "The silence between them was awkward, and her face turned red."
+        "story_sentence": "The silence was awkward, and Mia's face turned red."
       },
       {
         "input_word": "embarrassing",
@@ -363,10 +363,10 @@
         "used_form": "embarrassing",
         "pronunciation": "/ɪmˈbærəsɪŋ/",
         "part_of_speech": "adj.",
-        "grammar_note": "修饰让人难堪的事；自己感到难堪要用 embarrassed。",
+        "grammar_note": "形容“事情让人难堪”；自己感到难堪要用 embarrassed。",
         "meaning_zh": "让人难堪（尴尬；害羞）的",
         "translation_phrase_zh": "难堪",
-        "story_sentence": "It was the most embarrassing minute of her week."
+        "story_sentence": "It was an embarrassing minute for her."
       },
       {
         "input_word": "rude",
@@ -377,7 +377,7 @@
         "grammar_note": "常用 be rude to somebody（对某人无礼）。",
         "meaning_zh": "粗鲁的；无礼的",
         "translation_phrase_zh": "粗鲁",
-        "story_sentence": "The question was rude, and she knew it at once."
+        "story_sentence": "The question was rude."
       },
       {
         "input_word": "anxious",
@@ -385,10 +385,10 @@
         "used_form": "anxious",
         "pronunciation": "/ˈæŋkʃəs/",
         "part_of_speech": "adj.",
-        "grammar_note": "常用 be anxious about something（为某事焦虑）。",
+        "grammar_note": "常用 be/feel anxious about something（为某事焦虑）。",
         "meaning_zh": "焦虑的；不安的",
         "translation_phrase_zh": "焦虑",
-        "story_sentence": "Mia was the newest writer on the school paper, and her first assignment made her anxious."
+        "story_sentence": "Before she started, she felt anxious."
       },
       {
         "input_word": "curious",
@@ -399,7 +399,7 @@
         "grammar_note": "常用 be curious about something（对某事好奇）。",
         "meaning_zh": "好奇的；求知欲强的",
         "translation_phrase_zh": "好奇",
-        "story_sentence": "I am curious about what will grow next."
+        "story_sentence": "I am curious about what will come up next."
       },
       {
         "input_word": "brief",
@@ -407,10 +407,10 @@
         "used_form": "brief",
         "pronunciation": "/briːf/",
         "part_of_speech": "adj.",
-        "grammar_note": "既可指时间短暂，也可指文字简短；名词 brief 指“简报、摘要”。",
+        "grammar_note": "形容时间短或文字简短；in brief 表示“简言之”。",
         "meaning_zh": "简洁的；简单的；短暂的",
         "translation_phrase_zh": "简短",
-        "story_sentence": "Mia wrote a brief note, thanked him, and walked home through the cold evening."
+        "story_sentence": "Mia wrote a brief note and went home."
       }
     ]
   },
