@@ -278,6 +278,46 @@ kbd { margin-left: 5px; padding: 2px 4px; color: inherit; border: 1px solid curr
 .no-cards { display: grid; place-items: center; min-height: 430px; height: auto; padding: 34px; color: var(--navy); text-align: center; border: 3px solid var(--navy); border-radius: 20px; background: var(--white); box-shadow: 10px 12px 0 var(--sky); }
 .no-cards h2 { font-family: var(--display); font-size: 31px; font-weight: 900; }
 
+/* ---------------------------------------------------------------------------
+   列表（相当于文件夹）
+   故事库按列表筛选，创作时选择放进哪个列表，闪卡可以只复习某一份列表。
+   --------------------------------------------------------------------------- */
+.list-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: 30px; }
+.list-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.list-chip { display: inline-flex; align-items: center; gap: 7px; min-height: 33px; padding: 0 12px; color: var(--navy); border: 2px solid var(--navy); border-radius: 99px; background: var(--white); box-shadow: 3px 4px 0 rgba(23,59,120,.18); font-size: 10px; font-weight: 850; transition: transform .16s,background .16s,box-shadow .16s; }
+.list-chip small { display: inline-grid; place-items: center; min-width: 19px; height: 19px; padding: 0 4px; color: var(--cream); border-radius: 99px; background: var(--navy); font-size: 8px; font-weight: 900; }
+.list-chip:hover { background: var(--cream); transform: translateY(-2px); }
+.list-chip.is-active { background: var(--sun); box-shadow: 3px 4px 0 var(--navy); }
+.list-chip.is-active small { background: var(--coral); }
+.list-new-button { min-height: 33px; padding: 0 13px; color: var(--navy); border: 2px dashed var(--navy); border-radius: 99px; background: transparent; font-size: 10px; font-weight: 850; }
+.list-new-button:hover { border-style: solid; background: var(--sky); }
+
+.list-option { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-top: 18px; }
+.list-option-label { color: var(--navy); font-family: var(--display); font-size: 15px; font-weight: 800; }
+.list-option-control { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; min-width: 0; }
+.list-option-control small { color: var(--muted); font-size: 8px; font-weight: 650; }
+#target-list, #review-list-scope, .manager-move-select { max-width: 230px; min-height: 34px; padding: 0 27px 0 10px; color: var(--navy); border: 2px solid var(--navy); border-radius: 8px; background: var(--white); font-family: var(--sans); font-size: 10px; font-weight: 800; }
+
+.review-scope { display: inline-flex; align-items: center; gap: 8px; padding: 4px 4px 4px 12px; border: 2px solid var(--navy); border-radius: 13px; background: var(--white); box-shadow: 4px 5px 0 var(--navy); }
+.review-scope > span { color: var(--navy); font-size: 9px; font-weight: 850; }
+.review-scope select { max-width: 178px; min-height: 30px; padding: 0 22px 0 8px; border-width: 0; border-radius: 8px; background: var(--cream); }
+
+.library-card-top span.is-list { padding: 2px 7px; border: 1px solid currentColor; border-radius: 99px; opacity: .9; }
+
+.manager-section-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 20px 0 10px; color: var(--navy); font-size: 9px; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
+.manager-section-head small { color: var(--muted); font-size: 8px; font-weight: 650; letter-spacing: 0; text-transform: none; }
+.manager-mini-button { padding: 6px 10px; color: var(--navy); border: 2px dashed var(--navy); border-radius: 8px; background: transparent; font-size: 9px; font-weight: 850; }
+.manager-mini-button:hover { border-style: solid; background: var(--sun); }
+.manager-lists { display: grid; gap: 9px; max-height: 210px; overflow: auto; padding: 2px 5px 4px 2px; }
+.manager-list-row { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 11px 13px; border: 2px solid var(--navy); border-radius: 10px 13px 9px 12px; background: var(--cream); box-shadow: 3px 4px 0 rgba(23,59,120,.22); }
+.manager-list-row strong { display: block; font-family: var(--display); font-size: 14px; font-weight: 900; }
+.manager-list-row span { display: block; margin-top: 3px; color: var(--muted); font-size: 9px; }
+.manager-list-row button { flex: 0 0 auto; padding: 8px 11px; color: var(--navy); border: 2px solid var(--navy); border-radius: 8px; background: var(--white); font-size: 10px; font-weight: 900; }
+.manager-list-row button:hover { color: var(--cream); background: var(--navy); }
+.manager-list-row button[data-delete-list] { background: var(--coral); }
+.manager-row-actions { display: flex; flex: 0 0 auto; align-items: center; gap: 8px; }
+.manager-lists-empty { padding: 20px 16px; color: var(--muted); border: 2px dashed rgba(23,59,120,.28); border-radius: 12px; font-size: 11px; text-align: center; }
+
 @media (prefers-reduced-motion:reduce) { .flash-card-inner,.loading-orbit,.loading-orbit i,.view { animation: none; transition-duration: .01ms; } }
 @media (max-width:980px) {
   .app-shell { grid-template-columns: 210px minmax(0,1fr); }
@@ -341,6 +381,15 @@ kbd { margin-left: 5px; padding: 2px 4px; color: inherit; border: 1px solid curr
   .flash-actions { margin-top: 18px; }
   .flash-actions .secondary-button { flex: 1; }
   .circle-button { flex: 0 0 44px; width: 44px; height: 44px; }
+  .list-bar { margin-top: 24px; }
+  .list-option { display: block; }
+  .list-option-control { align-items: stretch; margin-top: 8px; }
+  #target-list, .manager-move-select { width: 100%; max-width: 100%; }
+  .review-scope { width: 100%; }
+  .review-scope select { flex: 1; max-width: none; }
+  .manager-row { flex-wrap: wrap; }
+  .manager-row-actions { width: 100%; justify-content: space-between; }
+  .manager-list-row { flex-wrap: wrap; }
 }
 
 

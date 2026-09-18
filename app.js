@@ -1,5 +1,9 @@
 const state = {
   cards: [],
+  lists: [],
+  activeListId: "all",
+  reviewListId: "all",
+  targetListId: "",
   view: "create",
   activeSpace: "en",
   flashMode: "story",
@@ -128,6 +132,10 @@ const STATIC_MODE =
 const STATIC_DATA = `${API}data`;
 const STATIC_NOTICE = "这是只读的在线故事库：可以浏览与复习，生成新卡片请在本地工作台进行。";
 
+/** 故事库筛选与复习范围里，「未分组」这一档的哨兵值。 */
+const UNGROUPED_KEY = "__ungrouped__";
+const NEW_LIST_KEY = "__new__";
+
 /** 简单的确定性哈希，用于替换原后端按词频排序的抽词逻辑。 */
 function hashSeed(value) {
   let hash = 2166136261;
@@ -163,6 +171,15 @@ async function request(path, options = {}) {
     if (path === "/api/cards") {
       return { cards: await fetchJsonFile(`${STATIC_DATA}/cards.json`) };
     }
+    if (path === "/api/lists") {
+      try {
+        const payload = await fetchJsonFile(`${STATIC_DATA}/lists.json`);
+        return { lists: Array.isArray(payload) ? payload : (payload.lists || []) };
+      } catch {
+        // 旧版本导出的站点没有 lists.json，退化成「没有列表」而不是整页报错。
+        return { lists: [] };
+      }
+    }
     if (path === "/api/vocabulary/sources") {
       return { sources: await fetchJsonFile(`${STATIC_DATA}/vocabulary-sources.json`) };
     }
@@ -192,8 +209,9 @@ async function request(path, options = {}) {
 }
 
 async function refreshData() {
-  const cardsPayload = await request("/api/cards");
+  const [cardsPayload, listsPayload] = await Promise.all([request("/api/cards"), request("/api/lists")]);
   state.cards = cardsPayload.cards;
+  state.lists = listsPayload.lists || [];
   renderSpace();
   renderLibrary();
   buildReviewDeck();
@@ -201,6 +219,171 @@ async function refreshData() {
 
 function spaceCards() {
   return state.cards.filter((card) => card.language_code === state.activeSpace);
+}
+
+function spaceLists() {
+  return state.lists.filter((item) => item.language_code === state.activeSpace);
+}
+
+function listName(listId) {
+  const found = state.lists.find((item) => item.id === listId);
+  return found ? found.name : "";
+}
+
+/** 列表在当前空间里已经不存在时，把选中项收回「全部」。 */
+function syncListSelection() {
+  const ids = new Set(spaceLists().map((item) => item.id));
+  if (state.activeListId !== "all" && state.activeListId !== UNGROUPED_KEY && !ids.has(state.activeListId)) {
+    state.activeListId = "all";
+  }
+  if (state.reviewListId !== "all" && state.reviewListId !== UNGROUPED_KEY && !ids.has(state.reviewListId)) {
+    state.reviewListId = "all";
+  }
+  if (state.targetListId && !ids.has(state.targetListId)) state.targetListId = "";
+}
+
+/** 按当前筛选（全部 / 某个列表 / 未分组）取出要展示的故事卡。 */
+function filterByList(cards, listId) {
+  if (listId === UNGROUPED_KEY) return cards.filter((card) => !card.list_id);
+  if (listId === "all" || !listId) return cards;
+  return cards.filter((card) => card.list_id === listId);
+}
+
+function libraryCards() {
+  return filterByList(spaceCards(), state.activeListId);
+}
+
+function renderListChips() {
+  const cards = spaceCards();
+  const lists = spaceLists();
+  const loose = cards.filter((card) => !card.list_id).length;
+  const bar = $("#list-bar");
+  bar.hidden = cards.length === 0;
+  const items = [{ key: "all", label: "全部故事", count: cards.length }];
+  for (const list of lists) items.push({ key: list.id, label: list.name, count: list.card_count });
+  if (loose) items.push({ key: UNGROUPED_KEY, label: "未分组", count: loose });
+  $("#list-chips").innerHTML = items
+    .map((item) => `<button type="button" class="list-chip ${item.key === state.activeListId ? "is-active" : ""}" data-list-chip="${escapeHtml(item.key)}" aria-pressed="${item.key === state.activeListId}"><span>${escapeHtml(item.label)}</span><small>${item.count}</small></button>`)
+    .join("");
+  $("#new-list-button").hidden = STATIC_MODE;
+}
+
+/** 创作页的「放进列表」下拉框。 */
+function renderTargetListOptions() {
+  const select = $("#target-list");
+  const lists = spaceLists();
+  const options = ['<option value="">不放进列表</option>'];
+  for (const list of lists) options.push(`<option value="${escapeHtml(list.id)}">${escapeHtml(list.name)}</option>`);
+  if (!STATIC_MODE) options.push(`<option value="${NEW_LIST_KEY}">＋ 新建列表…</option>`);
+  select.innerHTML = options.join("");
+  select.value = lists.some((item) => item.id === state.targetListId) ? state.targetListId : "";
+  state.targetListId = select.value;
+  $("#target-list-note").textContent = lists.length
+    ? "列表相当于文件夹，之后可以随时移动或改名"
+    : "还没有列表，选「新建列表…」就能建第一个";
+}
+
+/** 闪卡页的「复习范围」下拉框。 */
+function renderReviewScopeOptions() {
+  const select = $("#review-list-scope");
+  const lists = spaceLists();
+  const options = ['<option value="all">全部故事卡</option>'];
+  for (const list of lists) options.push(`<option value="${escapeHtml(list.id)}">${escapeHtml(list.name)}</option>`);
+  if (spaceCards().some((card) => !card.list_id)) options.push(`<option value="${UNGROUPED_KEY}">未分组</option>`);
+  select.innerHTML = options.join("");
+  select.value = ["all", UNGROUPED_KEY, ...lists.map((item) => item.id)].includes(state.reviewListId) ? state.reviewListId : "all";
+  state.reviewListId = select.value;
+}
+
+function selectList(listId) {
+  state.activeListId = listId;
+  // 只切换高亮，不重建列表：重建会替换节点、丢掉键盘焦点。
+  $$("#list-chips .list-chip").forEach((chip) => {
+    const active = chip.dataset.listChip === listId;
+    chip.classList.toggle("is-active", active);
+    chip.setAttribute("aria-pressed", String(active));
+  });
+  renderLibrary();
+}
+
+async function createListFlow() {
+  if (STATIC_MODE) {
+    window.alert(STATIC_NOTICE);
+    return null;
+  }
+  const suggested = `${new Date().toLocaleDateString("zh-CN", { month: "numeric", day: "numeric" })} 的故事`;
+  const name = window.prompt("新列表的名字（相当于文件夹名）", suggested);
+  if (name === null) return null;
+  try {
+    const payload = await request("/api/lists", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, language_code: state.activeSpace }),
+    });
+    await refreshData();
+    selectList(payload.list.id);
+    state.targetListId = payload.list.id;
+    renderTargetListOptions();
+    if ($("#library-manager").open) renderLibraryManager();
+    setStatus(`已新建列表「${payload.list.name}」，新故事会默认放进去。`, "info");
+    return payload.list;
+  } catch (error) {
+    window.alert(error.message || "新建列表失败，请再试一次。");
+    return null;
+  }
+}
+
+async function renameListFlow(listId) {
+  const list = state.lists.find((item) => item.id === listId);
+  if (!list) return;
+  const name = window.prompt("新的列表名字", list.name);
+  if (name === null || name.trim() === list.name) return;
+  try {
+    await request(`/api/lists/${encodeURIComponent(listId)}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name }),
+    });
+    await refreshData();
+    if ($("#library-manager").open) renderLibraryManager();
+  } catch (error) {
+    window.alert(error.message || "改名失败，请再试一次。");
+  }
+}
+
+async function deleteListFlow(listId) {
+  const list = state.lists.find((item) => item.id === listId);
+  if (!list) return;
+  const cards = Number(list.card_count) || 0;
+  const message = cards
+    ? `删除列表「${list.name}」？里面的 ${cards} 张故事卡会回到「未分组」，不会被删除。`
+    : `删除空列表「${list.name}」？`;
+  if (!window.confirm(message)) return;
+  try {
+    await request(`/api/lists/${encodeURIComponent(listId)}`, { method: "DELETE" });
+    if (state.activeListId === listId) state.activeListId = "all";
+    if (state.reviewListId === listId) state.reviewListId = "all";
+    if (state.targetListId === listId) state.targetListId = "";
+    await refreshData();
+    if ($("#library-manager").open) renderLibraryManager();
+  } catch (error) {
+    window.alert(error.message || "删除列表失败，请再试一次。");
+  }
+}
+
+async function moveCardToList(cardId, listId) {
+  try {
+    await request(`/api/cards/${encodeURIComponent(cardId)}/list`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ list_id: listId || null }),
+    });
+    await refreshData();
+    if ($("#library-manager").open) renderLibraryManager();
+  } catch (error) {
+    window.alert(error.message || "移动卡片失败，请再试一次。");
+    if ($("#library-manager").open) renderLibraryManager();
+  }
 }
 
 function renderSpace() {
@@ -236,6 +419,10 @@ function renderSpace() {
   });
   $("#vocabulary-settings-wrap").hidden = false;
   $("#randomize-button").hidden = false;
+  syncListSelection();
+  renderListChips();
+  renderTargetListOptions();
+  renderReviewScopeOptions();
   selectExam(state.selectedExam);
   if ($("#library-manager").open) renderLibraryManager();
 }
@@ -365,7 +552,7 @@ function highlightTranslation(translation, vocabulary) {
 }
 
 function renderLibrary() {
-  const visible = spaceCards();
+  const visible = libraryCards();
   const grid = $("#library-grid");
   const empty = $("#library-empty");
   const usedScenes = new Set();
@@ -377,10 +564,11 @@ function renderLibrary() {
       for (let step = 0; usedScenes.has(scene) && step < STORY_SCENES.length; step += 1) scene = STORY_SCENES[(preferredIndex + step + 1) % STORY_SCENES.length];
       usedScenes.add(scene);
       const words = card.vocabulary.map((entry) => `<span>${escapeHtml(entry.input_word)}</span>`).join("");
+      const ownList = listName(card.list_id);
       return `<button class="library-card theme-${theme.name}" style="${themeStyle(theme)};--card-tilt:${(index % 3 - 1) * 0.7}deg" data-open-card="${card.id}">
         ${storyArtwork(card, true, scene)}
         <div class="library-card-copy">
-          <div class="library-card-top"><span>${escapeHtml(dateLabel(card.created_at))}</span><span>${languageLabel(card.language_code)}</span></div>
+          <div class="library-card-top"><span>${escapeHtml(dateLabel(card.created_at))}</span><span class="${ownList ? "is-list" : ""}">${escapeHtml(ownList || languageLabel(card.language_code))}</span></div>
           <h2>${escapeHtml(card.title)}</h2>
           <p>${escapeHtml(card.story_text)}</p>
           <div class="library-card-words">${words}</div>
@@ -390,18 +578,49 @@ function renderLibrary() {
     .join("");
   grid.hidden = visible.length === 0;
   empty.hidden = visible.length !== 0;
-  empty.querySelector("h2").textContent = state.activeSpace === "es" ? "西班牙语故事库还是空的" : "英语故事库还是空的";
+  const scoped = state.activeListId !== "all";
+  empty.querySelector("h2").textContent = scoped
+    ? "这个列表还没有故事卡"
+    : (state.activeSpace === "es" ? "西班牙语故事库还是空的" : "英语故事库还是空的");
+  empty.querySelector("p").textContent = scoped
+    ? "去创作页写上几个词，或者把已有卡片移动进来。"
+    : "先写一张故事卡，让第一个场景住进来。";
 }
 
 function renderLibraryManager() {
   const cards = spaceCards();
+  const lists = spaceLists();
+  $("#manager-space-note").textContent = `只显示当前${spaceMeta().short}的故事。删除后无法恢复。`;
+
+  $("#manager-lists").innerHTML = lists
+    .map((list) => `<div class="manager-list-row">
+      <div><strong>${escapeHtml(list.name)}</strong><span>${list.card_count} 张卡 · ${list.word_count} 个词${list.note ? ` · ${escapeHtml(list.note)}` : ""}</span></div>
+      <div class="manager-row-actions">
+        <button type="button" data-rename-list="${escapeHtml(list.id)}">改名</button>
+        <button type="button" data-delete-list="${escapeHtml(list.id)}">删除</button>
+      </div>
+    </div>`)
+    .join("");
+  $("#manager-lists").hidden = lists.length === 0;
+  $("#manager-lists-empty").hidden = lists.length !== 0;
+  $("#manager-new-list").hidden = STATIC_MODE;
+
   const list = $("#manager-list");
   const empty = $("#manager-empty");
-  $("#manager-space-note").textContent = `只显示当前${spaceMeta().short}的故事。删除后无法恢复。`;
-  list.innerHTML = cards.map((card) => `<div class="manager-row">
-    <div><strong>${escapeHtml(card.title)}</strong><span>${escapeHtml(dateLabel(card.created_at))} · ${card.vocabulary.length} 个词</span></div>
-    <button type="button" data-delete-card="${escapeHtml(card.id)}">删除</button>
-  </div>`).join("");
+  list.innerHTML = cards
+    .map((card) => {
+      const options = ['<option value="">未分组</option>']
+        .concat(lists.map((item) => `<option value="${escapeHtml(item.id)}"${card.list_id === item.id ? " selected" : ""}>${escapeHtml(item.name)}</option>`))
+        .join("");
+      return `<div class="manager-row">
+        <div><strong>${escapeHtml(card.title)}</strong><span>${escapeHtml(dateLabel(card.created_at))} · ${card.vocabulary.length} 个词</span></div>
+        <div class="manager-row-actions">
+          <select class="manager-move-select" data-move-card="${escapeHtml(card.id)}" aria-label="把《${escapeHtml(card.title)}》移动到列表">${options}</select>
+          <button type="button" data-delete-card="${escapeHtml(card.id)}">删除</button>
+        </div>
+      </div>`;
+    })
+    .join("");
   list.hidden = cards.length === 0;
   empty.hidden = cards.length !== 0;
 }
@@ -442,7 +661,7 @@ function shuffled(items) {
 }
 
 function buildReviewDeck(preserveSelectedId = null) {
-  const cards = spaceCards();
+  const cards = filterByList(spaceCards(), state.reviewListId);
   state.reviewDeck = state.flashMode === "story"
     ? cards.map((card) => ({ type: "story", card }))
     : cards.flatMap((card) => card.vocabulary.map((entry) => ({ type: "word", card, entry })));
@@ -505,7 +724,11 @@ function renderReview() {
   if (!item) {
     card.className = "flash-card no-cards";
     card.removeAttribute("style");
-    card.innerHTML = `<div><span class="eyebrow">NO CARDS YET</span><h2>${state.activeSpace === "es" ? "还没有西班牙语故事卡" : "先写一个英语故事"}</h2><p>去创作页放进几个词，故事会在这里等你翻开。</p></div>`;
+    const scoped = state.reviewListId !== "all";
+    const heading = scoped
+      ? "这个范围里还没有故事卡"
+      : (state.activeSpace === "es" ? "还没有西班牙语故事卡" : "先写一个英语故事");
+    card.innerHTML = `<div><span class="eyebrow">NO CARDS YET</span><h2>${heading}</h2><p>去创作页放进几个词，故事会在这里等你翻开。</p></div>`;
     return;
   }
   const front = item.type === "story" ? storyFront(item.card) : wordFront(item.entry, item.card);
@@ -603,7 +826,7 @@ async function submitGeneration(event) {
     const job = await request("/api/generations", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ words, language_code: state.activeSpace, image_requested: wantsImage }),
+      body: JSON.stringify({ words, language_code: state.activeSpace, image_requested: wantsImage, list_id: state.targetListId || null }),
     });
     const completed = await pollGeneration(job.id);
     await refreshData();
@@ -698,9 +921,40 @@ function bindEvents() {
   });
   $("#manage-library-button").addEventListener("click", openLibraryManager);
   $("#close-library-manager").addEventListener("click", () => $("#library-manager").close());
+  $("#new-list-button").addEventListener("click", createListFlow);
+  $("#manager-new-list").addEventListener("click", createListFlow);
+  $("#list-chips").addEventListener("click", (event) => {
+    const chip = event.target.closest("[data-list-chip]");
+    if (chip) selectList(chip.dataset.listChip);
+  });
+  $("#target-list").addEventListener("change", (event) => {
+    if (event.target.value === NEW_LIST_KEY) {
+      createListFlow().then((created) => { if (!created) renderTargetListOptions(); });
+      return;
+    }
+    state.targetListId = event.target.value;
+  });
+  $("#review-list-scope").addEventListener("change", (event) => {
+    state.reviewListId = event.target.value;
+    buildReviewDeck();
+  });
+  $("#library-manager").addEventListener("change", (event) => {
+    const select = event.target.closest("[data-move-card]");
+    if (select) moveCardToList(select.dataset.moveCard, select.value);
+  });
   $("#library-manager").addEventListener("click", (event) => {
     if (event.target === $("#library-manager")) {
       $("#library-manager").close();
+      return;
+    }
+    const renameButton = event.target.closest("[data-rename-list]");
+    if (renameButton) {
+      renameListFlow(renameButton.dataset.renameList);
+      return;
+    }
+    const listButton = event.target.closest("[data-delete-list]");
+    if (listButton) {
+      deleteListFlow(listButton.dataset.deleteList);
       return;
     }
     const button = event.target.closest("[data-delete-card]");
@@ -779,6 +1033,13 @@ function applyStaticMode() {
     manage.textContent = "只读预览";
     manage.title = STATIC_NOTICE;
   }
+  // 列表的浏览与筛选在只读镜像里照常可用，只隐藏写入口。
+  const newList = $("#new-list-button");
+  if (newList) newList.hidden = true;
+  const managerNewList = $("#manager-new-list");
+  if (managerNewList) managerNewList.hidden = true;
+  $$(".list-option").forEach((element) => { element.hidden = true; });
+  $("#review-list-scope").disabled = false;
 }
 
 async function init() {

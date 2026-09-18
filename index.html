@@ -124,6 +124,14 @@
                 <span>空格、逗号或换行分隔</span><span>2–10 个词 · 故事 80–250 词</span>
               </div>
 
+              <div class="list-option">
+                <label class="list-option-label" for="target-list">放进列表</label>
+                <div class="list-option-control">
+                  <select id="target-list" aria-describedby="target-list-note"></select>
+                  <small id="target-list-note">列表相当于文件夹，之后可以随时移动或改名</small>
+                </div>
+              </div>
+
               <label class="image-option">
                 <input id="image-requested" type="checkbox" disabled />
                 <span class="toggle" aria-hidden="true"></span>
@@ -168,6 +176,10 @@
             <div><strong id="stat-unique">0</strong><span>不重复词</span></div>
             <p id="stats-copy">让词先住进故事里，<br />再住进记忆里。</p>
           </div>
+          <div id="list-bar" class="list-bar">
+            <div id="list-chips" class="list-chips" role="group" aria-label="按列表筛选故事"></div>
+            <button type="button" id="new-list-button" class="list-new-button">＋ 新建列表</button>
+          </div>
           <div id="library-grid" class="library-grid"></div>
           <div id="library-empty" class="empty-state" hidden>
             <span class="empty-number">00</span><h2>故事库还是空的</h2><p>先写一张故事卡，让第一个场景住进来。</p>
@@ -181,6 +193,15 @@
             <button type="button" id="close-library-manager" class="manager-close" aria-label="关闭故事管理">×</button>
           </div>
           <p id="manager-space-note" class="manager-space-note">只显示当前英语空间的故事。</p>
+          <div class="manager-section-head">
+            <span>列表</span>
+            <button type="button" id="manager-new-list" class="manager-mini-button">＋ 新建列表</button>
+          </div>
+          <div id="manager-lists" class="manager-lists"></div>
+          <div id="manager-lists-empty" class="manager-lists-empty" hidden>还没有列表。新建一个，就能像文件夹一样收纳故事卡。</div>
+          <div class="manager-section-head">
+            <span>故事卡</span><small>可以随时换列表</small>
+          </div>
           <div id="manager-list" class="manager-list"></div>
           <div id="manager-empty" class="manager-empty" hidden>当前空间没有可管理的故事卡。</div>
         </dialog>
@@ -189,6 +210,10 @@
           <div class="review-heading">
             <div><span class="eyebrow">FLASHCARD STUDIO</span><h1 id="review-title">从故事里<br />把词想起来</h1></div>
             <div class="review-controls-top">
+              <label class="review-scope" for="review-list-scope">
+                <span>复习范围</span>
+                <select id="review-list-scope" aria-label="选择要复习的列表"></select>
+              </label>
               <div class="segmented" aria-label="闪卡模式">
                 <button class="is-active" data-flash-mode="story">故事卡</button>
                 <button data-flash-mode="word">单词卡</button>
