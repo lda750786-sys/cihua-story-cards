@@ -7,5 +7,14 @@
     "created_at": "2026-09-18T11:03:13.035324+00:00",
     "card_count": 5,
     "word_count": 30
+  },
+  {
+    "id": "9e8a7bcb-7bb5-4ad5-8d24-380e04235fbe",
+    "name": "情绪与压力 30 词",
+    "language_code": "en",
+    "note": "",
+    "created_at": "2026-09-18T11:26:24.564908+00:00",
+    "card_count": 5,
+    "word_count": 30
   }
 ]
