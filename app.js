@@ -66,7 +66,12 @@ function storyArtwork(card, compact = false, scene = storyScene(card)) {
   const image = card.image_url
     ? `<img src="${escapeHtml(card.image_url)}" alt="${escapeHtml(card.title)} 的故事配图" />`
     : sceneMarkup(card, scene);
-  return `<div class="story-artwork ${compact ? "is-compact" : ""}">${image}<span class="art-sticker">STORY<br />No. ${String(card.id).slice(-2).padStart(2, "0")}</span></div>`;
+  // 角标用列表内的真实阅读序号；以前用随机 id 尾号，看故事集时会误导。
+  const order = Number(card.position) || 0;
+  const sticker = card.list_id && order
+    ? `STORY<br />No. ${String(order).padStart(2, "0")}`
+    : "STORY<br />CARD";
+  return `<div class="story-artwork ${compact ? "is-compact" : ""}">${image}<span class="art-sticker">${sticker}</span></div>`;
 }
 
 function escapeHtml(value) {
@@ -386,6 +391,23 @@ async function moveCardToList(cardId, listId) {
   }
 }
 
+/** 在同一个列表内上移/下移一张卡片，用来把故事排成阅读顺序。 */
+async function moveCardOrder(cardId, direction, button) {
+  if (button) button.disabled = true;
+  try {
+    await request(`/api/cards/${encodeURIComponent(cardId)}/move`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ direction }),
+    });
+    await refreshData();
+    if ($("#library-manager").open) renderLibraryManager();
+  } catch (error) {
+    window.alert(error.message || "调整顺序失败，请再试一次。");
+    if (button) button.disabled = false;
+  }
+}
+
 function renderSpace() {
   const meta = spaceMeta();
   const alternativeLanguage = state.activeSpace === "en" ? "es" : "en";
@@ -607,14 +629,26 @@ function renderLibraryManager() {
 
   const list = $("#manager-list");
   const empty = $("#manager-empty");
+  // 按范围（列表 / 未分组）分组，用它在同一范围内判断能不能上移/下移。
+  const scopes = new Map();
+  for (const card of cards) {
+    const key = card.list_id || UNGROUPED_KEY;
+    if (!scopes.has(key)) scopes.set(key, []);
+    scopes.get(key).push(card);
+  }
   list.innerHTML = cards
     .map((card) => {
       const options = ['<option value="">未分组</option>']
         .concat(lists.map((item) => `<option value="${escapeHtml(item.id)}"${card.list_id === item.id ? " selected" : ""}>${escapeHtml(item.name)}</option>`))
         .join("");
+      const scope = scopes.get(card.list_id || UNGROUPED_KEY) || [card];
+      const index = scope.indexOf(card);
+      const orderLabel = card.list_id ? `No. ${String(card.position).padStart(2, "0")} · ` : "";
       return `<div class="manager-row">
-        <div><strong>${escapeHtml(card.title)}</strong><span>${escapeHtml(dateLabel(card.created_at))} · ${card.vocabulary.length} 个词</span></div>
+        <div><strong>${escapeHtml(card.title)}</strong><span>${orderLabel}${escapeHtml(dateLabel(card.created_at))} · ${card.vocabulary.length} 个词</span></div>
         <div class="manager-row-actions">
+          <button type="button" class="manager-order-button" data-move-order="${escapeHtml(card.id)}" data-direction="up" aria-label="把《${escapeHtml(card.title)}》上移" title="上移一位"${index === 0 ? " disabled" : ""}>↑</button>
+          <button type="button" class="manager-order-button" data-move-order="${escapeHtml(card.id)}" data-direction="down" aria-label="把《${escapeHtml(card.title)}》下移" title="下移一位"${index === scope.length - 1 ? " disabled" : ""}>↓</button>
           <select class="manager-move-select" data-move-card="${escapeHtml(card.id)}" aria-label="把《${escapeHtml(card.title)}》移动到列表">${options}</select>
           <button type="button" data-delete-card="${escapeHtml(card.id)}">删除</button>
         </div>
@@ -950,6 +984,11 @@ function bindEvents() {
     const renameButton = event.target.closest("[data-rename-list]");
     if (renameButton) {
       renameListFlow(renameButton.dataset.renameList);
+      return;
+    }
+    const orderButton = event.target.closest("[data-move-order]");
+    if (orderButton) {
+      moveCardOrder(orderButton.dataset.moveOrder, orderButton.dataset.direction, orderButton);
       return;
     }
     const listButton = event.target.closest("[data-delete-list]");

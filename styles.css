@@ -316,6 +316,9 @@ kbd { margin-left: 5px; padding: 2px 4px; color: inherit; border: 1px solid curr
 .manager-list-row button:hover { color: var(--cream); background: var(--navy); }
 .manager-list-row button[data-delete-list] { background: var(--coral); }
 .manager-row-actions { display: flex; flex: 0 0 auto; align-items: center; gap: 8px; }
+.manager-row .manager-order-button { min-width: 32px; padding: 8px 7px; color: var(--navy); background: var(--sky); font-size: 12px; line-height: 1; }
+.manager-row .manager-order-button:hover:not(:disabled) { color: var(--cream); background: var(--navy); }
+.manager-row .manager-order-button:disabled { cursor: default; opacity: .35; }
 .manager-lists-empty { padding: 20px 16px; color: var(--muted); border: 2px dashed rgba(23,59,120,.28); border-radius: 12px; font-size: 11px; text-align: center; }
 
 @media (prefers-reduced-motion:reduce) { .flash-card-inner,.loading-orbit,.loading-orbit i,.view { animation: none; transition-duration: .01ms; } }
