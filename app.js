@@ -543,7 +543,9 @@ function renderWordChips() {
 }
 
 function highlightStory(story, vocabulary) {
-  const forms = vocabulary.map((entry) => entry.used_form || entry.lemma || entry.input_word).filter(Boolean);
+  // 按长度从长到短匹配，否则 "in addition" 会被更短的 "addition" 抢先切碎。
+  const forms = [...new Set(vocabulary.map((entry) => entry.used_form || entry.lemma || entry.input_word).filter(Boolean))]
+    .sort((a, b) => b.length - a.length);
   if (!forms.length) return escapeHtml(story);
   const matcher = new RegExp(`(${forms.map((word) => word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`, "giu");
   return story

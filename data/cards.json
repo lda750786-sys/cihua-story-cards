@@ -838,5 +838,425 @@
         "story_sentence": "Her belief in small, careful work grew stronger."
       }
     ]
+  },
+  {
+    "id": "3c580016-a8c5-40fa-9736-1df921e1838b",
+    "language_code": "en",
+    "title": "The Science Fair",
+    "title_zh": "科学展",
+    "story_text": "Leo was not happy. His class had to join the science fair, and the noise from the next table began to annoy him.\n\nThe rules were confusing. There were twelve pages, and after page one Leo felt confused. The long sentences only seemed to confuse him more, so he put the paper down. He read the page again, but the words did not help.\n\nThen a girl from Class Two turned on a small machine. Water began to climb up a glass tube by itself.\n\n\"That is amazing,\" Leo said. He was annoyed with himself for saying it, but he could not look away.",
+    "translation_zh": "利奥不太高兴。他们班必须参加科学展，而旁边桌子传来的噪音开始让他心烦。\n\n规则很难懂。一共有十二页，看完第一页利奥就糊涂了。那些长句子只让他更糊涂，于是他把纸放下了。他又读了一遍，但那些字还是没帮上忙。\n\n这时，二班的一个女生启动了一台小机器。水自己顺着玻璃管往上爬。\n\n「这太神奇了，」利奥说。他为自己说出这句话而生气，但他没法把目光移开。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a bored teenage boy sitting at a school table covered with papers, looking up at a girl switching on a small glass machine with rising water, morning classroom light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-16T06:41:43.627258+00:00",
+    "list_id": "8fdc16a5-06be-4699-ab47-8f9ec86bfee0",
+    "position": 1,
+    "word_count": 104,
+    "vocabulary": [
+      {
+        "input_word": "annoy",
+        "lemma": "annoy",
+        "used_form": "annoy",
+        "pronunciation": "/əˈnɔɪ/",
+        "part_of_speech": "v.",
+        "grammar_note": "使恼怒、打扰；主语多是让人烦的事，如 The noise annoyed me。",
+        "meaning_zh": "使恼怒；打扰",
+        "translation_phrase_zh": "心烦",
+        "story_sentence": "His class had to join the science fair, and the noise from the next table began to annoy him."
+      },
+      {
+        "input_word": "annoyed",
+        "lemma": "annoyed",
+        "used_form": "annoyed",
+        "pronunciation": "/əˈnɔɪd/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容人“生气、恼火”；be annoyed with somebody 表示“生某人的气”。",
+        "meaning_zh": "恼怒的；生气的",
+        "translation_phrase_zh": "生气",
+        "story_sentence": "He was annoyed with himself for saying it, but he could not look away."
+      },
+      {
+        "input_word": "confuse",
+        "lemma": "confuse",
+        "used_form": "confuse",
+        "pronunciation": "/kənˈfjuːz/",
+        "part_of_speech": "vt.",
+        "grammar_note": "“使糊涂、使迷惑”，宾语通常是人；不要写成 be confuse。",
+        "meaning_zh": "使糊涂；使迷惑",
+        "translation_phrase_zh": "更糊涂",
+        "story_sentence": "The long sentences only seemed to confuse him more, so he put the paper down."
+      },
+      {
+        "input_word": "confusing",
+        "lemma": "confusing",
+        "used_form": "confusing",
+        "pronunciation": "/kənˈfjuːzɪŋ/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容事物“让人看不懂”；人感到糊涂用 confused。",
+        "meaning_zh": "难以理解的；不清楚的",
+        "translation_phrase_zh": "难懂",
+        "story_sentence": "The rules were confusing."
+      },
+      {
+        "input_word": "confused",
+        "lemma": "confused",
+        "used_form": "confused",
+        "pronunciation": "/kənˈfjuːzd/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容人“糊涂、迷惑”；常用 be/feel confused about something。",
+        "meaning_zh": "糊涂的；迷惑的",
+        "translation_phrase_zh": "糊涂了",
+        "story_sentence": "There were twelve pages, and after page one Leo felt confused."
+      },
+      {
+        "input_word": "amazing",
+        "lemma": "amazing",
+        "used_form": "amazing",
+        "pronunciation": "/əˈmeɪzɪŋ/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容事物“令人惊奇”；人感到惊奇用 amazed。",
+        "meaning_zh": "令人惊奇的；令人惊喜的",
+        "translation_phrase_zh": "神奇",
+        "story_sentence": "\"That is amazing,\" Leo said."
+      }
+    ]
+  },
+  {
+    "id": "cb2cc8b9-7297-467a-a03d-b5a6b82b8328",
+    "language_code": "en",
+    "title": "A Fascinating Machine",
+    "title_zh": "一台迷人的机器",
+    "story_text": "At lunch, Leo went back to the machine. The girl was still there. Her name was Nina.\n\n\"It is only water and salt,\" she said. \"But look.\"\n\nThe water climbed again. Leo was amazed. He did not understand it, but the little machine was fascinating to him.\n\nNina showed him a magnet. It could attract paper clips through a page. Leo was attracted to the quiet way she worked, and soon he was absorbed in the little machine too.\n\nThat evening he read about salt water for two hours. His mother laughed. \"You are a science addict now,\" she said.",
+    "translation_zh": "午饭时，利奥又回到那台机器旁。那个女生还在。她叫妮娜。\n\n「这只是水和盐，」她说，「但你看看。」\n\n水又爬上去了。利奥很惊奇。他并不明白，但这台小机器对他来说很迷人。\n\n妮娜给他看了一块磁铁。它能隔着纸把回形针吸过来。利奥被她安静做事的样子吸引住了，很快他也沉浸在那台小机器里。\n\n那天晚上，他读了两个小时关于盐水的书。妈妈笑了。「你现在是个科学迷了，」她说。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: two teenagers at a school table watching water climb a glass tube, a magnet and paper clips beside them, bright lunchtime light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-16T06:41:44.017907+00:00",
+    "list_id": "8fdc16a5-06be-4699-ab47-8f9ec86bfee0",
+    "position": 2,
+    "word_count": 100,
+    "vocabulary": [
+      {
+        "input_word": "amazed",
+        "lemma": "amazed",
+        "used_form": "amazed",
+        "pronunciation": "/əˈmeɪzd/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容人“感到惊奇”；be amazed at/by something 表示“对……感到惊奇”。",
+        "meaning_zh": "惊奇的；惊喜的",
+        "translation_phrase_zh": "惊奇",
+        "story_sentence": "Leo was amazed."
+      },
+      {
+        "input_word": "attract",
+        "lemma": "attract",
+        "used_form": "attract",
+        "pronunciation": "/əˈtrækt/",
+        "part_of_speech": "vt.",
+        "grammar_note": "本义“吸引（物体）”，也指“引起兴趣、注意”。",
+        "meaning_zh": "吸引；引起……的注意（或兴趣）",
+        "translation_phrase_zh": "吸过来",
+        "story_sentence": "It could attract paper clips through a page."
+      },
+      {
+        "input_word": "be attracted to",
+        "lemma": "be attracted to",
+        "used_form": "was attracted to",
+        "pronunciation": "/bi əˈtræktɪd tuː/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“被……吸引、喜爱”，to 后面接人或物。",
+        "meaning_zh": "喜爱；被……吸引",
+        "translation_phrase_zh": "吸引住",
+        "story_sentence": "Leo was attracted to the quiet way she worked, and soon he was absorbed in the little machine too."
+      },
+      {
+        "input_word": "fascinating",
+        "lemma": "fascinating",
+        "used_form": "fascinating",
+        "pronunciation": "/ˈfæsɪneɪtɪŋ/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容事物“极有吸引力”；人“着迷”用 fascinated。",
+        "meaning_zh": "极有吸引力的；迷人的",
+        "translation_phrase_zh": "迷人",
+        "story_sentence": "He did not understand it, but the little machine was fascinating to him."
+      },
+      {
+        "input_word": "be absorbed in",
+        "lemma": "be absorbed in",
+        "used_form": "was absorbed in",
+        "pronunciation": "/bi əbˈzɔːbd ɪn/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“专心致志于某事”，in 后面接名词或动名词。",
+        "meaning_zh": "专心致志于某事／某人",
+        "translation_phrase_zh": "沉浸",
+        "story_sentence": "Leo was attracted to the quiet way she worked, and soon he was absorbed in the little machine too."
+      },
+      {
+        "input_word": "addict",
+        "lemma": "addict",
+        "used_form": "addict",
+        "pronunciation": "/ˈædɪkt/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“对……入迷的人”，如 a science addict（科学迷）；也可指吸毒成瘾的人。",
+        "meaning_zh": "对……入迷的人；吸毒成瘾的人",
+        "translation_phrase_zh": "科学迷",
+        "story_sentence": "\"You are a science addict now,\" she said."
+      }
+    ]
+  },
+  {
+    "id": "7d1955fa-0010-4c55-8a36-a7326aa9a558",
+    "language_code": "en",
+    "title": "The Dark Science Room",
+    "title_zh": "黑暗的科学室",
+    "story_text": "Two weeks later, Leo and Nina had a real experiment. They had to test their machine in the old science room at the back of the school.\n\nThe entrance was small, and the exit door was locked. Only one window gave light.\n\nHalfway through the test, the machine made a loud noise and the room went dark. Leo was frightened. His hands were shaking.\n\n\"Do not move,\" Nina said quietly. She found the switch and the light came back.\n\nLeo laughed at himself, but Nina did not. \"You are addicted,\" she said.\n\nLeo did not say no. He was addicted to the feeling of finding an answer.",
+    "translation_zh": "两周后，利奥和妮娜有了一个真正的实验。他们要在学校后面那间旧科学室里测试他们的机器。\n\n入口很小，出口的门是锁着的。只有一扇窗透进光来。\n\n测试到一半，机器发出很大的响声，房间一下黑了。利奥吓坏了，双手在发抖。\n\n「别动，」妮娜轻声说。她找到了开关，灯又亮了。\n\n利奥笑自己，但妮娜没有笑。「你上瘾了，」她说。\n\n利奥没有否认。他沉醉于找到答案的那种感觉。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: two teenagers in a dark old school science room, one small window, a machine on the table and a hand reaching for the light switch, dramatic but warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-16T06:41:44.386951+00:00",
+    "list_id": "8fdc16a5-06be-4699-ab47-8f9ec86bfee0",
+    "position": 3,
+    "word_count": 107,
+    "vocabulary": [
+      {
+        "input_word": "frightened",
+        "lemma": "frightened",
+        "used_form": "frightened",
+        "pronunciation": "/ˈfraɪtnd/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容人“害怕”；be frightened of something 表示“害怕某物”。",
+        "meaning_zh": "惊吓的；害怕的",
+        "translation_phrase_zh": "吓坏了",
+        "story_sentence": "Leo was frightened."
+      },
+      {
+        "input_word": "experiment",
+        "lemma": "experiment",
+        "used_form": "experiment",
+        "pronunciation": "/ɪkˈsperɪmənt/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“实验、试验”；do an experiment 比 make an experiment 常用。",
+        "meaning_zh": "实验；试验",
+        "translation_phrase_zh": "实验",
+        "story_sentence": "Two weeks later, Leo and Nina had a real experiment."
+      },
+      {
+        "input_word": "entrance",
+        "lemma": "entrance",
+        "used_form": "entrance",
+        "pronunciation": "/ˈentrəns/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“入口”，与 exit（出口）相对；the entrance to the hall 表示“大厅的入口”。",
+        "meaning_zh": "入口；进入",
+        "translation_phrase_zh": "入口",
+        "story_sentence": "The entrance was small, and the exit door was locked."
+      },
+      {
+        "input_word": "exit",
+        "lemma": "exit",
+        "used_form": "exit",
+        "pronunciation": "/ˈeksɪt/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“出口、通道”；也可作动词，表示“出去、离去”。",
+        "meaning_zh": "出口；通道",
+        "translation_phrase_zh": "出口",
+        "story_sentence": "The entrance was small, and the exit door was locked."
+      },
+      {
+        "input_word": "addicted",
+        "lemma": "addicted",
+        "used_form": "addicted",
+        "pronunciation": "/əˈdɪktɪd/",
+        "part_of_speech": "adj.",
+        "grammar_note": "形容“上了瘾、入了迷”，多用在 be/become addicted 之后。",
+        "meaning_zh": "有瘾的；上瘾的；入迷的",
+        "translation_phrase_zh": "上瘾",
+        "story_sentence": "\"You are addicted,\" she said."
+      },
+      {
+        "input_word": "be addicted to",
+        "lemma": "be addicted to",
+        "used_form": "was addicted to",
+        "pronunciation": "/bi əˈdɪktɪd tuː/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“对……很入迷、对……上瘾”，to 是介词，后面接名词或动名词。",
+        "meaning_zh": "对……很入迷",
+        "translation_phrase_zh": "沉醉",
+        "story_sentence": "He was addicted to the feeling of finding an answer."
+      }
+    ]
+  },
+  {
+    "id": "5f343fb3-4de7-4b56-8c9b-8809368509f8",
+    "language_code": "en",
+    "title": "One Page of Notes",
+    "title_zh": "一页笔记",
+    "story_text": "On Friday, the teacher asked them to write about their work. Leo found this harder than the machine.\n\n\"Start with the parts,\" Nina said.\n\nSo Leo wrote: a bottle, salt, a paper tube, and a small lamp. Salt was the most important addition. In addition, they needed warm water. They used a magnet as well as a battery to move the water faster.\n\nMoreover, the tube had to be clean. Salt water climbs up the paper, and thus the colour rises with it. The paper must never be wet, therefore they waited ten minutes before they started.\n\nIt was only one page. But the teacher read it twice.",
+    "translation_zh": "周五，老师让他们写一写自己的作品。利奥觉得这比机器还难。\n\n「从零件写起，」妮娜说。\n\n于是利奥写道：一个瓶子、盐、一个纸筒和一盏小灯。盐是最重要的添加物。除此之外，他们还需要温水。他们用一块磁铁以及一块电池，让水移动得更快。\n\n而且，纸筒必须干净。盐水顺着纸往上爬，因此颜色也跟着上升。纸绝不能湿，所以他们在开始前等了十分钟。\n\n这只有一页。但老师读了两遍。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage boy writing one page of notes at a desk with a bottle, salt, a paper tube and a small lamp in front of him, evening desk lamp light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-16T06:41:44.766152+00:00",
+    "list_id": "8fdc16a5-06be-4699-ab47-8f9ec86bfee0",
+    "position": 4,
+    "word_count": 108,
+    "vocabulary": [
+      {
+        "input_word": "addition",
+        "lemma": "addition",
+        "used_form": "addition",
+        "pronunciation": "/əˈdɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“添加、增加物”；in addition 表示“另外、除此之外”。",
+        "meaning_zh": "添加；加法；增加物",
+        "translation_phrase_zh": "添加物",
+        "story_sentence": "Salt was the most important addition."
+      },
+      {
+        "input_word": "in addition",
+        "lemma": "in addition",
+        "used_form": "In addition",
+        "pronunciation": "/ɪn əˈdɪʃn/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“除此之外、另外”，常放在句首，后面接新信息。",
+        "meaning_zh": "除……以外（还）",
+        "translation_phrase_zh": "除此之外",
+        "story_sentence": "In addition, they needed warm water."
+      },
+      {
+        "input_word": "as well as",
+        "lemma": "as well as",
+        "used_form": "as well as",
+        "pronunciation": "/əz wel əz/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“和、还”，连接并列成分；A as well as B 强调的重点是 A。",
+        "meaning_zh": "同（一样也）；和；还",
+        "translation_phrase_zh": "以及",
+        "story_sentence": "They used a magnet as well as a battery to move the water faster."
+      },
+      {
+        "input_word": "moreover",
+        "lemma": "moreover",
+        "used_form": "Moreover",
+        "pronunciation": "/mɔːrˈəʊvə(r)/",
+        "part_of_speech": "adv.",
+        "grammar_note": "表示“而且、此外”，用于补充更有力的理由，多放句首并加逗号。",
+        "meaning_zh": "而且；此外",
+        "translation_phrase_zh": "而且",
+        "story_sentence": "Moreover, the tube had to be clean."
+      },
+      {
+        "input_word": "thus",
+        "lemma": "thus",
+        "used_form": "thus",
+        "pronunciation": "/ðʌs/",
+        "part_of_speech": "adv.",
+        "grammar_note": "表示“如此、因此”，书面色彩较重，多放在句中或句首。",
+        "meaning_zh": "如此；因此",
+        "translation_phrase_zh": "因此",
+        "story_sentence": "Salt water climbs up the paper, and thus the colour rises with it."
+      },
+      {
+        "input_word": "therefore",
+        "lemma": "therefore",
+        "used_form": "therefore",
+        "pronunciation": "/ˈðeəfɔː(r)/",
+        "part_of_speech": "adv.",
+        "grammar_note": "表示“因此、所以”，用在结论前面，比 so 正式。",
+        "meaning_zh": "因此；所以",
+        "translation_phrase_zh": "所以",
+        "story_sentence": "The paper must never be wet, therefore they waited ten minutes before they started."
+      }
+    ]
+  },
+  {
+    "id": "016ec162-2342-4cf0-982d-82fbb52b777c",
+    "language_code": "en",
+    "title": "The Day of the Fair",
+    "title_zh": "科学展那天",
+    "story_text": "On the day of the fair, Leo stood behind their table and waited.\n\n\"What on earth will they ask us?\" he said.\n\n\"Anything,\" Nina said.\n\nThe first question was about salt. Leo took a breath and explained it. He did not need any external help, and this time his inner voice was calm.\n\nAt last three teachers came to their table. They asked questions and wrote for a long time.\n\n\"We may not win,\" Nina said.\n\n\"After all, we are only two students,\" Leo said. \"But we must keep our notes, otherwise we will forget how we did it.\"\n\nNina smiled. \"Last month you did not like science,\" she said.",
+    "translation_zh": "科学展那天，利奥站在他们的桌子后面等着。\n\n「他们究竟会问我们什么？」他说。\n\n「什么都有可能，」妮娜说。\n\n第一个问题是关于盐的。利奥吸了口气，把它解释了一遍。他不需要任何外来的帮助，这一次他内心的声音很平静。\n\n三位老师终于来到他们的桌前。他们问了几个问题，写了很久。\n\n「我们可能赢不了，」妮娜说。\n\n「毕竟我们只是两个学生，」利奥说，「但我们必须留下笔记，否则我们会忘记自己是怎么做的。」\n\n妮娜笑了。「上个月你还不喜欢科学呢，」她说。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage boy explaining his machine to three teachers at a school science fair table, his classmate standing beside him, bright hall light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-16T06:41:45.057284+00:00",
+    "list_id": "8fdc16a5-06be-4699-ab47-8f9ec86bfee0",
+    "position": 5,
+    "word_count": 110,
+    "vocabulary": [
+      {
+        "input_word": "at last",
+        "lemma": "at last",
+        "used_form": "At last",
+        "pronunciation": "/ət lɑːst/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“终于、最终”，强调等待之后的结果，多放句首。",
+        "meaning_zh": "终于；最终",
+        "translation_phrase_zh": "终于",
+        "story_sentence": "At last three teachers came to their table."
+      },
+      {
+        "input_word": "on earth",
+        "lemma": "on earth",
+        "used_form": "on earth",
+        "pronunciation": "/ɒn ɜːθ/",
+        "part_of_speech": "phrase",
+        "grammar_note": "放在疑问词后面加强语气，表示“究竟、到底”，如 What on earth...?",
+        "meaning_zh": "（放在疑问词之后表示强调）究竟；到底",
+        "translation_phrase_zh": "究竟",
+        "story_sentence": "\"What on earth will they ask us?\" he said."
+      },
+      {
+        "input_word": "after all",
+        "lemma": "after all",
+        "used_form": "After all",
+        "pronunciation": "/ˈɑːftə ɔːl/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“毕竟、终究”，用来给出理由或说明事情本该如此。",
+        "meaning_zh": "毕竟",
+        "translation_phrase_zh": "毕竟",
+        "story_sentence": "\"After all, we are only two students,\" Leo said."
+      },
+      {
+        "input_word": "otherwise",
+        "lemma": "otherwise",
+        "used_form": "otherwise",
+        "pronunciation": "/ˈʌðəwaɪz/",
+        "part_of_speech": "adv.",
+        "grammar_note": "表示“否则、要不然”，连接两种结果，如 Hurry up, otherwise we will be late.",
+        "meaning_zh": "否则；要不然",
+        "translation_phrase_zh": "否则",
+        "story_sentence": "But we must keep our notes, otherwise we will forget how we did it."
+      },
+      {
+        "input_word": "external",
+        "lemma": "external",
+        "used_form": "external",
+        "pronunciation": "/ɪkˈstɜːnl/",
+        "part_of_speech": "adj.",
+        "grammar_note": "指“外部的、外来的”，与 inner（内部的）相对。",
+        "meaning_zh": "外部的；外面的；外来的",
+        "translation_phrase_zh": "外来",
+        "story_sentence": "He did not need any external help, and this time his inner voice was calm."
+      },
+      {
+        "input_word": "inner",
+        "lemma": "inner",
+        "used_form": "inner",
+        "pronunciation": "/ˈɪnə(r)/",
+        "part_of_speech": "adj.",
+        "grammar_note": "指“内部的、内心的”，只放在名词前，如 inner voice（内心的声音）。",
+        "meaning_zh": "内部的；里面的；内心的",
+        "translation_phrase_zh": "内心",
+        "story_sentence": "He did not need any external help, and this time his inner voice was calm."
+      }
+    ]
   }
 ]
