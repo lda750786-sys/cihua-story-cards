@@ -1258,5 +1258,425 @@
         "story_sentence": "He did not need any external help, and this time his inner voice was calm."
       }
     ]
+  },
+  {
+    "id": "a60eddd9-390d-4b82-9f0f-a1fd792456d8",
+    "language_code": "en",
+    "title": "The New Flat",
+    "title_zh": "新单元房",
+    "story_text": "Last summer, Leo's family moved to a new apartment near his school. His father had to rent it for a year.\n\nThe flat was small but clean. It had two rooms, a kitchen and a bathroom. Apart from the noise from the street, Leo liked it.\n\nHis mother made all the arrangements. She put a desk by the window for him.\n\nOn the first night, Leo heard a strange movement in the wall. He sat up and listened. Then he heard a small sound again, and he smiled. It was only the old pipes.\n\nThe desk looked like a good place to study.",
+    "translation_zh": "去年夏天，利奥一家搬进了学校附近的一间新公寓。爸爸得把它租一年。\n\n这套单元房不大，但很干净。有两间房、一个厨房和一间浴室。除了街上的噪音，利奥挺喜欢这里的。\n\n所有安排都是妈妈做的。她把一张书桌放在窗边，给他用。\n\n第一天晚上，利奥听见墙里有一种奇怪的动静。他坐起来听。接着又听见一声轻响，他笑了。那只是旧水管在响。\n\n那张书桌看起来是个学习的好地方。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage boy standing in a small new flat with two rooms, a desk by the window, boxes on the floor, soft evening light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-22T02:10:02.122014+00:00",
+    "list_id": "5dfa6a4c-9954-41fe-946f-652775a67051",
+    "position": 1,
+    "word_count": 103,
+    "vocabulary": [
+      {
+        "input_word": "apartment",
+        "lemma": "apartment",
+        "used_form": "apartment",
+        "pronunciation": "/əˈpɑːtmənt/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“公寓套房”，美式常用；英式多说 flat。",
+        "meaning_zh": "公寓套房",
+        "translation_phrase_zh": "新公寓",
+        "story_sentence": "Last summer, Leo's family moved to a new apartment near his school."
+      },
+      {
+        "input_word": "rent",
+        "lemma": "rent",
+        "used_form": "rent",
+        "pronunciation": "/rent/",
+        "part_of_speech": "vt. & vi. & n.",
+        "grammar_note": "作动词“租用、出租”，作名词“租金”；rent something for a year 表示“租一年”。",
+        "meaning_zh": "租用；出租；租金",
+        "translation_phrase_zh": "租",
+        "story_sentence": "His father had to rent it for a year."
+      },
+      {
+        "input_word": "flat",
+        "lemma": "flat",
+        "used_form": "flat",
+        "pronunciation": "/flæt/",
+        "part_of_speech": "n. & adj.",
+        "grammar_note": "作名词指“公寓、单元房”（英式）；作形容词指“平坦的、扁平的”。",
+        "meaning_zh": "公寓；单元房；平坦的",
+        "translation_phrase_zh": "单元房",
+        "story_sentence": "The flat was small but clean."
+      },
+      {
+        "input_word": "apart from",
+        "lemma": "apart from",
+        "used_form": "Apart from",
+        "pronunciation": "/əˈpɑːt frəm/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“除了……以外”，后面可接名词或动名词。",
+        "meaning_zh": "除了……外；此外",
+        "translation_phrase_zh": "除了",
+        "story_sentence": "Apart from the noise from the street, Leo liked it."
+      },
+      {
+        "input_word": "movement",
+        "lemma": "movement",
+        "used_form": "movement",
+        "pronunciation": "/ˈmuːvmənt/",
+        "part_of_speech": "n.",
+        "grammar_note": "由 move + -ment 构成，指“动作、活动、运动”。",
+        "meaning_zh": "动作；运动；活动",
+        "translation_phrase_zh": "动静",
+        "story_sentence": "On the first night, Leo heard a strange movement in the wall."
+      },
+      {
+        "input_word": "arrangement",
+        "lemma": "arrangement",
+        "used_form": "arrangements",
+        "pronunciation": "/əˈreɪndʒmənt/",
+        "part_of_speech": "n.",
+        "grammar_note": "由 arrange + -ment 构成，指“安排、筹备”，常用复数 make arrangements。",
+        "meaning_zh": "安排；筹备",
+        "translation_phrase_zh": "安排",
+        "story_sentence": "His mother made all the arrangements."
+      }
+    ]
+  },
+  {
+    "id": "f1dc7b35-a0c1-4423-8092-ded3658031e1",
+    "language_code": "en",
+    "title": "When Things Fall Apart",
+    "title_zh": "东西坏掉的时候",
+    "story_text": "One month later, the old flat began to fall apart. A pipe broke, and water ran down the wall.\n\nLeo's father called the building department. A man came and looked at the wall. He said the pipes were too old and would come apart in the winter.\n\n\"We need permission to fix them,\" the man said. \"The owner must permit the work.\"\n\nThat evening the family talked about it. Leo's mother made a comment that everyone laughed at: \"At least the water is free.\"\n\nLeo did not laugh. He put a glass under the water and went to bed.",
+    "translation_zh": "一个月后，这套旧单元房开始散架了。一根水管破了，水顺着墙流下来。\n\n利奥的爸爸给楼房管理部打了电话。一个人来看墙。他说管子太旧了，冬天会裂开。\n\n「我们需要许可才能修，」那个人说，「业主必须允许这项维修。」\n\n那天晚上，一家人讨论这件事。利奥的妈妈说了一句让大家都笑了的评论：「至少水是免费的。」\n\n利奥没笑。他拿了个杯子放在漏水下面，就去睡了。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: water running down the wall of a small old flat, a man in work clothes looking at the broken pipe, a teenager holding a glass underneath, warm indoor light, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-22T02:10:02.482749+00:00",
+    "list_id": "5dfa6a4c-9954-41fe-946f-652775a67051",
+    "position": 2,
+    "word_count": 99,
+    "vocabulary": [
+      {
+        "input_word": "fall apart",
+        "lemma": "fall apart",
+        "used_form": "fall apart",
+        "pronunciation": "/fɔːl əˈpɑːt/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“破裂、破碎、崩溃”，既可指东西，也可指关系或计划。",
+        "meaning_zh": "破裂；破碎；崩溃",
+        "translation_phrase_zh": "散架",
+        "story_sentence": "One month later, the old flat began to fall apart."
+      },
+      {
+        "input_word": "apart",
+        "lemma": "apart",
+        "used_form": "apart",
+        "pronunciation": "/əˈpɑːt/",
+        "part_of_speech": "adv.",
+        "grammar_note": "表示“分开、成碎片”，常用 come apart（散开）、live apart（分开住）。",
+        "meaning_zh": "分离；分开；成碎片",
+        "translation_phrase_zh": "裂开",
+        "story_sentence": "He said the pipes were too old and would come apart in the winter."
+      },
+      {
+        "input_word": "comment",
+        "lemma": "comment",
+        "used_form": "comment",
+        "pronunciation": "/ˈkɒment/",
+        "part_of_speech": "n. & v.",
+        "grammar_note": "作名词“评论、议论”，作动词“发表意见”，常用 comment on something。",
+        "meaning_zh": "议论；评论；发表意见",
+        "translation_phrase_zh": "评论",
+        "story_sentence": "Leo's mother made a comment that everyone laughed at: \"At least the water is free.\""
+      },
+      {
+        "input_word": "department",
+        "lemma": "department",
+        "used_form": "department",
+        "pronunciation": "/dɪˈpɑːtmənt/",
+        "part_of_speech": "n.",
+        "grammar_note": "指机构里的“部、司、科”，也可指商店的“部门”。",
+        "meaning_zh": "部；司；科",
+        "translation_phrase_zh": "管理部",
+        "story_sentence": "Leo's father called the building department."
+      },
+      {
+        "input_word": "permit",
+        "lemma": "permit",
+        "used_form": "permit",
+        "pronunciation": "/pəˈmɪt/",
+        "part_of_speech": "vt. & vi.",
+        "grammar_note": "表示“允许、准许”，permit somebody to do something；作名词时读 /ˈpɜːmɪt/，指许可证。",
+        "meaning_zh": "允许；准许；使有可能",
+        "translation_phrase_zh": "允许",
+        "story_sentence": "\"The owner must permit the work.\""
+      },
+      {
+        "input_word": "permission",
+        "lemma": "permission",
+        "used_form": "permission",
+        "pronunciation": "/pəˈmɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "不可数名词，指“准许、许可”；ask for permission 表示“请求许可”。",
+        "meaning_zh": "准许；许可；批准；许可证",
+        "translation_phrase_zh": "许可",
+        "story_sentence": "\"We need permission to fix them,\" the man said."
+      }
+    ]
+  },
+  {
+    "id": "5c8d5b4f-8d68-4c12-b10d-6f44c156e9a8",
+    "language_code": "en",
+    "title": "Sixty Yuan",
+    "title_zh": "六十块钱",
+    "story_text": "Fixing the pipes cost a lot of money, so Leo wanted to earn some himself.\n\nHe started with small jobs at home. Every morning he cleaned the living room and washed the cups, and his mother paid him two yuan. Altogether, he made sixty yuan in the first month.\n\nHis friend Ben laughed. \"You cannot earn a living with that,\" he said.\n\n\"I bet I can,\" Leo said. \"In one year I will save enough for a new desk. Let us make a bet.\"\n\n\"Fine,\" Ben said. \"But it is a silly bet.\"\n\nLeo smiled. He had never worked for anything before.",
+    "translation_zh": "修管道花了很多钱，所以利奥想自己挣一点。\n\n他从家里的小活干起。每天早上他打扫起居室、洗杯子，妈妈给他两块钱。总共，他第一个月挣了六十块。\n\n他的朋友本笑了。「靠这个你可没法谋生，」他说。\n\n「我敢说我可以，」利奥说，「一年之内我能攒够钱买一张新书桌。我们打个赌吧。」\n\n「行，」本说，「不过这赌打得真傻。」\n\n利奥笑了。他以前从没为任何东西努力过。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage boy cleaning a small living room with a cup in his hand, a coin jar on the shelf, his friend laughing by the door, morning light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-22T02:10:02.728663+00:00",
+    "list_id": "5dfa6a4c-9954-41fe-946f-652775a67051",
+    "position": 3,
+    "word_count": 102,
+    "vocabulary": [
+      {
+        "input_word": "earn",
+        "lemma": "earn",
+        "used_form": "earn",
+        "pronunciation": "/ɜːn/",
+        "part_of_speech": "vt. & vi.",
+        "grammar_note": "指“挣得、赚得”，也可指“赢得、博得”（如 earn respect）。",
+        "meaning_zh": "挣得；赚得；赢得；博得",
+        "translation_phrase_zh": "挣",
+        "story_sentence": "Fixing the pipes cost a lot of money, so Leo wanted to earn some himself."
+      },
+      {
+        "input_word": "living",
+        "lemma": "living",
+        "used_form": "living",
+        "pronunciation": "/ˈlɪvɪŋ/",
+        "part_of_speech": "adj. & n.",
+        "grammar_note": "作形容词指“居住的、活的”，如 living room（起居室）；作名词指“生计”。",
+        "meaning_zh": "居住的；活的；生活；生计",
+        "translation_phrase_zh": "起居室",
+        "story_sentence": "Every morning he cleaned the living room and washed the cups, and his mother paid him two yuan."
+      },
+      {
+        "input_word": "earn a living",
+        "lemma": "earn a living",
+        "used_form": "earn a living",
+        "pronunciation": "/ɜːn ə ˈlɪvɪŋ/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“谋生”，也可说 make a living。",
+        "meaning_zh": "谋生",
+        "translation_phrase_zh": "谋生",
+        "story_sentence": "\"You cannot earn a living with that,\" he said."
+      },
+      {
+        "input_word": "bet",
+        "lemma": "bet",
+        "used_form": "bet",
+        "pronunciation": "/bet/",
+        "part_of_speech": "n. & v.",
+        "grammar_note": "作动词“下赌注、敢说”，I bet... 表示“我敢说……”；作名词“打赌、赌注”。",
+        "meaning_zh": "打赌；赌注；敢说",
+        "translation_phrase_zh": "敢说",
+        "story_sentence": "\"I bet I can,\" Leo said."
+      },
+      {
+        "input_word": "make a bet",
+        "lemma": "make a bet",
+        "used_form": "make a bet",
+        "pronunciation": "/meɪk ə bet/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“打个赌”，常用 make a bet with somebody。",
+        "meaning_zh": "打个赌",
+        "translation_phrase_zh": "打个赌",
+        "story_sentence": "\"In one year I will save enough for a new desk. Let us make a bet.\""
+      },
+      {
+        "input_word": "altogether",
+        "lemma": "altogether",
+        "used_form": "Altogether",
+        "pronunciation": "/ˌɔːltəˈɡeðə(r)/",
+        "part_of_speech": "adv.",
+        "grammar_note": "表示“全部、总共”，多用来汇总数字。",
+        "meaning_zh": "全部；总共",
+        "translation_phrase_zh": "总共",
+        "story_sentence": "Altogether, he made sixty yuan in the first month."
+      }
+    ]
+  },
+  {
+    "id": "29f50b51-a3a8-43f3-aedf-eebc97089217",
+    "language_code": "en",
+    "title": "A Bad First Day",
+    "title_zh": "糟糕的第一天",
+    "story_text": "In September, Leo started senior high school. The building was big, and he felt small.\n\nOn the first day, a senior student showed him around. Her name was Chen. She talked fast and knew every room.\n\nLeo wanted to impress her. He asked good questions, but somehow asked them at the wrong time. Once he spoke while she was drinking water, and she laughed.\n\n\"Do not worry,\" she said. \"I made a bad impression on my first day too.\"\n\n\"Did you?\" Leo asked.\n\n\"No,\" she said. \"But now you feel better.\"\n\nBut Leo did make an impression. A week later, Chen asked him to join the school radio club.",
+    "translation_zh": "九月，利奥升入了高中。这栋楼很大，他觉得自己很小。\n\n开学第一天，一位高年级学生带他参观。她叫陈。她说话很快，每一间屋子都认识。\n\n利奥很想给她留下好印象。他问了一些好问题，但不知怎么的，全问错了时候。有一次她正在喝水，他开口说话，她笑了。\n\n「别担心，」她说，「我第一天也留下了坏印象。」\n\n「真的吗？」利奥问。\n\n「假的，」她说，「不过你现在心情好点了。」\n\n但利奥确实留下了印象。一周后，陈邀请他加入学校的广播社。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a small new student walking with a confident senior girl through a large school hall, students passing by, warm morning light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-22T02:10:02.947293+00:00",
+    "list_id": "5dfa6a4c-9954-41fe-946f-652775a67051",
+    "position": 4,
+    "word_count": 109,
+    "vocabulary": [
+      {
+        "input_word": "senior high school",
+        "lemma": "senior high school",
+        "used_form": "senior high school",
+        "pronunciation": "/ˈsiːniə haɪ skuːl/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“高中”，美式英语常用；英式多说 secondary school 或 sixth form。",
+        "meaning_zh": "高中",
+        "translation_phrase_zh": "高中",
+        "story_sentence": "In September, Leo started senior high school."
+      },
+      {
+        "input_word": "senior",
+        "lemma": "senior",
+        "used_form": "senior",
+        "pronunciation": "/ˈsiːniə(r)/",
+        "part_of_speech": "adj. & n.",
+        "grammar_note": "作形容词“级别高的、年长的”，作名词指“较年长的人、高年级学生”，与 junior 相对。",
+        "meaning_zh": "级别（或地位）高的；较年长的人",
+        "translation_phrase_zh": "高年级学生",
+        "story_sentence": "On the first day, a senior student showed him around."
+      },
+      {
+        "input_word": "impress",
+        "lemma": "impress",
+        "used_form": "impress",
+        "pronunciation": "/ɪmˈpres/",
+        "part_of_speech": "v.",
+        "grammar_note": "表示“使钦佩、给……留下深刻印象”，常用 impress somebody with something。",
+        "meaning_zh": "使钦佩；给……留下深刻的印象",
+        "translation_phrase_zh": "留下好印象",
+        "story_sentence": "Leo wanted to impress her."
+      },
+      {
+        "input_word": "impression",
+        "lemma": "impression",
+        "used_form": "impression",
+        "pronunciation": "/ɪmˈpreʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“印象、感想”，常用 make an impression on somebody、first impression。",
+        "meaning_zh": "印象；感想",
+        "translation_phrase_zh": "坏印象",
+        "story_sentence": "\"I made a bad impression on my first day too.\""
+      },
+      {
+        "input_word": "make an impression",
+        "lemma": "make an impression",
+        "used_form": "made an impression",
+        "pronunciation": "/meɪk ən ɪmˈpreʃn/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“留下印象”，常与 on somebody 连用。",
+        "meaning_zh": "留下印象",
+        "translation_phrase_zh": "留下了印象",
+        "story_sentence": "But Leo did make an impression."
+      },
+      {
+        "input_word": "somehow",
+        "lemma": "somehow",
+        "used_form": "somehow",
+        "pronunciation": "/ˈsʌmhaʊ/",
+        "part_of_speech": "adv.",
+        "grammar_note": "表示“以某种方式、不知怎么地”，放在句中或句首。",
+        "meaning_zh": "以某种方式（或方法）；不知怎么地",
+        "translation_phrase_zh": "不知怎么的",
+        "story_sentence": "He asked good questions, but somehow asked them at the wrong time."
+      }
+    ]
+  },
+  {
+    "id": "0685913d-83ef-4538-a2d9-f1dd65dc7ad6",
+    "language_code": "en",
+    "title": "Leave Me Alone",
+    "title_zh": "别打扰我",
+    "story_text": "The radio club took all of Leo's time. His marks went down, and his mother was worried.\n\n\"You must focus on your study,\" she said.\n\n\"I know,\" Leo said. \"But the club is fun.\"\n\nHe tried to concentrate at home, but his little sister ran in and out of his room. He could not focus.\n\n\"Leave me alone!\" he shouted one evening. His sister cried, and Leo felt bad.\n\n\"What if you study at the library?\" his mother said. \"There is nobody there.\"\n\nThe next day Leo went to the library. He sat down and concentrated on his books. For the first time in weeks, the pages made sense.",
+    "translation_zh": "广播社占去了利奥所有的时间。他的成绩下降了，妈妈很担心。\n\n「你必须专注在学习上，」她说。\n\n「我知道，」利奥说，「但社团很好玩。」\n\n他在家想集中注意力，可妹妹总在他房间里跑进跑出。他没法专注。\n\n一天晚上他喊：「别打扰我！」妹妹哭了，利奥也觉得不好受。\n\n「要不去图书馆学习？」妈妈说，「那儿没人。」\n\n第二天利奥去了图书馆。他坐下来，专心看他的书。几个星期以来第一次，这些书页看懂了。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage boy studying at a quiet library table with open books, tall shelves behind him, warm lamp light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-22T02:10:03.188258+00:00",
+    "list_id": "5dfa6a4c-9954-41fe-946f-652775a67051",
+    "position": 5,
+    "word_count": 109,
+    "vocabulary": [
+      {
+        "input_word": "focus on",
+        "lemma": "focus on",
+        "used_form": "focus on",
+        "pronunciation": "/ˈfəʊkəs ɒn/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“集中（注意力）于、特别关注”，on 后面接名词或动名词。",
+        "meaning_zh": "集中；特别关注",
+        "translation_phrase_zh": "专注在",
+        "story_sentence": "\"You must focus on your study,\" she said."
+      },
+      {
+        "input_word": "focus",
+        "lemma": "focus",
+        "used_form": "focus",
+        "pronunciation": "/ˈfəʊkəs/",
+        "part_of_speech": "vi. & vt. & n.",
+        "grammar_note": "作动词“集中（精力、注意力）”，作名词“中心、重点、焦点”。",
+        "meaning_zh": "集中（精力、注意力等）；中心；重点；焦点",
+        "translation_phrase_zh": "没法专注",
+        "story_sentence": "He could not focus."
+      },
+      {
+        "input_word": "concentrate",
+        "lemma": "concentrate",
+        "used_form": "concentrate",
+        "pronunciation": "/ˈkɒnsntreɪt/",
+        "part_of_speech": "vi. & vt.",
+        "grammar_note": "表示“集中注意力、聚精会神”，常用 concentrate on something。",
+        "meaning_zh": "集中（注意力）；聚精会神",
+        "translation_phrase_zh": "集中注意力",
+        "story_sentence": "He tried to concentrate at home, but his little sister ran in and out of his room."
+      },
+      {
+        "input_word": "concentrate on",
+        "lemma": "concentrate on",
+        "used_form": "concentrated on",
+        "pronunciation": "/ˈkɒnsntreɪt ɒn/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“集中精力于”，与 focus on 意思相近，可互换。",
+        "meaning_zh": "集中精力于",
+        "translation_phrase_zh": "专心看",
+        "story_sentence": "He sat down and concentrated on his books."
+      },
+      {
+        "input_word": "leave...alone",
+        "lemma": "leave...alone",
+        "used_form": "Leave me alone",
+        "pronunciation": "/liːv ... əˈləʊn/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“不打扰某人、别管某人”，leave somebody alone；中间换成具体的人。",
+        "meaning_zh": "不打扰",
+        "translation_phrase_zh": "别打扰我",
+        "story_sentence": "\"Leave me alone!\" he shouted one evening."
+      },
+      {
+        "input_word": "what if",
+        "lemma": "what if",
+        "used_form": "What if",
+        "pronunciation": "/wɒt ɪf/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“要是……会怎么样呢”，用来提建议或设想结果，后面接句子。",
+        "meaning_zh": "要是……会怎么样呢",
+        "translation_phrase_zh": "要不去",
+        "story_sentence": "\"What if you study at the library?\" his mother said."
+      }
+    ]
   }
 ]

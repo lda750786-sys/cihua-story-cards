@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T06:42:22.534610+00:00",
+  "generated_at": "2026-10-22T02:10:45.586782+00:00",
   "mode": "static-readonly",
   "stats": {
-    "cards": 15,
-    "vocabulary": 90,
-    "unique_words": 90,
-    "lists": 3,
+    "cards": 20,
+    "vocabulary": 120,
+    "unique_words": 120,
+    "lists": 4,
     "ungrouped_cards": 0,
     "by_language": {
-      "en": 15
+      "en": 20
     }
   },
   "upstream": "https://github.com/ericffu/cihua-story-cards",
