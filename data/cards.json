@@ -1678,5 +1678,425 @@
         "story_sentence": "\"What if you study at the library?\" his mother said."
       }
     ]
+  },
+  {
+    "id": "2ad32332-309a-4832-98f8-8fdb6df6a621",
+    "language_code": "en",
+    "title": "Visitors on Campus",
+    "title_zh": "校园里的访客",
+    "story_text": "In May, some students from a junior high school came to visit Leo's campus. They walked around in small groups and asked many questions.\n\nThe campus was green and quiet that morning. Leo's class had to give a formal welcome, and Miss Lin told them to take notes during the visit.\n\n\"Look forward to their questions,\" she said. \"And do not be afraid of them.\"\n\nOne girl asked Leo why he liked this school. He thought for a moment and then said, \"Because everyone looks forward, not back.\"\n\nThe girl wrote it down. Leo felt proud of his answer.",
+    "translation_zh": "五月，一所初级中学的学生来参观利奥的校园。他们分成小组到处走，问了很多问题。\n\n那天早上，校园里很绿，很安静。利奥他们班要做一个正式的欢迎，林老师让他们在参观时记笔记。\n\n「要盼望他们提问，」她说，「别怕他们。」\n\n一个女生问利奥为什么喜欢这所学校。他想了一会儿，然后说：「因为这里的人都在向前看，不往后看。」\n\n那个女生把这句话记了下来。利奥为自己的回答感到自豪。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a group of younger students walking around a green school campus with an older student showing them the way, notebooks in hands, spring morning light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-30T06:22:05.435956+00:00",
+    "list_id": "2383f5aa-a21b-48b2-bb5c-ea327746fb47",
+    "position": 1,
+    "word_count": 99,
+    "vocabulary": [
+      {
+        "input_word": "junior high school",
+        "lemma": "junior high school",
+        "used_form": "junior high school",
+        "pronunciation": "/ˈdʒuːniə haɪ skuːl/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“初级中学、初中”，与 senior high school（高中）相对。",
+        "meaning_zh": "初级中学",
+        "translation_phrase_zh": "初级中学",
+        "story_sentence": "In May, some students from a junior high school came to visit Leo's campus."
+      },
+      {
+        "input_word": "campus",
+        "lemma": "campus",
+        "used_form": "campus",
+        "pronunciation": "/ˈkæmpəs/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“校园、校区”，常用 on campus（在校园里）。",
+        "meaning_zh": "校园；校区",
+        "translation_phrase_zh": "校园",
+        "story_sentence": "In May, some students from a junior high school came to visit Leo's campus."
+      },
+      {
+        "input_word": "formal",
+        "lemma": "formal",
+        "used_form": "formal",
+        "pronunciation": "/ˈfɔːml/",
+        "part_of_speech": "adj.",
+        "grammar_note": "指“正式的、正规的”，与 informal（非正式的）相对。",
+        "meaning_zh": "正式的；正规的",
+        "translation_phrase_zh": "正式的",
+        "story_sentence": "Leo's class had to give a formal welcome, and Miss Lin told them to take notes during the visit."
+      },
+      {
+        "input_word": "take notes",
+        "lemma": "take notes",
+        "used_form": "take notes",
+        "pronunciation": "/teɪk nəʊts/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“记笔记”，note 常用复数；take notes on something 表示“记某事的笔记”。",
+        "meaning_zh": "记笔记",
+        "translation_phrase_zh": "记笔记",
+        "story_sentence": "Leo's class had to give a formal welcome, and Miss Lin told them to take notes during the visit."
+      },
+      {
+        "input_word": "look forward to",
+        "lemma": "look forward to",
+        "used_form": "Look forward to",
+        "pronunciation": "/lʊk ˈfɔːwəd tuː/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“盼望、期待”，to 是介词，后面接名词或动名词。",
+        "meaning_zh": "盼望；期待",
+        "translation_phrase_zh": "盼望",
+        "story_sentence": "\"Look forward to their questions,\" she said."
+      },
+      {
+        "input_word": "forward",
+        "lemma": "forward",
+        "used_form": "forward",
+        "pronunciation": "/ˈfɔːwəd/",
+        "part_of_speech": "adv. & adj.",
+        "grammar_note": "作副词“向前、前进”，作形容词“向前的”；look forward 本身就是“向前看”。",
+        "meaning_zh": "向前；前进；向前的",
+        "translation_phrase_zh": "向前",
+        "story_sentence": "He thought for a moment and then said, \"Because everyone looks forward, not back.\""
+      }
+    ]
+  },
+  {
+    "id": "35add948-af99-443c-aa64-24066cc40878",
+    "language_code": "en",
+    "title": "The Plan",
+    "title_zh": "计划",
+    "story_text": "Leo was in his last year of senior high school. Before he graduates, he wants to do something useful.\n\nHis class decided to establish a small company for the campus market. They had to register it online first.\n\nThe plan was long. Leo read it twice, then began to revise it. \"Our vocabulary is too hard,\" he said. \"Write it in simple words.\"\n\nThey also talked about their position in the market. \"Other classes sell food,\" Nina said. \"We need something different.\"\n\n\"Camping things,\" Leo said. \"Tents and pots for the school trip.\"\n\nTheir teacher liked the idea at once.",
+    "translation_zh": "利奥在高中最后一年。毕业之前，他想做点有用的事。\n\n他们班决定为校园市集创立一家小公司。得先在网上注册。\n\n计划很长。利奥读了两遍，然后开始修改。「我们的用词太难了，」他说，「用简单的词写。」\n\n他们还讨论了在市场上的位置。「别的班卖吃的，」妮娜说，「我们得做点不一样的。」\n\n「露营用品，」利奥说，「学校旅行用的帐篷和锅。」\n\n老师一听就喜欢这个主意。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage boy and girl revising a long plan at a classroom desk with a laptop, papers covered in notes, afternoon light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-30T06:22:05.713384+00:00",
+    "list_id": "2383f5aa-a21b-48b2-bb5c-ea327746fb47",
+    "position": 2,
+    "word_count": 100,
+    "vocabulary": [
+      {
+        "input_word": "graduate",
+        "lemma": "graduate",
+        "used_form": "graduates",
+        "pronunciation": "/ˈɡrædʒuət/",
+        "part_of_speech": "vi. & vt. & n.",
+        "grammar_note": "作动词读 /ˈɡrædʒueɪt/，表示“毕业”；作名词读 /ˈɡrædʒuət/，指“毕业生”。",
+        "meaning_zh": "毕业；获得学位；毕业生",
+        "translation_phrase_zh": "毕业",
+        "story_sentence": "Before he graduates, he wants to do something useful."
+      },
+      {
+        "input_word": "establish",
+        "lemma": "establish",
+        "used_form": "establish",
+        "pronunciation": "/ɪˈstæblɪʃ/",
+        "part_of_speech": "vt.",
+        "grammar_note": "表示“建立、创立”，宾语常是组织、公司、制度。",
+        "meaning_zh": "建立；创立",
+        "translation_phrase_zh": "创立",
+        "story_sentence": "His class decided to establish a small company for the campus market."
+      },
+      {
+        "input_word": "register",
+        "lemma": "register",
+        "used_form": "register",
+        "pronunciation": "/ˈredʒɪstə(r)/",
+        "part_of_speech": "vt. & vi.",
+        "grammar_note": "表示“登记、注册”，register for a course 表示“选修一门课”。",
+        "meaning_zh": "登记；注册",
+        "translation_phrase_zh": "注册",
+        "story_sentence": "They had to register it online first."
+      },
+      {
+        "input_word": "revise",
+        "lemma": "revise",
+        "used_form": "revise",
+        "pronunciation": "/rɪˈvaɪz/",
+        "part_of_speech": "vt. & vi.",
+        "grammar_note": "表示“修改、修订”，英式英语里也常表示“复习”。",
+        "meaning_zh": "修改；修订；复习",
+        "translation_phrase_zh": "修改",
+        "story_sentence": "Leo read it twice, then began to revise it."
+      },
+      {
+        "input_word": "vocabulary",
+        "lemma": "vocabulary",
+        "used_form": "vocabulary",
+        "pronunciation": "/vəˈkæbjələri/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“词汇、词汇量”，可数时指某类词表，如 a small vocabulary。",
+        "meaning_zh": "词汇",
+        "translation_phrase_zh": "用词",
+        "story_sentence": "\"Our vocabulary is too hard,\" he said."
+      },
+      {
+        "input_word": "position",
+        "lemma": "position",
+        "used_form": "position",
+        "pronunciation": "/pəˈzɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“位置、姿态、职位”，in a good position 表示“处于有利地位”。",
+        "meaning_zh": "位置；姿态；职位",
+        "translation_phrase_zh": "位置",
+        "story_sentence": "They also talked about their position in the market."
+      }
+    ]
+  },
+  {
+    "id": "8731d06a-b5d5-4141-b03f-5fd8640e5130",
+    "language_code": "en",
+    "title": "From the Port",
+    "title_zh": "从港口来",
+    "story_text": "Leo's uncle worked at the port. He knew how to import and export goods.\n\n\"You can order from a factory,\" he said. \"They will send the goods to the port.\"\n\nLeo's class needed four tents and ten pots for the school trip. The staff of the shop helped them choose.\n\n\"These tents are light,\" a woman said. \"And this pot is big enough for six people.\"\n\nThe goods came in two boxes. Leo carried them to the classroom and put a tent up in the corner. Everyone laughed.\n\nThe tent took up half the room. \"Now we have a shop,\" Nina said.",
+    "translation_zh": "利奥的叔叔在港口工作。他懂怎么进口和出口货物。\n\n「你可以向工厂订货，」他说，「他们会把货送到港口。」\n\n利奥他们班为学校旅行需要四顶帐篷和十个锅。商店的员工帮他们挑选。\n\n「这些帐篷很轻，」一位女士说，「这个锅够六个人用。」\n\n货装在两个箱子里。利奥把它们搬到教室，在角落支起一顶帐篷。大家都笑了。\n\n帐篷占了半个教室。「现在我们有店了，」妮娜说。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage boy carrying two boxes into a classroom while a small tent stands in the corner, a big cooking pot on a table, afternoon light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-30T06:22:05.963249+00:00",
+    "list_id": "2383f5aa-a21b-48b2-bb5c-ea327746fb47",
+    "position": 3,
+    "word_count": 102,
+    "vocabulary": [
+      {
+        "input_word": "port",
+        "lemma": "port",
+        "used_form": "port",
+        "pronunciation": "/pɔːt/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“港口、口岸”，at the port 表示“在港口”。",
+        "meaning_zh": "港口",
+        "translation_phrase_zh": "港口",
+        "story_sentence": "Leo's uncle worked at the port."
+      },
+      {
+        "input_word": "import",
+        "lemma": "import",
+        "used_form": "import",
+        "pronunciation": "/ˈɪmpɔːt/ (n.)，/ɪmˈpɔːt/ (v.)",
+        "part_of_speech": "n. & vt.",
+        "grammar_note": "作名词读 /ˈɪmpɔːt/（进口商品），作动词读 /ɪmˈpɔːt/（进口）；与 export 相对。",
+        "meaning_zh": "进口；进口商品；进口；引进",
+        "translation_phrase_zh": "进口",
+        "story_sentence": "He knew how to import and export goods."
+      },
+      {
+        "input_word": "export",
+        "lemma": "export",
+        "used_form": "export",
+        "pronunciation": "/ˈekspɔːt/ (n.)，/ɪkˈspɔːt/ (v.)",
+        "part_of_speech": "n. & vt.",
+        "grammar_note": "作名词读 /ˈekspɔːt/（出口商品），作动词读 /ɪkˈspɔːt/（出口）；与 import 相对。",
+        "meaning_zh": "出口；出口商品；出口；输出",
+        "translation_phrase_zh": "出口",
+        "story_sentence": "He knew how to import and export goods."
+      },
+      {
+        "input_word": "tent",
+        "lemma": "tent",
+        "used_form": "tents",
+        "pronunciation": "/tent/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“帐篷”，put up a tent 表示“搭帐篷”。",
+        "meaning_zh": "帐篷",
+        "translation_phrase_zh": "帐篷",
+        "story_sentence": "Leo's class needed four tents and ten pots for the school trip."
+      },
+      {
+        "input_word": "pot",
+        "lemma": "pot",
+        "used_form": "pot",
+        "pronunciation": "/pɒt/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“罐、壶、锅”，a pot of tea 表示“一壶茶”。",
+        "meaning_zh": "罐；壶；锅",
+        "translation_phrase_zh": "锅",
+        "story_sentence": "\"And this pot is big enough for six people.\""
+      },
+      {
+        "input_word": "staff",
+        "lemma": "staff",
+        "used_form": "staff",
+        "pronunciation": "/stɑːf/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“全体员工”，是集合名词，谓语可用单数或复数。",
+        "meaning_zh": "员工；全体职员",
+        "translation_phrase_zh": "员工",
+        "story_sentence": "The staff of the shop helped them choose."
+      }
+    ]
+  },
+  {
+    "id": "02a6ac4c-7855-42ca-a6fa-ee802daddab5",
+    "language_code": "en",
+    "title": "Market Day",
+    "title_zh": "市集那天",
+    "story_text": "On market day, the basketball court was full of tables. Leo's company had a corner near the gate.\n\nNina took photos with a flash, and Leo put the pictures on the wall. \"We need to promote the tents,\" she said.\n\nA boy came to look. He had no friends with him, so Leo kept him company and told him about the school trip.\n\nBy noon they had sold three tents. Two teachers stopped to ask about the pots. The court was noisy and hot.\n\nThe profit was small, but it was real.\n\n\"People like a good story,\" Nina said. \"That is why they buy.\"",
+    "translation_zh": "市集那天，篮球场上摆满了桌子。利奥他们公司占了靠门的一个角落。\n\n妮娜开着闪光灯拍照，利奥把照片贴在墙上。「我们得推销帐篷，」她说。\n\n一个男生过来看。他没有朋友陪着，利奥就陪着他，给他讲学校旅行的事。\n\n到中午他们卖出了三顶帐篷。两个老师停下来问锅的事。球场又吵又热。\n\n利润不多，但是真的。\n\n「人们喜欢好故事，」妮娜说，「所以他们才买。」",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a busy school market on a basketball court with tables and a small tent, a girl taking photos with a camera flash, a boy talking to a younger student, warm afternoon light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-30T06:22:06.176563+00:00",
+    "list_id": "2383f5aa-a21b-48b2-bb5c-ea327746fb47",
+    "position": 4,
+    "word_count": 104,
+    "vocabulary": [
+      {
+        "input_word": "court",
+        "lemma": "court",
+        "used_form": "court",
+        "pronunciation": "/kɔːt/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“球场”，也可指“法院、法庭”；篮球场是 basketball court。",
+        "meaning_zh": "（网球等的）球场；法院；法庭",
+        "translation_phrase_zh": "篮球场",
+        "story_sentence": "On market day, the basketball court was full of tables."
+      },
+      {
+        "input_word": "company",
+        "lemma": "company",
+        "used_form": "company",
+        "pronunciation": "/ˈkʌmpəni/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“公司、商行”，也可指“陪伴”；keep somebody company 表示“陪伴某人”。",
+        "meaning_zh": "公司；商行；陪伴",
+        "translation_phrase_zh": "公司",
+        "story_sentence": "Leo's company had a corner near the gate."
+      },
+      {
+        "input_word": "flash",
+        "lemma": "flash",
+        "used_form": "flash",
+        "pronunciation": "/flæʃ/",
+        "part_of_speech": "n. & vi. & vt.",
+        "grammar_note": "作名词“闪光、信号”，作动词“闪耀、闪光”；a flash of light 表示“一道闪光”。",
+        "meaning_zh": "光；信号；闪耀；闪光",
+        "translation_phrase_zh": "闪光灯",
+        "story_sentence": "Nina took photos with a flash, and Leo put the pictures on the wall."
+      },
+      {
+        "input_word": "promote",
+        "lemma": "promote",
+        "used_form": "promote",
+        "pronunciation": "/prəˈməʊt/",
+        "part_of_speech": "vt.",
+        "grammar_note": "表示“促进、提升、推销”，也可指“晋升”。",
+        "meaning_zh": "促进；提升；推销；晋级",
+        "translation_phrase_zh": "推销",
+        "story_sentence": "\"We need to promote the tents,\" she said."
+      },
+      {
+        "input_word": "keep sb. company",
+        "lemma": "keep sb. company",
+        "used_form": "kept him company",
+        "pronunciation": "/kiːp ˈsʌmbədi ˈkʌmpəni/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“陪伴某人”，company 前不加冠词；sb. 换成具体的人。",
+        "meaning_zh": "陪伴某人",
+        "translation_phrase_zh": "陪着他",
+        "story_sentence": "He had no friends with him, so Leo kept him company and told him about the school trip."
+      },
+      {
+        "input_word": "profit",
+        "lemma": "profit",
+        "used_form": "profit",
+        "pronunciation": "/ˈprɒfɪt/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“利润、利益”，make a profit 表示“盈利”，与 loss（亏损）相对。",
+        "meaning_zh": "利润；利益",
+        "translation_phrase_zh": "利润",
+        "story_sentence": "The profit was small, but it was real."
+      }
+    ]
+  },
+  {
+    "id": "fe57880b-12d3-444d-a1c2-02519c14bb4a",
+    "language_code": "en",
+    "title": "A Good End",
+    "title_zh": "好结果",
+    "story_text": "After the market, the class counted the money. \"We can recover half of what we spent,\" Nina said.\n\nThe teacher was happy. In return, she let them keep the tents for the school trip.\n\n\"Your plan was effective,\" she said. \"Indeed, it worked better than mine.\"\n\nThe next week they met again to talk about the company. They wanted to improve it and run a second operation in autumn.\n\n\"When we graduate,\" Leo said, \"we should leave the plan for the next class.\"\n\nNina nodded. \"Then it will not end with us.\"\n\nThe classroom was quiet, and Leo felt calm.",
+    "translation_zh": "市集结束后，班里数了数钱。「我们能收回一半花掉的钱，」妮娜说。\n\n老师很高兴。作为回报，她让他们把帐篷留着学校旅行用。\n\n「你们的计划很有效，」她说，「确实，比我那个管用。」\n\n下一周他们又聚在一起谈公司的事。他们想改进它，秋天再经营一轮。\n\n「等我们毕业，」利奥说，「应该把计划留给下一届。」\n\n妮娜点点头。「那就不会到我们这里就结束了。」\n\n教室很安静，利奥心里很平静。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: students counting money on a classroom table next to a folded tent, notebooks and a pen, late afternoon light through the window, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-10-30T06:22:06.431758+00:00",
+    "list_id": "2383f5aa-a21b-48b2-bb5c-ea327746fb47",
+    "position": 5,
+    "word_count": 100,
+    "vocabulary": [
+      {
+        "input_word": "recover",
+        "lemma": "recover",
+        "used_form": "recover",
+        "pronunciation": "/rɪˈkʌvə(r)/",
+        "part_of_speech": "vi. & vt.",
+        "grammar_note": "表示“恢复、康复”，也可指“找回、收回（钱物）”。",
+        "meaning_zh": "恢复；康复；找回；寻回",
+        "translation_phrase_zh": "收回",
+        "story_sentence": "\"We can recover half of what we spent,\" Nina said."
+      },
+      {
+        "input_word": "in return",
+        "lemma": "in return",
+        "used_form": "In return",
+        "pronunciation": "/ɪn rɪˈtɜːn/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“作为回报、作为回应”，常放句首或句末，后面可接 for something。",
+        "meaning_zh": "作为回报；作为回应",
+        "translation_phrase_zh": "作为回报",
+        "story_sentence": "In return, she let them keep the tents for the school trip."
+      },
+      {
+        "input_word": "effective",
+        "lemma": "effective",
+        "used_form": "effective",
+        "pronunciation": "/ɪˈfektɪv/",
+        "part_of_speech": "adj.",
+        "grammar_note": "指“有效的、生效的”，be effective in doing something 表示“在做某事上有效”。",
+        "meaning_zh": "有效的；生效的",
+        "translation_phrase_zh": "有效",
+        "story_sentence": "\"Your plan was effective,\" she said."
+      },
+      {
+        "input_word": "indeed",
+        "lemma": "indeed",
+        "used_form": "Indeed",
+        "pronunciation": "/ɪnˈdiːd/",
+        "part_of_speech": "adv.",
+        "grammar_note": "表示“确实、实际上”，可单独使用以加强语气或表示同意。",
+        "meaning_zh": "其实；实际上；当然；确实",
+        "translation_phrase_zh": "确实",
+        "story_sentence": "\"Indeed, it worked better than mine.\""
+      },
+      {
+        "input_word": "improve",
+        "lemma": "improve",
+        "used_form": "improve",
+        "pronunciation": "/ɪmˈpruːv/",
+        "part_of_speech": "vi. & vt.",
+        "grammar_note": "表示“改进、改善”，improve on something 表示“对……作出改进”。",
+        "meaning_zh": "改进；改善",
+        "translation_phrase_zh": "改进",
+        "story_sentence": "They wanted to improve it and run a second operation in autumn."
+      },
+      {
+        "input_word": "operation",
+        "lemma": "operation",
+        "used_form": "operation",
+        "pronunciation": "/ˌɒpəˈreɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“手术”，也可指“企业、经营、运转”；in operation 表示“在运转中”。",
+        "meaning_zh": "手术；企业；经营",
+        "translation_phrase_zh": "经营",
+        "story_sentence": "They wanted to improve it and run a second operation in autumn."
+      }
+    ]
   }
 ]
