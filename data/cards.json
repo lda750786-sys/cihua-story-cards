@@ -2098,5 +2098,425 @@
         "story_sentence": "They wanted to improve it and run a second operation in autumn."
       }
     ]
+  },
+  {
+    "id": "4aea27ae-fa83-416f-8950-cb16da0d0d71",
+    "language_code": "en",
+    "title": "The Coin",
+    "title_zh": "那枚硬币",
+    "story_text": "On a warm Saturday, Amy and her friends dug in the school garden for the history club. Her spade hit something hard.\n\nIt was a small metal disc, green and dirty. \"Is it money?\" Ben asked.\n\nAmy turned it over. \"I do not recognize it,\" she said. \"It is not our currency.\"\n\nShe wrote a careful description in her notebook: round, cold, with a bird on one side.\n\n\"This may be from an old civilization,\" her teacher said. \"It has been in the ground for a generation.\"\n\nA man came and offered cash for it. Amy said no.",
+    "translation_zh": "一个温暖的星期六，艾米和朋友们在学校花园里为历史社挖土。她的铲子碰到了什么硬东西。\n\n那是一个小小的金属圆片，绿绿的，很脏。「这是钱吗？」本问。\n\n艾米把它翻过来看。「我认不出它，」她说，「这不是我们的货币。」\n\n她在笔记本上写下了一段仔细的描写：圆的、凉的、一面有一只鸟。\n\n「这可能来自一个古老的文明，」老师说，「它在地里埋了一代人了。」\n\n有个人过来，想用现金买下它。艾米说不卖。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: two teenagers kneeling in a school garden with a small spade, a dirty green metal coin in a girl's hand, late afternoon light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-05T07:24:58.319857+00:00",
+    "list_id": "c2ae68f9-4a1d-4513-a971-dbce373e7d8d",
+    "position": 1,
+    "word_count": 98,
+    "vocabulary": [
+      {
+        "input_word": "currency",
+        "lemma": "currency",
+        "used_form": "currency",
+        "pronunciation": "/ˈkʌrənsi/",
+        "part_of_speech": "n.",
+        "grammar_note": "指一个国家通用的“货币、通货”，如 foreign currency（外币）。",
+        "meaning_zh": "通货；货币",
+        "translation_phrase_zh": "货币",
+        "story_sentence": "\"I do not recognize it,\" she said. \"It is not our currency.\""
+      },
+      {
+        "input_word": "cash",
+        "lemma": "cash",
+        "used_form": "cash",
+        "pronunciation": "/kæʃ/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“现金”，不可数；pay in cash 表示“用现金支付”。",
+        "meaning_zh": "现金；金钱",
+        "translation_phrase_zh": "现金",
+        "story_sentence": "A man came and offered cash for it."
+      },
+      {
+        "input_word": "recognize",
+        "lemma": "recognize",
+        "used_form": "recognize",
+        "pronunciation": "/ˈrekəɡnaɪz/",
+        "part_of_speech": "vt.",
+        "grammar_note": "表示“辨别出、认出”，也可指“承认、认可”。",
+        "meaning_zh": "辨别出；承认；认可",
+        "translation_phrase_zh": "认不出",
+        "story_sentence": "\"I do not recognize it,\" she said."
+      },
+      {
+        "input_word": "description",
+        "lemma": "description",
+        "used_form": "description",
+        "pronunciation": "/dɪˈskrɪpʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“描写、形容”，常用 a description of something。",
+        "meaning_zh": "描写（文字）；形容",
+        "translation_phrase_zh": "描写",
+        "story_sentence": "She wrote a careful description in her notebook: round, cold, with a bird on one side."
+      },
+      {
+        "input_word": "civilization",
+        "lemma": "civilization",
+        "used_form": "civilization",
+        "pronunciation": "/ˌsɪvəlaɪˈzeɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“文明、文明社会”，ancient civilizations 表示“古代文明”。",
+        "meaning_zh": "文明",
+        "translation_phrase_zh": "文明",
+        "story_sentence": "\"This may be from an old civilization,\" her teacher said."
+      },
+      {
+        "input_word": "generation",
+        "lemma": "generation",
+        "used_form": "generation",
+        "pronunciation": "/ˌdʒenəˈreɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“一代人”，如 the younger generation（年轻一代）。",
+        "meaning_zh": "一代（人）",
+        "translation_phrase_zh": "一代人",
+        "story_sentence": "\"It has been in the ground for a generation.\""
+      }
+    ]
+  },
+  {
+    "id": "a04fc97a-0e67-4e8c-8570-03336dcd982a",
+    "language_code": "en",
+    "title": "At the Museum",
+    "title_zh": "在博物馆",
+    "story_text": "Miss Lin appointed Amy to investigate the coin. \"Go to the town museum,\" she said. \"Ask for Mr. Zhou. He is a colleague of mine.\"\n\nMr. Zhou looked at the coin for a long time. \"You ought to be careful with old metal,\" he said. \"Do not clean it.\"\n\nAmy asked if the museum could help. \"Write a proposal,\" he said. \"Say what you want to find out.\"\n\nThat night Amy made a proposal: three weeks, one report, and no cleaning. She wrote it slowly, with a pencil.\n\nMr. Zhou read it and smiled. \"Good,\" he said. \"We will investigate together.\"",
+    "translation_zh": "林老师委派艾米去调查这枚硬币。「去镇上的博物馆，」她说，「找周先生，他是我的同事。」\n\n周先生看了这枚硬币很久。「对待旧金属你应该小心，」他说，「不要清洗它。」\n\n艾米问博物馆能不能帮忙。「写一份提议，」他说，「说明你想弄清楚什么。」\n\n那天晚上，艾米写了一份提议：三周、一份报告、不清洗。她慢慢地用铅笔写。\n\n周先生读了，笑了。「好，」他说，「我们一起调查。」",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage girl and an older museum worker looking at a small coin under a desk lamp, shelves of old boxes behind them, warm indoor light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-05T07:24:58.571472+00:00",
+    "list_id": "c2ae68f9-4a1d-4513-a971-dbce373e7d8d",
+    "position": 2,
+    "word_count": 101,
+    "vocabulary": [
+      {
+        "input_word": "appoint",
+        "lemma": "appoint",
+        "used_form": "appointed",
+        "pronunciation": "/əˈpɔɪnt/",
+        "part_of_speech": "v.",
+        "grammar_note": "表示“任命、委派”，appoint somebody to do something 表示“委派某人做某事”。",
+        "meaning_zh": "任命；委派",
+        "translation_phrase_zh": "委派",
+        "story_sentence": "Miss Lin appointed Amy to investigate the coin."
+      },
+      {
+        "input_word": "investigate",
+        "lemma": "investigate",
+        "used_form": "investigate",
+        "pronunciation": "/ɪnˈvestɪɡeɪt/",
+        "part_of_speech": "vi. & vt.",
+        "grammar_note": "表示“调查、研究”，宾语常是事件、原因或问题。",
+        "meaning_zh": "调查；研究",
+        "translation_phrase_zh": "调查",
+        "story_sentence": "Miss Lin appointed Amy to investigate the coin."
+      },
+      {
+        "input_word": "colleague",
+        "lemma": "colleague",
+        "used_form": "colleague",
+        "pronunciation": "/ˈkɒliːɡ/",
+        "part_of_speech": "n.",
+        "grammar_note": "指一起工作的“同事、同僚”，比 workmate 正式。",
+        "meaning_zh": "同事；同僚",
+        "translation_phrase_zh": "同事",
+        "story_sentence": "\"Ask for Mr. Zhou. He is a colleague of mine.\""
+      },
+      {
+        "input_word": "ought to",
+        "lemma": "ought to",
+        "used_form": "ought to",
+        "pronunciation": "/ɔːt tuː/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“应该、应当”，语气比 should 重，后接动词原形；否定是 ought not to。",
+        "meaning_zh": "应该；应当",
+        "translation_phrase_zh": "你应该",
+        "story_sentence": "\"You ought to be careful with old metal,\" he said."
+      },
+      {
+        "input_word": "proposal",
+        "lemma": "proposal",
+        "used_form": "proposal",
+        "pronunciation": "/prəˈpəʊzl/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“提议、建议”，常与 make、write、accept 连用。",
+        "meaning_zh": "提议；建议",
+        "translation_phrase_zh": "提议",
+        "story_sentence": "\"Write a proposal,\" he said."
+      },
+      {
+        "input_word": "make a proposal",
+        "lemma": "make a proposal",
+        "used_form": "made a proposal",
+        "pronunciation": "/meɪk ə prəˈpəʊzl/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“提出建议、提出方案”，后面可接 for something 或 that 从句。",
+        "meaning_zh": "提出建议",
+        "translation_phrase_zh": "写了一份提议",
+        "story_sentence": "That night Amy made a proposal: three weeks, one report, and no cleaning."
+      }
+    ]
+  },
+  {
+    "id": "823e91a7-dede-42d9-8b40-b0a02b9e6100",
+    "language_code": "en",
+    "title": "No Fund",
+    "title_zh": "没有经费",
+    "story_text": "The club had no fund for the report. A colour copy would cost a fee, and the museum visit was not free.\n\nAmy's family was also short of money. Her father's shop had a loss last year, so the family income fell. Her parents were saving for her tuition fees.\n\n\"We cannot ask them for money,\" Amy said.\n\nBen had an idea. \"We can sell old books at the school gate. No fee, no loss, and every yuan is ours.\"\n\nThe box was heavy, and it smelled of rain. Amy looked at the books and nodded.",
+    "translation_zh": "社团没有经费做这份报告。彩印要收费用，博物馆参观也不免费。\n\n艾米家里也缺钱。她爸爸的店去年亏损了，家里的收入减少了。父母正在为她的学费存钱。\n\n「我们不能跟他们要钱，」艾米说。\n\n本有了个主意。「我们可以在校门口卖旧书。没有费用，不会亏，每一块钱都是我们的。」\n\n箱子很沉，有一股雨水的味道。艾米看了看那些书，点了点头。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: two teenagers carrying a heavy box of old books through a school gate after rain, wet ground reflecting light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-05T07:24:58.832181+00:00",
+    "list_id": "c2ae68f9-4a1d-4513-a971-dbce373e7d8d",
+    "position": 3,
+    "word_count": 96,
+    "vocabulary": [
+      {
+        "input_word": "fund",
+        "lemma": "fund",
+        "used_form": "fund",
+        "pronunciation": "/fʌnd/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“基金、专款”，常用 a fund for something；作动词时表示“为……提供资金”。",
+        "meaning_zh": "基金；专款",
+        "translation_phrase_zh": "经费",
+        "story_sentence": "The club had no fund for the report."
+      },
+      {
+        "input_word": "fee",
+        "lemma": "fee",
+        "used_form": "fee",
+        "pronunciation": "/fiː/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“费用、报酬”，如 a school fee、a doctor's fee。",
+        "meaning_zh": "费用；报酬",
+        "translation_phrase_zh": "费用",
+        "story_sentence": "A colour copy would cost a fee, and the museum visit was not free."
+      },
+      {
+        "input_word": "tuition fees",
+        "lemma": "tuition fees",
+        "used_form": "tuition fees",
+        "pronunciation": "/tjuˈɪʃn fiːz/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“学费”，常用复数；pay tuition fees 表示“交学费”。",
+        "meaning_zh": "学费",
+        "translation_phrase_zh": "学费",
+        "story_sentence": "Her parents were saving for her tuition fees."
+      },
+      {
+        "input_word": "saving",
+        "lemma": "saving",
+        "used_form": "saving",
+        "pronunciation": "/ˈseɪvɪŋ/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“节省、节约”，常用复数 savings 表示“储蓄金、存款”。",
+        "meaning_zh": "节省物；节省；储蓄金；存款",
+        "translation_phrase_zh": "存钱",
+        "story_sentence": "Her parents were saving for her tuition fees."
+      },
+      {
+        "input_word": "income",
+        "lemma": "income",
+        "used_form": "income",
+        "pronunciation": "/ˈɪnkʌm/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“收入、收益”，与 expense（支出）相对；family income 表示“家庭收入”。",
+        "meaning_zh": "收入；收益",
+        "translation_phrase_zh": "收入",
+        "story_sentence": "Her father's shop had a loss last year, so the family income fell."
+      },
+      {
+        "input_word": "loss",
+        "lemma": "loss",
+        "used_form": "loss",
+        "pronunciation": "/lɒs/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“丧失、损失”，与 profit（利润）相对；at a loss 表示“亏本地”。",
+        "meaning_zh": "丧失；损失",
+        "translation_phrase_zh": "亏损",
+        "story_sentence": "Her father's shop had a loss last year, so the family income fell."
+      }
+    ]
+  },
+  {
+    "id": "c977df3e-70ba-412f-b2ca-ca0a10cbdae7",
+    "language_code": "en",
+    "title": "A Partner",
+    "title_zh": "合伙人",
+    "story_text": "Amy needed a strategy. One club alone could not do much, so she looked for a partner.\n\nMr. Zhou said the museum could be their partner. \"We can organize a small show in the school hall,\" he said. \"Your club and our organization can work together.\"\n\nThe museum gave them old postcards and books. They put the goods on a table and wrote small cards for each one.\n\n\"Every visitor can learn something,\" Amy said. \"That is the real benefit.\"\n\nThe hall was cold, but the tables looked like a small museum. On Friday, they organized it in two hours.",
+    "translation_zh": "艾米需要一个策略。一个社团力量有限，所以她去找合伙人。\n\n周先生说博物馆可以做他们的合伙人。「我们可以在学校礼堂办一个小展览，」他说，「你们的社团和我们的机构可以合作。」\n\n博物馆给了他们旧明信片和旧书。他们把商品摆在桌上，给每样东西写了小卡片。\n\n「每个参观的人都能学到点什么，」艾米说，「这才是真正的益处。」\n\n礼堂很冷，但桌子摆得像个小博物馆。周五，他们用两个小时把礼堂布置好了。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: two teenagers setting up a small exhibition of old postcards and books on tables in a school hall, a museum worker helping, warm afternoon light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-05T07:24:59.059058+00:00",
+    "list_id": "c2ae68f9-4a1d-4513-a971-dbce373e7d8d",
+    "position": 4,
+    "word_count": 100,
+    "vocabulary": [
+      {
+        "input_word": "strategy",
+        "lemma": "strategy",
+        "used_form": "strategy",
+        "pronunciation": "/ˈstrætədʒi/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“策略、策划”，常用 a strategy for doing something。",
+        "meaning_zh": "策略；策划",
+        "translation_phrase_zh": "策略",
+        "story_sentence": "Amy needed a strategy."
+      },
+      {
+        "input_word": "partner",
+        "lemma": "partner",
+        "used_form": "partner",
+        "pronunciation": "/ˈpɑːtnə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“同伴、合伙人”，也可指“配偶”；business partner 表示“生意伙伴”。",
+        "meaning_zh": "同伴；配偶；合伙人",
+        "translation_phrase_zh": "合伙人",
+        "story_sentence": "One club alone could not do much, so she looked for a partner."
+      },
+      {
+        "input_word": "organize",
+        "lemma": "organize",
+        "used_form": "organize",
+        "pronunciation": "/ˈɔːɡənaɪz/",
+        "part_of_speech": "vt. & vi.",
+        "grammar_note": "表示“组织、筹备、安排”，英式拼写也可作 organise。",
+        "meaning_zh": "组织；筹备；安排；组建",
+        "translation_phrase_zh": "办一个小展览",
+        "story_sentence": "\"We can organize a small show in the school hall,\" he said."
+      },
+      {
+        "input_word": "organization",
+        "lemma": "organization",
+        "used_form": "organization",
+        "pronunciation": "/ˌɔːɡənaɪˈzeɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“组织、团体、机构”，由 organize + -ation 构成。",
+        "meaning_zh": "组织；团体；机构",
+        "translation_phrase_zh": "机构",
+        "story_sentence": "\"Your club and our organization can work together.\""
+      },
+      {
+        "input_word": "goods",
+        "lemma": "goods",
+        "used_form": "goods",
+        "pronunciation": "/ɡʊdz/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“商品、货物”，只用复数形式，不能加 a 或 -s 之外的数量词。",
+        "meaning_zh": "商品；货物",
+        "translation_phrase_zh": "商品",
+        "story_sentence": "They put the goods on a table and wrote small cards for each one."
+      },
+      {
+        "input_word": "benefit",
+        "lemma": "benefit",
+        "used_form": "benefit",
+        "pronunciation": "/ˈbenɪfɪt/",
+        "part_of_speech": "n. & v.",
+        "grammar_note": "作名词“益处”，作动词“使受益”，benefit from 表示“得益于”。",
+        "meaning_zh": "益处；使受益；得益于",
+        "translation_phrase_zh": "益处",
+        "story_sentence": "\"That is the real benefit.\""
+      }
+    ]
+  },
+  {
+    "id": "6e7870ad-cfed-429a-82ad-2875356d93bf",
+    "language_code": "en",
+    "title": "Published",
+    "title_zh": "发表了",
+    "story_text": "A week later, their report was ready. The school newspaper agreed to publish it.\n\nAmy was about to speak at the opening, but her hands were cold. She did not dare to look at the crowd.\n\n\"You wrote it,\" Ben said. \"You can read it.\"\n\nShe took a breath and began. Her voice was small at first, then strong. People listened to every word. The room was full, and nobody moved.\n\nAfterwards, a teacher asked if she was willing to lead the club next year.\n\n\"I am willing to try,\" Amy said. And for the first time, she felt her determination.",
+    "translation_zh": "一周后，他们的报告写好了。校报同意发表它。\n\n艾米正要上台讲话，可她的手冰凉。她不敢看台下的人群。\n\n「是你写的，」本说，「你能读出来。」\n\n她吸了口气，开始读。起初声音很小，后来变得有力。人们听着每一个字。房间里坐满了人，没有人动。\n\n结束后，一位老师问她愿不愿意明年带这个社团。\n\n「我愿意试试，」艾米说。她第一次感到自己的决心。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage girl reading from a paper in front of a full school hall, her friend standing beside her, a school newspaper on the table, warm light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-05T07:24:59.302311+00:00",
+    "list_id": "c2ae68f9-4a1d-4513-a971-dbce373e7d8d",
+    "position": 5,
+    "word_count": 101,
+    "vocabulary": [
+      {
+        "input_word": "publish",
+        "lemma": "publish",
+        "used_form": "publish",
+        "pronunciation": "/ˈpʌblɪʃ/",
+        "part_of_speech": "vt.",
+        "grammar_note": "表示“发表（作品）、出版”，宾语常是文章、书、报告。",
+        "meaning_zh": "发表（作品）；出版",
+        "translation_phrase_zh": "发表",
+        "story_sentence": "The school newspaper agreed to publish it."
+      },
+      {
+        "input_word": "be about to do sth.",
+        "lemma": "be about to do sth.",
+        "used_form": "was about to",
+        "pronunciation": "/bi əˈbaʊt tuː duː/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“即将、正要（做某事）”，不和时间状语连用。",
+        "meaning_zh": "即将或正要（做某事）",
+        "translation_phrase_zh": "正要",
+        "story_sentence": "Amy was about to speak at the opening, but her hands were cold."
+      },
+      {
+        "input_word": "dare",
+        "lemma": "dare",
+        "used_form": "dare",
+        "pronunciation": "/deə(r)/",
+        "part_of_speech": "v.",
+        "grammar_note": "表示“胆敢、敢于”，否定句和疑问句中常作情态动词，如 dare not do。",
+        "meaning_zh": "胆敢；敢于",
+        "translation_phrase_zh": "不敢",
+        "story_sentence": "She did not dare to look at the crowd."
+      },
+      {
+        "input_word": "willing",
+        "lemma": "willing",
+        "used_form": "willing",
+        "pronunciation": "/ˈwɪlɪŋ/",
+        "part_of_speech": "adj.",
+        "grammar_note": "指“愿意的、乐意的”，常用 be willing to do something。",
+        "meaning_zh": "愿意；乐意",
+        "translation_phrase_zh": "愿意",
+        "story_sentence": "Afterwards, a teacher asked if she was willing to lead the club next year."
+      },
+      {
+        "input_word": "be willing to do sth.",
+        "lemma": "be willing to do sth.",
+        "used_form": "was willing to",
+        "pronunciation": "/bi ˈwɪlɪŋ tuː duː/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“愿意或乐意做某事”，比 want to 更强调主动答应。",
+        "meaning_zh": "愿意或乐意做某事",
+        "translation_phrase_zh": "我愿意试试",
+        "story_sentence": "\"I am willing to try,\" Amy said."
+      },
+      {
+        "input_word": "determination",
+        "lemma": "determination",
+        "used_form": "determination",
+        "pronunciation": "/dɪˌtɜːmɪˈneɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "不可数名词，指“决心、决定”，由 determine + -ation 构成。",
+        "meaning_zh": "决心；决定",
+        "translation_phrase_zh": "决心",
+        "story_sentence": "And for the first time, she felt her determination."
+      }
+    ]
   }
 ]
