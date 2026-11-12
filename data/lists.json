@@ -52,5 +52,14 @@
     "created_at": "2026-11-05T07:24:58.301816+00:00",
     "card_count": 5,
     "word_count": 30
+  },
+  {
+    "id": "b9f530a3-9ce8-49f5-bacc-6c7758e750de",
+    "name": "旅行与身份 30 词",
+    "language_code": "en",
+    "note": "",
+    "created_at": "2026-11-12T10:53:16.314826+00:00",
+    "card_count": 5,
+    "word_count": 30
   }
 ]

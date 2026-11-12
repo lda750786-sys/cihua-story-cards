@@ -2518,5 +2518,425 @@
         "story_sentence": "And for the first time, she felt her determination."
       }
     ]
+  },
+  {
+    "id": "d5a89552-e807-481b-ad42-8baa3e3cfe50",
+    "language_code": "en",
+    "title": "The Trip Plan",
+    "title_zh": "出行计划",
+    "story_text": "Our class planned a trip for the spring holiday. The destination was a small village in the mountains.\n\nMiss Lin showed us a map. \"First the subway to the station,\" she said. \"Then a bus.\" The transport would take three hours.\n\nWe also had to find accommodation. The first hostel was too small for thirty people. The second one was suitable: it had ten rooms and a big kitchen.\n\n\"Could this place be suitable for a school group?\" Sam asked.\n\n\"Yes,\" Miss Lin said. \"And it is cheap.\"\n\nNobody wanted to sleep on a bus. The village was quiet, with one street and a river.",
+    "translation_zh": "我们班为春假计划了一次旅行。目的地是山里的一个小村庄。\n\n林老师给我们看地图。「先坐地铁到车站，」她说，「然后坐大巴。」交通要花三个小时。\n\n我们还得找住处。第一家旅舍太小，住不下三十个人。第二家就合适了：有十个房间和一间大厨房。\n\n「这个地方能适合学校团体吗？」萨姆问。\n\n「适合，」林老师说，「而且便宜。」\n\n没人想在巴士上睡觉。那个村子很安静，只有一条街和一条河。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teacher showing a map to a group of teenagers in a classroom, a subway and mountain on the map, warm afternoon light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-12T10:54:33.198637+00:00",
+    "list_id": "b9f530a3-9ce8-49f5-bacc-6c7758e750de",
+    "position": 1,
+    "word_count": 105,
+    "vocabulary": [
+      {
+        "input_word": "destination",
+        "lemma": "destination",
+        "used_form": "destination",
+        "pronunciation": "/ˌdestɪˈneɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“目的地、终点”，常与 reach、arrive at 连用。",
+        "meaning_zh": "目的地；终点",
+        "translation_phrase_zh": "目的地",
+        "story_sentence": "The destination was a small village in the mountains."
+      },
+      {
+        "input_word": "subway",
+        "lemma": "subway",
+        "used_form": "subway",
+        "pronunciation": "/ˈsʌbweɪ/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“地铁”，美式常用；英式多说 underground 或 tube。",
+        "meaning_zh": "地铁",
+        "translation_phrase_zh": "地铁",
+        "story_sentence": "\"First the subway to the station,\" she said."
+      },
+      {
+        "input_word": "transport",
+        "lemma": "transport",
+        "used_form": "transport",
+        "pronunciation": "/ˈtrænspɔːt/ (n.)，/trænˈspɔːt/ (v.)",
+        "part_of_speech": "n. & vt.",
+        "grammar_note": "作名词读 /ˈtrænspɔːt/，指“交通运输系统”；作动词读 /trænˈspɔːt/，表示“运输”。",
+        "meaning_zh": "交通运输系统；运输；运送",
+        "translation_phrase_zh": "交通",
+        "story_sentence": "The transport would take three hours."
+      },
+      {
+        "input_word": "accommodation",
+        "lemma": "accommodation",
+        "used_form": "accommodation",
+        "pronunciation": "/əˌkɒməˈdeɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“住处、停留处”，英式英语中不可数；美式常用 accommodations。",
+        "meaning_zh": "住处；停留处",
+        "translation_phrase_zh": "住处",
+        "story_sentence": "We also had to find accommodation."
+      },
+      {
+        "input_word": "suitable",
+        "lemma": "suitable",
+        "used_form": "suitable",
+        "pronunciation": "/ˈsuːtəbl/",
+        "part_of_speech": "adj.",
+        "grammar_note": "指“适合的、适用的”，常用 be suitable for somebody/something。",
+        "meaning_zh": "适合的；适用的",
+        "translation_phrase_zh": "合适",
+        "story_sentence": "\"Could this place be suitable for a school group?\" Sam asked."
+      },
+      {
+        "input_word": "be suitable for",
+        "lemma": "be suitable for",
+        "used_form": "be suitable for",
+        "pronunciation": "/bi ˈsuːtəbl fɔː(r)/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“对……适合”，for 后面接人或事物。",
+        "meaning_zh": "对……适合的",
+        "translation_phrase_zh": "适合学校团体",
+        "story_sentence": "\"Could this place be suitable for a school group?\" Sam asked."
+      }
+    ]
+  },
+  {
+    "id": "9c88c927-2faf-4c63-868c-c21adf25fabf",
+    "language_code": "en",
+    "title": "The Form",
+    "title_zh": "那张表",
+    "story_text": "At the hostel, a woman gave each of us a form. \"Write your name, nationality, sex and age,\" she said.\n\nSam looked at the form. For sex, there were two boxes: male and female.\n\n\"I am male,\" he said. \"That is easy.\"\n\n\"And bring your identity card,\" the woman said. \"The law says every visitor must show one.\"\n\nSam's card was new. It had a photo, a number and his name.\n\n\"Only an adult can sign for the group,\" the woman said. So Miss Lin signed.\n\nHe put the card back in his bag with care. Everyone in the group was under eighteen.",
+    "translation_zh": "在旅舍，一位女士给我们每人一张表。「写下姓名、国籍、性别和年龄，」她说。\n\n萨姆看了看表。性别一栏有两个方框：男性、女性。\n\n「我是男的，」他说，「这挺简单。」\n\n「还要带身份证，」那位女士说，「法律规定每位住客都要出示。」\n\n萨姆的身份证是新的，上面有照片、号码和名字。\n\n「只有成年人才能代表团体签字，」女士说。于是林老师签了。\n\n他把身份证小心地放回包里。团里每个人都不满十八岁。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage boy filling in a paper form at a youth hostel desk, a small identity card beside the form, warm indoor light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-12T10:54:33.217564+00:00",
+    "list_id": "b9f530a3-9ce8-49f5-bacc-6c7758e750de",
+    "position": 2,
+    "word_count": 103,
+    "vocabulary": [
+      {
+        "input_word": "nationality",
+        "lemma": "nationality",
+        "used_form": "nationality",
+        "pronunciation": "/ˌnæʃəˈnæləti/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“国籍”，也可指“民族”；问国籍用 What nationality are you?",
+        "meaning_zh": "国籍；民族",
+        "translation_phrase_zh": "国籍",
+        "story_sentence": "\"Write your name, nationality, sex and age,\" she said."
+      },
+      {
+        "input_word": "sex",
+        "lemma": "sex",
+        "used_form": "sex",
+        "pronunciation": "/seks/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“性别”，表格中的“性别”一栏常写作 sex 或 gender。",
+        "meaning_zh": "性别",
+        "translation_phrase_zh": "性别",
+        "story_sentence": "\"Write your name, nationality, sex and age,\" she said."
+      },
+      {
+        "input_word": "male",
+        "lemma": "male",
+        "used_form": "male",
+        "pronunciation": "/meɪl/",
+        "part_of_speech": "adj. & n.",
+        "grammar_note": "作形容词“男性的、雄的”，作名词“雄性动物”；与 female 相对。",
+        "meaning_zh": "男（性）的；雄的；雄性动植物",
+        "translation_phrase_zh": "男性",
+        "story_sentence": "For sex, there were two boxes: male and female."
+      },
+      {
+        "input_word": "female",
+        "lemma": "female",
+        "used_form": "female",
+        "pronunciation": "/ˈfiːmeɪl/",
+        "part_of_speech": "adj. & n.",
+        "grammar_note": "作形容词“女性的、雌的”，作名词“雌性动物”；与 male 相对。",
+        "meaning_zh": "女（性）的；雌的；雌性动植物",
+        "translation_phrase_zh": "女性",
+        "story_sentence": "For sex, there were two boxes: male and female."
+      },
+      {
+        "input_word": "identity card",
+        "lemma": "identity card",
+        "used_form": "identity card",
+        "pronunciation": "/aɪˈdentəti kɑːd/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“身份证”，缩写为 ID card。",
+        "meaning_zh": "身份证",
+        "translation_phrase_zh": "身份证",
+        "story_sentence": "\"And bring your identity card,\" the woman said."
+      },
+      {
+        "input_word": "adult",
+        "lemma": "adult",
+        "used_form": "adult",
+        "pronunciation": "/ˈædʌlt/",
+        "part_of_speech": "n. & adj.",
+        "grammar_note": "作名词“成年人”，作形容词“成年的、成熟的”；与 child、teenager 相对。",
+        "meaning_zh": "成年人；成年的；成熟的",
+        "translation_phrase_zh": "成年人",
+        "story_sentence": "\"Only an adult can sign for the group,\" the woman said."
+      }
+    ]
+  },
+  {
+    "id": "890c93a2-ff1c-4edb-92b2-2e7d74d8faa5",
+    "language_code": "en",
+    "title": "The Hike",
+    "title_zh": "徒步",
+    "story_text": "On Saturday we began the hike at six in the morning. The path went up and up.\n\nOur guide carried a small radio. Every hour she transmitted the weather to the village. \"Wind at noon,\" she said.\n\nWe had to recycle every bottle. Nothing was left on the mountain.\n\nSam's boots did not suit the wet stones, so he walked slowly. \"It is not a race,\" Miss Lin said.\n\nEach individual had to carry his own water. It was hard, but nobody stopped.\n\nOn the top, we saw birds and small animals. Every living being seemed to have a place there.",
+    "translation_zh": "星期六早上六点，我们开始徒步。小路一直往上。\n\n向导带着一台小收音机。每小时她都会把天气发送回村子。「中午有风，」她说。\n\n我们必须回收每一个瓶子。山上什么也没留下。\n\n萨姆的靴子不适合湿石头，所以他走得很慢。「这不是比赛，」林老师说。\n\n每个人都要自己背水。路很难走，但没有人停下来。\n\n山顶上，我们看见了鸟和小动物。每一个活着的生物似乎都在那里有自己的位置。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a line of teenage hikers on a mountain path, one boy walking slowly on wet stones, a guide with a small radio, morning light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-12T10:54:33.235066+00:00",
+    "list_id": "b9f530a3-9ce8-49f5-bacc-6c7758e750de",
+    "position": 3,
+    "word_count": 101,
+    "vocabulary": [
+      {
+        "input_word": "hike",
+        "lemma": "hike",
+        "used_form": "hike",
+        "pronunciation": "/haɪk/",
+        "part_of_speech": "n. & vi. & vt.",
+        "grammar_note": "作名词“远足、徒步旅行”，作动词“徒步旅行”，go hiking 表示“去徒步”。",
+        "meaning_zh": "徒步旅行；远足",
+        "translation_phrase_zh": "徒步",
+        "story_sentence": "On Saturday we began the hike at six in the morning."
+      },
+      {
+        "input_word": "transmit",
+        "lemma": "transmit",
+        "used_form": "transmitted",
+        "pronunciation": "/trænzˈmɪt/",
+        "part_of_speech": "vt. & vi.",
+        "grammar_note": "表示“传输、发送”，常用于信号、信息，如 transmit a message。",
+        "meaning_zh": "传输；发送",
+        "translation_phrase_zh": "发送",
+        "story_sentence": "Every hour she transmitted the weather to the village."
+      },
+      {
+        "input_word": "recycle",
+        "lemma": "recycle",
+        "used_form": "recycle",
+        "pronunciation": "/ˌriːˈsaɪkl/",
+        "part_of_speech": "vt.",
+        "grammar_note": "表示“回收利用、再利用”，由 re-（再）+ cycle 构成。",
+        "meaning_zh": "回收利用；再利用",
+        "translation_phrase_zh": "回收",
+        "story_sentence": "We had to recycle every bottle."
+      },
+      {
+        "input_word": "suit",
+        "lemma": "suit",
+        "used_form": "suit",
+        "pronunciation": "/suːt/",
+        "part_of_speech": "v. & n.",
+        "grammar_note": "作动词“适合、合身、相配”；作名词指“西服、套装”。",
+        "meaning_zh": "适合；满足需要；相配；合身；西服；套装",
+        "translation_phrase_zh": "不适合",
+        "story_sentence": "Sam's boots did not suit the wet stones, so he walked slowly."
+      },
+      {
+        "input_word": "individual",
+        "lemma": "individual",
+        "used_form": "individual",
+        "pronunciation": "/ˌɪndɪˈvɪdʒuəl/",
+        "part_of_speech": "n. & adj.",
+        "grammar_note": "作名词“个人”，作形容词“单独的、个别的”；与 group 相对。",
+        "meaning_zh": "单独的；个别的；个人",
+        "translation_phrase_zh": "每个人",
+        "story_sentence": "Each individual had to carry his own water."
+      },
+      {
+        "input_word": "being",
+        "lemma": "being",
+        "used_form": "being",
+        "pronunciation": "/ˈbiːɪŋ/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“身心、存在”，也可指“生物”，如 human being（人）、living being（生物）。",
+        "meaning_zh": "身心；存在；生物",
+        "translation_phrase_zh": "生物",
+        "story_sentence": "Every living being seemed to have a place there."
+      }
+    ]
+  },
+  {
+    "id": "2ef85529-80e8-48fc-9b59-a1dc3a28b239",
+    "language_code": "en",
+    "title": "Who Is Responsible?",
+    "title_zh": "谁负责？",
+    "story_text": "On the second day, we found a bag of rubbish near the river.\n\n\"Who did this?\" Miss Lin asked. Nobody spoke.\n\nA guy in a red cap said, \"Not me. I put my bottles in the box.\"\n\n\"That is good,\" Miss Lin said. \"But every person is responsible for this mountain.\"\n\n\"You are responsible for your own rubbish. Taking it down is not a choice; it is an obligation.\"\n\nThe youth of today, she said, will live longer with this mountain.\n\n\"It is our responsibility,\" Sam said. Then he carried the bag all the way down.",
+    "translation_zh": "第二天，我们在河边发现了一袋垃圾。\n\n「这是谁干的？」林老师问。没人说话。\n\n一个戴红帽子的家伙说：「不是我。我把瓶子放进箱子里了。」\n\n「这很好，」林老师说，「但这座山每个人都有责任。」\n\n「你们要对自己的垃圾负责。把它带下山不是选择题，而是一种义务。」\n\n她说，今天的年轻人会和这座山一起生活得更久。\n\n「这是我们的责任，」萨姆说。然后他把那袋垃圾一路背下了山。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage boy carrying a bag of rubbish down a mountain path by a river, his classmates and teacher behind him, late afternoon light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-12T10:54:33.251218+00:00",
+    "list_id": "b9f530a3-9ce8-49f5-bacc-6c7758e750de",
+    "position": 4,
+    "word_count": 96,
+    "vocabulary": [
+      {
+        "input_word": "responsible",
+        "lemma": "responsible",
+        "used_form": "responsible",
+        "pronunciation": "/rɪˈspɒnsəbl/",
+        "part_of_speech": "adj.",
+        "grammar_note": "指“负责的、有责任的”，常用 be responsible for something。",
+        "meaning_zh": "负责的；有责任的",
+        "translation_phrase_zh": "有责任",
+        "story_sentence": "\"But every person is responsible for this mountain.\""
+      },
+      {
+        "input_word": "be responsible for",
+        "lemma": "be responsible for",
+        "used_form": "are responsible for",
+        "pronunciation": "/bi rɪˈspɒnsəbl fɔː(r)/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“对……负责”，for 后面接人或事，也可表示“是……的原因”。",
+        "meaning_zh": "对……负责",
+        "translation_phrase_zh": "对自己的垃圾负责",
+        "story_sentence": "\"You are responsible for your own rubbish.\""
+      },
+      {
+        "input_word": "responsibility",
+        "lemma": "responsibility",
+        "used_form": "responsibility",
+        "pronunciation": "/rɪˌspɒnsəˈbɪləti/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“责任、义务”，可数；take responsibility for something 表示“对……负责”。",
+        "meaning_zh": "责任；义务",
+        "translation_phrase_zh": "我们的责任",
+        "story_sentence": "\"It is our responsibility,\" Sam said."
+      },
+      {
+        "input_word": "obligation",
+        "lemma": "obligation",
+        "used_form": "obligation",
+        "pronunciation": "/ˌɒblɪˈɡeɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“义务、职责”，语气比 duty 更正式，常与 have an obligation to do 连用。",
+        "meaning_zh": "义务；职责；责任",
+        "translation_phrase_zh": "义务",
+        "story_sentence": "Taking it down is not a choice; it is an obligation."
+      },
+      {
+        "input_word": "guy",
+        "lemma": "guy",
+        "used_form": "guy",
+        "pronunciation": "/ɡaɪ/",
+        "part_of_speech": "n.",
+        "grammar_note": "口语词，指“小伙子、家伙”，复数 guys 可泛指一群人。",
+        "meaning_zh": "小伙子；男人；家伙",
+        "translation_phrase_zh": "家伙",
+        "story_sentence": "A guy in a red cap said, \"Not me. I put my bottles in the box.\""
+      },
+      {
+        "input_word": "youth",
+        "lemma": "youth",
+        "used_form": "youth",
+        "pronunciation": "/juːθ/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“青年时期、青春”，也可指“青年人”（集合名词）。",
+        "meaning_zh": "青年时期；青春",
+        "translation_phrase_zh": "年轻人",
+        "story_sentence": "The youth of today, she said, will live longer with this mountain."
+      }
+    ]
+  },
+  {
+    "id": "f11324e8-c7b4-4da7-ac19-050a2a664a10",
+    "language_code": "en",
+    "title": "By the Fire",
+    "title_zh": "火堆旁",
+    "story_text": "On the last evening, we sat by the fire. There were students from three countries in our group.\n\n\"A nationality is only a word,\" Miss Lin said. \"Your identity is more than a card.\"\n\nA girl from another nation said, \"My personality is quiet, but on this trip I talked a lot.\"\n\nSam laughed. \"You are a different teenager now.\"\n\n\"Maybe,\" she said. \"Teenage years are for changing.\"\n\nMiss Lin looked at the fire. \"Every nation, every human being, is part of mankind,\" she said. \"We share one mountain.\"\n\nThe fire was warm, and nobody wanted to sleep.",
+    "translation_zh": "最后一晚，我们坐在火堆旁。我们组里有来自三个国家的学生。\n\n「国籍只是一个词，」林老师说，「你的身份不只是一张卡。」\n\n一个来自另一个民族的女孩说：「我性格很安静，但这次旅行我说了很多话。」\n\n萨姆笑了。「你现在是个不一样的青少年了。」\n\n「也许吧，」她说，「青少年时期就是用来改变的。」\n\n林老师看着火。「每个国家、每个活着的人，都是人类的一部分，」她说，「我们共享同一座山。」\n\n火很暖，没人想去睡。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a group of teenage students from different countries sitting around a campfire at night, warm firelight on their faces, dark mountain behind, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-12T10:54:33.268508+00:00",
+    "list_id": "b9f530a3-9ce8-49f5-bacc-6c7758e750de",
+    "position": 5,
+    "word_count": 98,
+    "vocabulary": [
+      {
+        "input_word": "nation",
+        "lemma": "nation",
+        "used_form": "nation",
+        "pronunciation": "/ˈneɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“国家、民族”，强调人民与文化，比 country 更书面。",
+        "meaning_zh": "国家；民族",
+        "translation_phrase_zh": "民族",
+        "story_sentence": "A girl from another nation said, \"My personality is quiet, but on this trip I talked a lot.\""
+      },
+      {
+        "input_word": "identity",
+        "lemma": "identity",
+        "used_form": "identity",
+        "pronunciation": "/aɪˈdentəti/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“身份、个性”，identity card 表示“身份证”。",
+        "meaning_zh": "身份；个性",
+        "translation_phrase_zh": "身份",
+        "story_sentence": "\"Your identity is more than a card.\""
+      },
+      {
+        "input_word": "personality",
+        "lemma": "personality",
+        "used_form": "personality",
+        "pronunciation": "/ˌpɜːsəˈnæləti/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“性格、个性”，比 character 更强调给人的整体印象。",
+        "meaning_zh": "性格；个性",
+        "translation_phrase_zh": "性格",
+        "story_sentence": "\"My personality is quiet, but on this trip I talked a lot.\""
+      },
+      {
+        "input_word": "teenager",
+        "lemma": "teenager",
+        "used_form": "teenager",
+        "pronunciation": "/ˈtiːneɪdʒə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指 13 至 19 岁的“青少年”，由 teenage + -er 构成。",
+        "meaning_zh": "（13 至 19 岁之间的）青少年",
+        "translation_phrase_zh": "青少年",
+        "story_sentence": "Sam laughed. \"You are a different teenager now.\""
+      },
+      {
+        "input_word": "teenage",
+        "lemma": "teenage",
+        "used_form": "Teenage",
+        "pronunciation": "/ˈtiːneɪdʒ/",
+        "part_of_speech": "adj.",
+        "grammar_note": "指“十几岁的、青少年的”，只放在名词前，如 teenage years（青少年时期）。",
+        "meaning_zh": "十几岁的（指 13 至 19 岁）；青少年的",
+        "translation_phrase_zh": "青少年时期",
+        "story_sentence": "\"Teenage years are for changing.\""
+      },
+      {
+        "input_word": "mankind",
+        "lemma": "mankind",
+        "used_form": "mankind",
+        "pronunciation": "/mænˈkaɪnd/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“人类”，不可数，作主语时谓语用单数。",
+        "meaning_zh": "人类",
+        "translation_phrase_zh": "人类",
+        "story_sentence": "\"Every nation, every human being, is part of mankind,\" she said."
+      }
+    ]
   }
 ]
