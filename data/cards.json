@@ -2938,5 +2938,425 @@
         "story_sentence": "\"Every nation, every human being, is part of mankind,\" she said."
       }
     ]
+  },
+  {
+    "id": "546d02c5-b38f-4ef1-b249-cfc84daaefee",
+    "language_code": "en",
+    "title": "The Small Film",
+    "title_zh": "一部小片子",
+    "story_text": "Ivy became a volunteer at the town museum last summer. The museum is a small agency, and it had a big idea: a short film about the old empire.\n\nThe designer showed her the plan. \"Simple style,\" he said. \"No music, no long words.\"\n\nIvy liked the principle behind it: tell the truth, and tell it simply.\n\nHer job was to find the people for the film. The design was simple: six people, one camera, and the old photos. She wrote six names on a card and put it on the wall.\n\n\"One month,\" the designer said. \"Can you do it?\"\n\n\"I can try,\" Ivy said.",
+    "translation_zh": "去年夏天，艾维成了镇上博物馆的志愿者。博物馆是个小机构，却有个大想法：拍一部关于旧帝国的短片。\n\n设计师给她看了方案。「风格要简单，」他说，「不要配乐，不要长句。」\n\n艾维喜欢这背后的原则：讲真话，并且讲得简单。\n\n她的工作是为片子找人。设计很简单：六个人、一台相机、那些老照片。她把六个名字写在一张卡片上，贴到墙上。\n\n「一个月，」设计师说，「你能做到吗？」\n\n「我可以试试，」艾维说。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage girl pinning a card of six names onto a museum wall, a designer holding a sketch beside her, old photographs on the wall, warm indoor light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-20T02:52:22.553263+00:00",
+    "list_id": "200e03ad-cb83-4a24-9bfc-f2da6f183563",
+    "position": 1,
+    "word_count": 106,
+    "vocabulary": [
+      {
+        "input_word": "volunteer",
+        "lemma": "volunteer",
+        "used_form": "volunteer",
+        "pronunciation": "/ˌvɒlənˈtɪə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“志愿者”，也可作动词表示“自愿做”，如 volunteer to help。",
+        "meaning_zh": "志愿者",
+        "translation_phrase_zh": "志愿者",
+        "story_sentence": "Ivy became a volunteer at the town museum last summer."
+      },
+      {
+        "input_word": "agency",
+        "lemma": "agency",
+        "used_form": "agency",
+        "pronunciation": "/ˈeɪdʒənsi/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“（政府的）专门机构、服务机构、代理处”，如 a travel agency。",
+        "meaning_zh": "（政府的）专门机构；服务机构；代理处",
+        "translation_phrase_zh": "机构",
+        "story_sentence": "The museum is a small agency, and it had a big idea: a short film about the old empire."
+      },
+      {
+        "input_word": "designer",
+        "lemma": "designer",
+        "used_form": "designer",
+        "pronunciation": "/dɪˈzaɪnə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“设计者、设计师”，由 design + -er 构成。",
+        "meaning_zh": "设计者",
+        "translation_phrase_zh": "设计师",
+        "story_sentence": "The designer showed her the plan."
+      },
+      {
+        "input_word": "style",
+        "lemma": "style",
+        "used_form": "style",
+        "pronunciation": "/staɪl/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“方式、作风、风格”，in style 表示“时髦的”。",
+        "meaning_zh": "方式；作风；风格",
+        "translation_phrase_zh": "风格",
+        "story_sentence": "\"Simple style,\" he said."
+      },
+      {
+        "input_word": "principle",
+        "lemma": "principle",
+        "used_form": "principle",
+        "pronunciation": "/ˈprɪnsəpl/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“原则、道德原则、法则”，注意与 principal（校长、主要的）区分。",
+        "meaning_zh": "道德原则；法则；原则",
+        "translation_phrase_zh": "原则",
+        "story_sentence": "Ivy liked the principle behind it: tell the truth, and tell it simply."
+      },
+      {
+        "input_word": "design",
+        "lemma": "design",
+        "used_form": "design",
+        "pronunciation": "/dɪˈzaɪn/",
+        "part_of_speech": "n. & vt.",
+        "grammar_note": "作名词“设计、设计方案”，作动词“设计、筹划”，注意与 designer（设计者）区分。",
+        "meaning_zh": "设计；设计方案；设计；筹划",
+        "translation_phrase_zh": "设计",
+        "story_sentence": "The design was simple: six people, one camera, and the old photos."
+      }
+    ]
+  },
+  {
+    "id": "db4d30dd-6ced-4285-b908-39fd771a1c97",
+    "language_code": "en",
+    "title": "The Hunt",
+    "title_zh": "寻找",
+    "story_text": "Ivy began her hunt in the old town library. A clerk helped her find the right boxes.\n\nIn one box there was a diary. It belonged to a soldier who lived a hundred years ago.\n\n\"His family still lives here,\" the clerk said. \"The old hunter by the river — that soldier was his ancestor.\"\n\nIvy went to the river. The river was slow and green that morning. The hunter was cleaning a small gun.\n\n\"My grandfather said it went off once,\" he said, \"and every bird in the valley flew away.\"\n\nHe laughed. \"You can film me. I have time.\"",
+    "translation_zh": "艾维在镇上的老图书馆开始寻找。一位职员帮她找到了正确的箱子。\n\n其中一个箱子里有一本日记。它属于一位一百年前的士兵。\n\n「他的家人还住在这儿，」职员说，「河边那位老猎人——那位士兵就是他的祖先。」\n\n艾维去了河边。那天早上，河水又慢又绿。猎人正在擦一把小枪。\n\n「我祖父说，那枪走火过一次，」他说，「山谷里所有的鸟都飞走了。」\n\n他笑了。「你可以拍我。我有时间。」",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: an old hunter sitting by a slow green river cleaning a small gun, a teenage girl with a notebook listening beside him, morning light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-20T02:52:22.770466+00:00",
+    "list_id": "200e03ad-cb83-4a24-9bfc-f2da6f183563",
+    "position": 2,
+    "word_count": 100,
+    "vocabulary": [
+      {
+        "input_word": "hunt",
+        "lemma": "hunt",
+        "used_form": "hunt",
+        "pronunciation": "/hʌnt/",
+        "part_of_speech": "vt. & vi.",
+        "grammar_note": "表示“打猎”，也指“搜寻、追捕”，如 hunt for something。",
+        "meaning_zh": "打猎；搜寻；追捕",
+        "translation_phrase_zh": "寻找",
+        "story_sentence": "Ivy began her hunt in the old town library."
+      },
+      {
+        "input_word": "clerk",
+        "lemma": "clerk",
+        "used_form": "clerk",
+        "pronunciation": "/klɑːk/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“职员、文书、店员”，英式读 /klɑːk/，美式读 /klɜːrk/。",
+        "meaning_zh": "职员；文书；店员",
+        "translation_phrase_zh": "职员",
+        "story_sentence": "A clerk helped her find the right boxes."
+      },
+      {
+        "input_word": "soldier",
+        "lemma": "soldier",
+        "used_form": "soldier",
+        "pronunciation": "/ˈsəʊldʒə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“士兵、军人”，是可数名词。",
+        "meaning_zh": "士兵；军人",
+        "translation_phrase_zh": "士兵",
+        "story_sentence": "It belonged to a soldier who lived a hundred years ago."
+      },
+      {
+        "input_word": "hunter",
+        "lemma": "hunter",
+        "used_form": "hunter",
+        "pronunciation": "/ˈhʌntə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“猎人”，由 hunt + -er 构成；也可指“搜寻者”。",
+        "meaning_zh": "猎人",
+        "translation_phrase_zh": "猎人",
+        "story_sentence": "\"The old hunter by the river — that soldier was his ancestor.\""
+      },
+      {
+        "input_word": "ancestor",
+        "lemma": "ancestor",
+        "used_form": "ancestor",
+        "pronunciation": "/ˈænsestə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“祖宗、祖先”，与 descendant（后代）相对；常用复数 ancestors。",
+        "meaning_zh": "祖宗；祖先",
+        "translation_phrase_zh": "祖先",
+        "story_sentence": "\"The old hunter by the river — that soldier was his ancestor.\""
+      },
+      {
+        "input_word": "go off",
+        "lemma": "go off",
+        "used_form": "went off",
+        "pronunciation": "/ɡəʊ ɒf/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“爆炸、走火”，也可指“（闹钟）响起、离开”。",
+        "meaning_zh": "爆炸；走火；离开",
+        "translation_phrase_zh": "走火",
+        "story_sentence": "\"My grandfather said it went off once,\" he said, \"and every bird in the valley flew away.\""
+      }
+    ]
+  },
+  {
+    "id": "6d34c2c5-bdb6-4128-bde9-d5a02877de51",
+    "language_code": "en",
+    "title": "The Battle",
+    "title_zh": "那场战役",
+    "story_text": "That night Ivy read the diary. The soldier wrote about a battle in the north.\n\nThe emperor wanted to conquer the whole valley. His army was strong, and the town's defence was weak.\n\n\"The military came at dawn,\" the soldier wrote. \"The guns were loud, and the sky was grey.\"\n\nThe empire took the town in two days. The emperor did not come himself; he sent a prince.\n\nIvy read the last page twice. The soldier wrote: \"I hope the next hundred years are quiet.\"\n\nShe turned off the light, but she could not sleep.",
+    "translation_zh": "那天夜里，艾维读那本日记。士兵写到北方的一场战役。\n\n皇帝想征服整个山谷。他的军队很强，而镇上的防御很弱。\n\n「军队在黎明时到来，」士兵写道，「枪声很响，天空灰蒙蒙的。」\n\n帝国两天就拿下了这座城。皇帝本人没有来，他派了一位王子。\n\n艾维把最后一页读了两遍。士兵写道：「我希望接下来的一百年是安静的。」\n\n她关了灯，却睡不着。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage girl reading an old diary by a small lamp at night, a faint historical battle scene drawn in the shadows of the room, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-20T02:52:22.973001+00:00",
+    "list_id": "200e03ad-cb83-4a24-9bfc-f2da6f183563",
+    "position": 3,
+    "word_count": 95,
+    "vocabulary": [
+      {
+        "input_word": "battle",
+        "lemma": "battle",
+        "used_form": "battle",
+        "pronunciation": "/ˈbætl/",
+        "part_of_speech": "n. & vi. & vt.",
+        "grammar_note": "作名词“战役、搏斗”，作动词“搏斗、奋斗”，如 battle against the wind。",
+        "meaning_zh": "战役；搏斗；奋斗",
+        "translation_phrase_zh": "战役",
+        "story_sentence": "The soldier wrote about a battle in the north."
+      },
+      {
+        "input_word": "emperor",
+        "lemma": "emperor",
+        "used_form": "emperor",
+        "pronunciation": "/ˈempərə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“皇帝”，阴性形式是 empress（女皇、皇后）。",
+        "meaning_zh": "皇帝",
+        "translation_phrase_zh": "皇帝",
+        "story_sentence": "The emperor wanted to conquer the whole valley."
+      },
+      {
+        "input_word": "conquer",
+        "lemma": "conquer",
+        "used_form": "conquer",
+        "pronunciation": "/ˈkɒŋkə(r)/",
+        "part_of_speech": "vt.",
+        "grammar_note": "表示“占领、征服、控制”，也可指“克服（困难）”。",
+        "meaning_zh": "占领；征服；控制",
+        "translation_phrase_zh": "征服",
+        "story_sentence": "The emperor wanted to conquer the whole valley."
+      },
+      {
+        "input_word": "defence",
+        "lemma": "defence",
+        "used_form": "defence",
+        "pronunciation": "/dɪˈfens/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“防御、保卫”，美式拼写为 defense；in defence of 表示“为……辩护”。",
+        "meaning_zh": "防御；保卫",
+        "translation_phrase_zh": "防御",
+        "story_sentence": "His army was strong, and the town's defence was weak."
+      },
+      {
+        "input_word": "military",
+        "lemma": "military",
+        "used_form": "military",
+        "pronunciation": "/ˈmɪlətri/",
+        "part_of_speech": "adj. & n.",
+        "grammar_note": "作形容词“军事的、军用的”；the military 作名词时表示“军队”。",
+        "meaning_zh": "军事的；军用的",
+        "translation_phrase_zh": "军队",
+        "story_sentence": "\"The military came at dawn,\" the soldier wrote."
+      },
+      {
+        "input_word": "empire",
+        "lemma": "empire",
+        "used_form": "empire",
+        "pronunciation": "/ˈempaɪə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“帝国”，如 the Roman Empire；注意与 emperor（皇帝）区分。",
+        "meaning_zh": "帝国",
+        "translation_phrase_zh": "帝国",
+        "story_sentence": "The empire took the town in two days."
+      }
+    ]
+  },
+  {
+    "id": "c44a05cc-50ff-4eaa-b9c7-70e38fde1b65",
+    "language_code": "en",
+    "title": "The People in the Film",
+    "title_zh": "片中的人",
+    "story_text": "Filming began in autumn. The town authority gave them permission to film in the old square.\n\nThe museum chairman opened the first day. \"This film is for the young,\" he said.\n\nIvy found more people: a physician whose family had kept old letters, and a tailor who still worked in the old way.\n\nThe tailor showed her a coat made for a prince. \"Same custom,\" he said, \"a hundred years ago and now.\"\n\nHe worked slowly, and the needles made a small sound. The camera stayed on his hands for a long time.\n\nOutside, the square was full of people and light.",
+    "translation_zh": "拍摄在秋天开始。镇上的官方准许他们在老广场拍摄。\n\n博物馆主席主持了第一天。「这部片子是给年轻人的，」他说。\n\n艾维又找到了更多人：一位家里保存着旧信的医师，和一位仍按老方式做活的裁缝。\n\n裁缝给她看一件为王子做的外套。「同样的习俗，」他说，「一百年前和现在一样。」\n\n他做得很慢，针发出很轻的声音。镜头在他手上停了很久。\n\n外面，广场上满是人和光。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: an old tailor sewing a formal coat by a window, needles and cloth on the table, a teenage girl filming him with a small camera, warm afternoon light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-20T02:52:23.195620+00:00",
+    "list_id": "200e03ad-cb83-4a24-9bfc-f2da6f183563",
+    "position": 4,
+    "word_count": 102,
+    "vocabulary": [
+      {
+        "input_word": "authority",
+        "lemma": "authority",
+        "used_form": "authority",
+        "pronunciation": "/ɔːˈθɒrəti/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“官方、当权者”，也可指“权威”；the authorities 表示“当局”。",
+        "meaning_zh": "官方；当权；权威",
+        "translation_phrase_zh": "官方",
+        "story_sentence": "The town authority gave them permission to film in the old square."
+      },
+      {
+        "input_word": "chairman",
+        "lemma": "chairman",
+        "used_form": "chairman",
+        "pronunciation": "/ˈtʃeəmən/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“主席、主持人、董事长”；女性可用 chairwoman 或 chair。",
+        "meaning_zh": "主席；主持人；董事长",
+        "translation_phrase_zh": "主席",
+        "story_sentence": "The museum chairman opened the first day."
+      },
+      {
+        "input_word": "physician",
+        "lemma": "physician",
+        "used_form": "physician",
+        "pronunciation": "/fɪˈzɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“医师”，尤指内科医生，比 doctor 正式；surgeon 指外科医生。",
+        "meaning_zh": "医师；（尤指）内科医生",
+        "translation_phrase_zh": "医师",
+        "story_sentence": "Ivy found more people: a physician whose family had kept old letters, and a tailor who still worked in the old way."
+      },
+      {
+        "input_word": "tailor",
+        "lemma": "tailor",
+        "used_form": "tailor",
+        "pronunciation": "/ˈteɪlə(r)/",
+        "part_of_speech": "n. & vt.",
+        "grammar_note": "作名词指“（男装）裁缝”；作动词指“专门制作、定做”，常用 tailor something to something。",
+        "meaning_zh": "（男装）裁缝；专门制作；定做",
+        "translation_phrase_zh": "裁缝",
+        "story_sentence": "Ivy found more people: a physician whose family had kept old letters, and a tailor who still worked in the old way."
+      },
+      {
+        "input_word": "prince",
+        "lemma": "prince",
+        "used_form": "prince",
+        "pronunciation": "/prɪns/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“王子、亲王”，阴性形式是 princess（公主）。",
+        "meaning_zh": "王子；王孙；亲王",
+        "translation_phrase_zh": "王子",
+        "story_sentence": "The tailor showed her a coat made for a prince."
+      },
+      {
+        "input_word": "custom",
+        "lemma": "custom",
+        "used_form": "custom",
+        "pronunciation": "/ˈkʌstəm/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“风俗、习俗、习惯”，可数；customs 还可指“海关”。",
+        "meaning_zh": "风俗；习俗；习惯",
+        "translation_phrase_zh": "习俗",
+        "story_sentence": "\"Same custom,\" he said, \"a hundred years ago and now.\""
+      }
+    ]
+  },
+  {
+    "id": "930c3952-9de0-4d9e-876a-97e524b16efe",
+    "language_code": "en",
+    "title": "The Voice",
+    "title_zh": "那个声音",
+    "story_text": "By winter, the film was almost ready. An author wrote the last words, and an editor cut the long parts.\n\n\"We still need a voice,\" the designer said.\n\nIvy read the line for the narrator. She spoke slowly, in a calm manner.\n\n\"Good,\" the editor said. \"But the narration is too heavy. Say it in a simpler manner.\"\n\nSo she said it again: \"A hundred years ago, a soldier wrote three pages. We read them today.\"\n\nThe room was silent. Then the editor smiled. It was the first time she had heard her own voice in a room.\n\nThe lights were low.",
+    "translation_zh": "到了冬天，片子差不多准备好了。一位作者写了最后的话，一位编辑剪掉了冗长的部分。\n\n「我们还缺一个声音，」设计师说。\n\n艾维为叙述者读了那句台词。她说得很慢，用一种平静的方式。\n\n「好，」编辑说，「但解说太重了。用更简单的方式说一遍。」\n\n于是她又说了一遍：「一百年前，一个士兵写了三页。今天我们读到了它们。」\n\n房间里很安静。然后编辑笑了。那是她第一次在一个房间里听见自己的声音。\n\n灯光很暗。",
+    "image_path": null,
+    "image_url": null,
+    "image_prompt": "Warm editorial illustration for a 4:3 card: a teenage girl speaking into a microphone in a small dark studio, an editor and designer watching from behind a glass panel, warm lamp light, muted warm palette, no text, no watermark.",
+    "source": "dsh-agent",
+    "created_at": "2026-11-20T02:52:23.412936+00:00",
+    "list_id": "200e03ad-cb83-4a24-9bfc-f2da6f183563",
+    "position": 5,
+    "word_count": 102,
+    "vocabulary": [
+      {
+        "input_word": "author",
+        "lemma": "author",
+        "used_form": "author",
+        "pronunciation": "/ˈɔːθə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“作者、作家”，比 writer 正式，也可指“发起人”。",
+        "meaning_zh": "作者；作家",
+        "translation_phrase_zh": "作者",
+        "story_sentence": "An author wrote the last words, and an editor cut the long parts."
+      },
+      {
+        "input_word": "editor",
+        "lemma": "editor",
+        "used_form": "editor",
+        "pronunciation": "/ˈedɪtə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“主编、编辑”，由 edit + -or 构成；注意与 author（作者）区分。",
+        "meaning_zh": "主编；编辑；编者",
+        "translation_phrase_zh": "编辑",
+        "story_sentence": "An author wrote the last words, and an editor cut the long parts."
+      },
+      {
+        "input_word": "narrator",
+        "lemma": "narrator",
+        "used_form": "narrator",
+        "pronunciation": "/nəˈreɪtə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“叙述者、讲述者、幕后解说员”，由 narrate + -or 构成。",
+        "meaning_zh": "（书、戏剧或电影中的）叙述者；讲述者；幕后解说员",
+        "translation_phrase_zh": "叙述者",
+        "story_sentence": "Ivy read the line for the narrator."
+      },
+      {
+        "input_word": "narration",
+        "lemma": "narration",
+        "used_form": "narration",
+        "pronunciation": "/nəˈreɪʃn/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“叙述、讲述、解说”，是名词；动词形式是 narrate。",
+        "meaning_zh": "叙述；讲述；解说",
+        "translation_phrase_zh": "解说",
+        "story_sentence": "\"But the narration is too heavy.\""
+      },
+      {
+        "input_word": "manner",
+        "lemma": "manner",
+        "used_form": "manner",
+        "pronunciation": "/ˈmænə(r)/",
+        "part_of_speech": "n.",
+        "grammar_note": "指“举止、行为方式、方法”，复数 manners 表示“礼貌”。",
+        "meaning_zh": "举止；行为方式；方法；礼貌；礼仪",
+        "translation_phrase_zh": "方式",
+        "story_sentence": "She spoke slowly, in a calm manner."
+      },
+      {
+        "input_word": "in a...manner",
+        "lemma": "in a...manner",
+        "used_form": "in a simpler manner",
+        "pronunciation": "/ɪn ə ˈmænə(r)/",
+        "part_of_speech": "phrase",
+        "grammar_note": "表示“以一种……的方式”，中间填形容词，如 in a friendly manner。",
+        "meaning_zh": "以一种……的方式",
+        "translation_phrase_zh": "用更简单的方式",
+        "story_sentence": "\"Say it in a simpler manner.\""
+      }
+    ]
   }
 ]
